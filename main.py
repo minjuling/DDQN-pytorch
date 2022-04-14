@@ -29,7 +29,7 @@ reward_logs = []
 loss_logs = []
 
 print('\nCollecting experience...')
-for i_episode in range(400):
+for i_episode in range(cfg.total_episode):
     s = env.reset()
     s = torch.unsqueeze(torch.FloatTensor(s), 0)
     ep_r = 0
