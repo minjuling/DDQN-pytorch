@@ -53,19 +53,19 @@ class DDQN(object):
         terminal = torch.from_numpy(batch_over).float()
         reward = torch.from_numpy(batch_reward).float()
 
-        state = state.cuda()
-        action = action.cuda()
-        state_new = state_new.cuda()
-        terminal = terminal.cuda()
-        reward = reward.cuda()
+        state = state.to('cuda:1')
+        action = action.to('cuda:1')
+        state_new = state_new.to('cuda:1')
+        terminal = terminal.to('cuda:1')
+        reward = reward.to('cuda:1')
 
         state = Variable(state)
         action = Variable(action)
         state_new = Variable(state_new)
         terminal = Variable(terminal)
         reward = Variable(reward)
-        self.q_net.eval().to('cuda')
-        self.target_q_net.eval().to('cuda')
+        self.q_net.eval().to('cuda:1')
+        self.target_q_net.eval().to('cuda:1')
         
         # print(action.shape, state_new.shape, terminal.shape, reward.shape)
         # torch.Size([32]) torch.Size([32, 4, 84, 84]) torch.Size([32]) torch.Size([32])
@@ -89,7 +89,7 @@ class DDQN(object):
         q_val = q_values.gather(1, action.type(torch.int64)) # [B, 1]
         q_val = q_val.squeeze(1) # [B, 1]
         
-        loss = self.loss_func(q_val, q_target.detach().to('cuda'))
+        loss = self.loss_func(q_val, q_target.detach().to('cuda:1'))
         
         # backward optimize
         self.optimizer.zero_grad()

@@ -24,6 +24,7 @@ from torch.utils.tensorboard import SummaryWriter
 logger = get_logger(cfg)
 exp_time = get_tensorboard_name()
 print("exp_time", exp_time)
+logger.info(cfg)
 writer = SummaryWriter(cfg.tensorboard_path+exp_time)
 
 env = FrameStack(AtariPreprocessing(gym.make('Breakout-v0'), frame_skip = 1), 4)
@@ -55,7 +56,7 @@ for i_episode in range(cfg.total_episode):
         
         a = ddqn.choose_action(s)
 
-        # take action
+        # take action4esrdx
         s_, r, done, info = env.step(a)
         s_ = torch.unsqueeze(torch.FloatTensor(s_), 0)
 

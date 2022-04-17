@@ -12,7 +12,7 @@ def convert(image, screen_height, screen_width):
 
 def get_tensorboard_name():
     now = time.localtime()
-    return str(now.tm_mon) +'_' + str(now.tm_mday)+ '_' + str(now.tm_hour) + '_'+ str(now.tm_min)
+    return str(now.tm_mon) +'_' + str(now.tm_mday)+ '_' + str(now.tm_hour-3) + '_'+ str(now.tm_min)
 
 
 def get_logger(cfg):
