@@ -19,16 +19,18 @@ class DDQN(object):
         self.action_num = action_num
         self.state_num = state_num
         self.env_a_shape = env_a_shape
-        self.learn_step_counter = 0                                     # for target updating
         self.replaymemory = Replaymemory(self.cfg.memory_size)
         self.optimizer = torch.optim.Adam(self.q_net.parameters(), lr=self.cfg.lr)
         self.loss_func = nn.MSELoss()
         self.action_num = action_num
+        self.epsilon = self.cfg.epsilon_start
 
     def choose_action(self, x):
         self.q_net.eval().to('cpu')
+        if self.epsilon > self.cfg.epsilon_final:
+            self.epsilon -= (self.cfg.epsilon_start - self.cfg.epsilon_final) / self.cfg.explore
         # input only one sample
-        if np.random.uniform() < self.cfg.epsilon_start:   # greedy
+        if np.random.uniform() > self.epsilon:   # greedy
             actions_value = self.q_net.forward(x)
             action = torch.max(actions_value, 1)[1].data.numpy()
             action = action[0] if self.env_a_shape == 0 else action.reshape(self.env_a_shape)  # return the argmax index
@@ -37,11 +39,11 @@ class DDQN(object):
             action = action if self.env_a_shape == 0 else action.reshape(self.env_a_shape)
         return action
 
+    def update_target_network(self):
+        # copy current_network to target network
+        self.target_q_net.load_state_dict(self.q_net.state_dict())
+
     def train(self):
-        # target parameter update
-        if self.learn_step_counter % self.cfg.update_target_frequency == 0:
-            self.target_q_net.load_state_dict(self.q_net.state_dict())
-        self.learn_step_counter += 1
 
         # sample batch transitions
         batch_state, batch_action, batch_reward, batch_state_new, \
@@ -53,19 +55,19 @@ class DDQN(object):
         terminal = torch.from_numpy(batch_over).float()
         reward = torch.from_numpy(batch_reward).float()
 
-        state = state.to('cuda:1')
-        action = action.to('cuda:1')
-        state_new = state_new.to('cuda:1')
-        terminal = terminal.to('cuda:1')
-        reward = reward.to('cuda:1')
+        state = state.to('cuda:2')
+        action = action.to('cuda:2')
+        state_new = state_new.to('cuda:2')
+        terminal = terminal.to('cuda:2')
+        reward = reward.to('cuda:2')
 
         state = Variable(state)
         action = Variable(action)
         state_new = Variable(state_new)
         terminal = Variable(terminal)
         reward = Variable(reward)
-        self.q_net.eval().to('cuda:1')
-        self.target_q_net.eval().to('cuda:1')
+        self.q_net.eval().to('cuda:2')
+        self.target_q_net.eval().to('cuda:2')
         
         # print(action.shape, state_new.shape, terminal.shape, reward.shape)
         # torch.Size([32]) torch.Size([32, 4, 84, 84]) torch.Size([32]) torch.Size([32])
@@ -89,7 +91,7 @@ class DDQN(object):
         q_val = q_values.gather(1, action.type(torch.int64)) # [B, 1]
         q_val = q_val.squeeze(1) # [B, 1]
         
-        loss = self.loss_func(q_val, q_target.detach().to('cuda:1'))
+        loss = self.loss_func(q_val, q_target.detach().to('cuda:2'))
         
         # backward optimize
         self.optimizer.zero_grad()

@@ -27,7 +27,7 @@ print("exp_time", exp_time)
 logger.info(cfg)
 writer = SummaryWriter(cfg.tensorboard_path+exp_time)
 
-env = FrameStack(AtariPreprocessing(gym.make('Breakout-v0'), frame_skip = 1), 4)
+env = FrameStack(AtariPreprocessing(gym.make('BreakoutNoFrameskip-v0'), frame_skip = 1), 4)
 N_ACTIONS = env.action_space.n
 N_STATES = env.observation_space.shape[0]
 ENV_A_SHAPE = 0 if isinstance(env.action_space.sample(), int) else env.action_space.sample().shape     # to confirm the shape
@@ -68,11 +68,15 @@ for i_episode in range(cfg.total_episode):
             
             loss, q_val = ddqn.train()
 
+            
+
             # save model
             if training_step % cfg.save_logs_frequency == 0:
                 ddqn.save(i_episode, cfg.logs_path, exp_time)
                 writer.add_scalar('QValue/Step', q_val.mean(), training_step)
                 writer.add_scalar('loss/Step', loss, training_step)
+            
+            
 
             if done:
                 writer.add_scalar('total_reward/Episode', ep_r, i_episode)
@@ -82,6 +86,9 @@ for i_episode in range(cfg.total_episode):
                     loss_logger = 'Episode: {} step: {} training_step: {} Reward: {:.3f} Loss: {:.3f}' .format(i_episode, step, training_step, ep_r, loss)
                     logger.info(loss_logger)
                     print(loss_logger)
+                
+                if i_episode % cfg.update_target_frequency == 0:
+                    ddqn.update_target_network()
                 
             training_step += 1
 
