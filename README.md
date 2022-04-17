@@ -4,3 +4,7 @@
 - https://github.com/jihoonerd/Deep-Reinforcement-Learning-with-Double-Q-learning.git
 - https://github.com/chinancheng/DDQN.pytorch.git
 - https://github.com/higgsfield/RL-Adventure.git
+
+python main.py
+
+python test.py
