@@ -67,25 +67,36 @@ class DDQN(object):
         self.q_net.eval().to('cuda')
         self.target_q_net.eval().to('cuda')
         
-        # use current network to evaluate action argmax_a' Q_current(s', a')_
-        action_new = self.q_net.forward(state_new).max(dim=1)[1].data.view(-1, 1)
-        action_new_onehot = torch.zeros(self.cfg.batch_size, self.action_num).to('cuda')
-        action_new_onehot = Variable(action_new_onehot.scatter_(1, action_new, 1.0))
+        # print(action.shape, state_new.shape, terminal.shape, reward.shape)
+        # torch.Size([32]) torch.Size([32, 4, 84, 84]) torch.Size([32]) torch.Size([32])
+
+        # -- target -- #
+        next_q_values = self.q_net.forward(state_new)
+        next_target_q_values = self.q_net.forward(state_new)
+
+        # torch.max(next_q_values, 1)[1] -> index of max q value [B]
+        #  torch.max(next_q_values, 1)[1].unsqueeze(1) -> B, 1
+        # target next q 중에서 next q value의 max 값에 해당하는 인덱스의 q 값을 [B] 만큼 가져옴
+        next_q_val = next_target_q_values.gather(1, torch.max(next_q_values, 1)[1].unsqueeze(1)).squeeze(1)
+
+        q_target = reward + self.cfg.discount_factor * next_q_val * (1 - terminal)
+
+        # -- output -- #
+        self.q_net.train()
+        q_values = self.q_net.forward(state)
+
+        action = action.unsqueeze(1)
+        q_val = q_values.gather(1, action.type(torch.int64)) # [B, 1]
+        q_val = q_val.squeeze(1) # [B, 1]
         
-        # use target network to evaluate value y = r + discount_factor * Q_tar(s', a')
-        y = (reward + torch.mul(((self.target_q_net.forward(state_new)*action_new_onehot).sum(dim=1)*terminal), self.cfg.discount_factor))
-        
-        # regression Q(s, a) -> y
-        self.q_net.train().to('cuda')
-        q = (self.q_net.forward(state)*action.unsqueeze(1)).sum(dim=1)
-        loss = self.loss_func(q, y.detach().to('cuda'))
+        loss = self.loss_func(q_val, q_target.detach().to('cuda'))
         
         # backward optimize
         self.optimizer.zero_grad()
         loss.backward()
         self.optimizer.step()
 
-        return loss.data, q
+        return loss.data, q_val
 
     def save(self, step, logs_path, exp_time):
         os.makedirs(logs_path, exist_ok=True)
