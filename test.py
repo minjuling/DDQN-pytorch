@@ -20,13 +20,13 @@ from config import Config as cfg
 import os
 from model import Model
 
-
 from torch.utils.tensorboard import SummaryWriter
+
+path = '/Users/minjuling/Documents/1-1/RL/DDQN-pytorch/logs/model-4_17_5_5.pth'
 
 logger = get_logger(cfg)
 exp_time = get_tensorboard_name()
 print("exp_time", exp_time)
-logger.info(cfg)
 writer = SummaryWriter(cfg.tensorboard_path+exp_time)
 
 env = FrameStack(AtariPreprocessing(gym.make('Breakout-v0'), frame_skip = 1), 4)
@@ -49,7 +49,9 @@ s = env.reset()
 s = torch.unsqueeze(torch.FloatTensor(s), 0)
 ep_r = 0
 step = 0
+
 q_net = Model(N_ACTIONS)
+q_net.load_state_dict(torch.load(path))
 
 while True:
     env.render()
