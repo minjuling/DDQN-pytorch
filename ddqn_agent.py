@@ -26,7 +26,7 @@ class DDQN(object):
         self.action_num = action_num
 
     def choose_action(self, x):
-        self.q_net.eval()
+        self.q_net.eval().to('cpu')
         # input only one sample
         if np.random.uniform() < self.cfg.epsilon:   # greedy
             actions_value = self.q_net.forward(x)
@@ -53,40 +53,46 @@ class DDQN(object):
         terminal = torch.from_numpy(batch_over).float()
         reward = torch.from_numpy(batch_reward).float()
 
+        state = state.cuda()
+        action = action.cuda()
+        state_new = state_new.cuda()
+        terminal = terminal.cuda()
+        reward = reward.cuda()
+
         state = Variable(state)
         action = Variable(action)
         state_new = Variable(state_new)
         terminal = Variable(terminal)
         reward = Variable(reward)
-        self.q_net.eval()
-        self.target_q_net.eval()
+        self.q_net.eval().to('cuda')
+        self.target_q_net.eval().to('cuda')
         
         # use current network to evaluate action argmax_a' Q_current(s', a')_
-        action_new = self.q_net.forward(state_new).max(dim=1)[1].cpu().data.view(-1, 1)
-        action_new_onehot = torch.zeros(self.cfg.batch_size, self.action_num)
+        action_new = self.q_net.forward(state_new).max(dim=1)[1].data.view(-1, 1)
+        action_new_onehot = torch.zeros(self.cfg.batch_size, self.action_num).to('cuda')
         action_new_onehot = Variable(action_new_onehot.scatter_(1, action_new, 1.0))
         
         # use target network to evaluate value y = r + discount_factor * Q_tar(s', a')
         y = (reward + torch.mul(((self.target_q_net.forward(state_new)*action_new_onehot).sum(dim=1)*terminal), self.cfg.discount_factor))
         
         # regression Q(s, a) -> y
-        self.q_net.train()
+        self.q_net.train().to('cuda')
         q = (self.q_net.forward(state)*action.unsqueeze(1)).sum(dim=1)
-        loss = F.mse_loss(input=q, target=y.detach())
+        loss = self.loss_func(q, y.detach().to('cuda'))
         
         # backward optimize
         self.optimizer.zero_grad()
         loss.backward()
         self.optimizer.step()
 
-        return loss.data
+        return loss.data, q
 
-    def save(self, step, logs_path):
+    def save(self, step, logs_path, exp_time):
         os.makedirs(logs_path, exist_ok=True)
         model_list =  glob.glob(os.path.join(logs_path, '*.pth'))
-        if len(model_list) > self.cfg.maximum_model - 1 :
-            min_step = min([int(li.split('/')[-1][6:-4]) for li in model_list]) 
-            os.remove(os.path.join(logs_path, 'model-{}.pth' .format(min_step)))
-        logs_path = os.path.join(logs_path, 'model-{}.pth' .format(step))
+        # if len(model_list) > self.cfg.maximum_model - 1 :
+        #     min_step = min([int(li.split('/')[-1][6:-4]) for li in model_list]) 
+        #     os.remove(os.path.join(logs_path, 'model-{}.pth' .format(min_step)))
+        logs_path = os.path.join(logs_path, 'model-{}.pth' .format(exp_time))
         self.q_net.save(logs_path, step=step, optimizer=self.optimizer)
-        print('=> Save {}' .format(logs_path)) 
+        # print('=> Save {}' .format(logs_path)) 
