@@ -28,7 +28,7 @@ class DDQN(object):
     def choose_action(self, x):
         self.q_net.eval().to('cpu')
         # input only one sample
-        if np.random.uniform() < self.cfg.epsilon:   # greedy
+        if np.random.uniform() < self.cfg.epsilon_start:   # greedy
             actions_value = self.q_net.forward(x)
             action = torch.max(actions_value, 1)[1].data.numpy()
             action = action[0] if self.env_a_shape == 0 else action.reshape(self.env_a_shape)  # return the argmax index

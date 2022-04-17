@@ -2,10 +2,12 @@ class Config(object):
     lr = 0.00025
     discount_factor = 0.99
     memory_size = 1000000
-    total_episode = 100000
+    total_episode = 1000000
     update_target_frequency = 10000
-    epsilon = 0.95
-    epsilon_discount_rate = 1e-7
+    # epsilon_start = 1.0
+    epsilon_start = 0.95
+    epsilon_final = 0.01
+    epsilon_decay = 30000
     # save_video_frequency = 500
     save_logs_frequency = 10000
     show_loss_frequency = 1
