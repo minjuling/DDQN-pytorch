@@ -1,0 +1,139 @@
+[Mon Apr 18 03:39:40 2022]starts experiments setting 4_18_0_39
+=> creating model ...
+epi: 0 Reward per episode: -21.0  
+epi: 1 Reward per episode: -20.0  
+epi: 2 Reward per episode: -19.0  
+epi: 3 Reward per episode: -21.0  
+epi: 4 Reward per episode: -18.0  
+epi: 5 Reward per episode: -21.0  
+frames: 15000 epsilon: 0.6104653531155071 ep_num: 6 Reward: -20.0 Loss: 0.9406663775444031
+epi: 6 Reward per episode: -20.0  
+epi: 7 Reward per episode: -20.0  
+epi: 8 Reward per episode: -20.0  
+epi: 9 Reward per episode: -21.0  
+epi: 10 Reward per episode: -19.0  
+frames: 20000 epsilon: 0.5182829478422661 ep_num: 11 Reward: -19.9 Loss: 0.059016257524490356
+epi: 11 Reward per episode: -20.0  
+epi: 12 Reward per episode: -21.0  
+epi: 13 Reward per episode: -21.0  
+epi: 14 Reward per episode: -21.0  
+epi: 15 Reward per episode: -21.0  
+epi: 16 Reward per episode: -21.0  
+frames: 25000 epsilon: 0.4402522264220074 ep_num: 17 Reward: -20.5 Loss: 0.07729214429855347
+epi: 17 Reward per episode: -21.0  
+epi: 18 Reward per episode: -19.0  
+epi: 19 Reward per episode: -20.0  
+epi: 20 Reward per episode: -20.0  
+epi: 21 Reward per episode: -18.0  
+frames: 30000 epsilon: 0.3742006467597279 ep_num: 22 Reward: -20.3 Loss: 0.06616194546222687
+epi: 22 Reward per episode: -21.0  
+epi: 23 Reward per episode: -21.0  
+epi: 24 Reward per episode: -20.0  
+epi: 25 Reward per episode: -21.0  
+epi: 26 Reward per episode: -20.0  
+epi: 27 Reward per episode: -20.0  
+frames: 35000 epsilon: 0.3182891916754517 ep_num: 28 Reward: -20.0 Loss: 0.011724431067705154
+epi: 28 Reward per episode: -18.0  
+epi: 29 Reward per episode: -20.0  
+epi: 30 Reward per episode: -19.0  
+epi: 31 Reward per episode: -21.0  
+epi: 32 Reward per episode: -19.0  
+frames: 40000 epsilon: 0.2709611667345695 ep_num: 33 Reward: -19.9 Loss: 0.19713616371154785
+epi: 33 Reward per episode: -21.0  
+epi: 34 Reward per episode: -21.0  
+epi: 35 Reward per episode: -21.0  
+epi: 36 Reward per episode: -21.0  
+epi: 37 Reward per episode: -20.0  
+epi: 38 Reward per episode: -20.0  
+frames: 45000 epsilon: 0.23089885854694553 ep_num: 39 Reward: -20.3 Loss: 0.24531009793281555
+epi: 39 Reward per episode: -20.0  
+epi: 40 Reward per episode: -19.0  
+epi: 41 Reward per episode: -20.0  
+epi: 42 Reward per episode: -20.0  
+epi: 43 Reward per episode: -18.0  
+frames: 50000 epsilon: 0.1969868468091862 ep_num: 44 Reward: -20.0 Loss: 0.385115385055542
+epi: 44 Reward per episode: -20.0  
+epi: 45 Reward per episode: -21.0  
+epi: 46 Reward per episode: -21.0  
+epi: 47 Reward per episode: -17.0  
+epi: 48 Reward per episode: -20.0  
+frames: 55000 epsilon: 0.16828094861889697 ep_num: 49 Reward: -19.6 Loss: 0.09787337481975555
+epi: 49 Reward per episode: -20.0  
+epi: 50 Reward per episode: -20.0  
+epi: 51 Reward per episode: -19.0  
+epi: 52 Reward per episode: -21.0  
+epi: 53 Reward per episode: -19.0  
+frames: 60000 epsilon: 0.1439819304042466 ep_num: 54 Reward: -19.8 Loss: 0.08813998103141785
+epi: 54 Reward per episode: -21.0  
+epi: 55 Reward per episode: -20.0  
+epi: 56 Reward per episode: -21.0  
+epi: 57 Reward per episode: -20.0  
+epi: 58 Reward per episode: -20.0  
+frames: 65000 epsilon: 0.12341325555276085 ep_num: 59 Reward: -20.1 Loss: 0.03941323980689049
+epi: 59 Reward per episode: -19.0  
+epi: 60 Reward per episode: -19.0  
+epi: 61 Reward per episode: -20.0  
+epi: 62 Reward per episode: -20.0  
+epi: 63 Reward per episode: -20.0  
+epi: 64 Reward per episode: -19.0  
+frames: 70000 epsilon: 0.106002248185761 ep_num: 65 Reward: -19.8 Loss: 0.04167023301124573
+epi: 65 Reward per episode: -21.0  
+epi: 66 Reward per episode: -21.0  
+epi: 67 Reward per episode: -21.0  
+epi: 68 Reward per episode: -21.0  
+epi: 69 Reward per episode: -20.0  
+frames: 75000 epsilon: 0.0912641486376598 ep_num: 70 Reward: -20.2 Loss: 0.052174922078847885
+epi: 70 Reward per episode: -21.0  
+epi: 71 Reward per episode: -21.0  
+epi: 72 Reward per episode: -20.0  
+epi: 73 Reward per episode: -20.0  
+epi: 74 Reward per episode: -21.0  
+epi: 75 Reward per episode: -21.0  
+frames: 80000 epsilon: 0.07878861671057352 ep_num: 76 Reward: -20.7 Loss: 0.0066106501035392284
+epi: 76 Reward per episode: -19.0  
+epi: 77 Reward per episode: -21.0  
+epi: 78 Reward per episode: -20.0  
+epi: 79 Reward per episode: -21.0  
+epi: 80 Reward per episode: -20.0  
+epi: 81 Reward per episode: -21.0  
+frames: 85000 epsilon: 0.06822830692600558 ep_num: 82 Reward: -20.4 Loss: 0.05230594053864479
+epi: 82 Reward per episode: -20.0  
+epi: 83 Reward per episode: -20.0  
+epi: 84 Reward per episode: -21.0  
+epi: 85 Reward per episode: -21.0  
+epi: 86 Reward per episode: -21.0  
+frames: 90000 epsilon: 0.05928919768418531 ep_num: 87 Reward: -20.6 Loss: 0.016636542975902557
+epi: 87 Reward per episode: -21.0  
+epi: 88 Reward per episode: -21.0  
+epi: 89 Reward per episode: -20.0  
+epi: 90 Reward per episode: -21.0  
+epi: 91 Reward per episode: -18.0  
+epi: 92 Reward per episode: -21.0  
+frames: 95000 epsilon: 0.051722405074183644 ep_num: 93 Reward: -20.5 Loss: 0.05700327083468437
+epi: 93 Reward per episode: -20.0  
+epi: 94 Reward per episode: -18.0  
+epi: 95 Reward per episode: -19.0  
+epi: 96 Reward per episode: -20.0  
+epi: 97 Reward per episode: -21.0  
+frames: 100000 epsilon: 0.04531725341377987 ep_num: 98 Reward: -19.9 Loss: 0.0425817146897316
+epi: 98 Reward per episode: -21.0  
+epi: 99 Reward per episode: -20.0  
+epi: 100 Reward per episode: -21.0  
+epi: 101 Reward per episode: -20.0  
+epi: 102 Reward per episode: -21.0  
+frames: 105000 epsilon: 0.039895409588095315 ep_num: 103 Reward: -20.1 Loss: 0.04953267052769661
+epi: 103 Reward per episode: -21.0  
+epi: 104 Reward per episode: -21.0  
+epi: 105 Reward per episode: -20.0  
+epi: 106 Reward per episode: -21.0  
+epi: 107 Reward per episode: -21.0  
+epi: 108 Reward per episode: -20.0  
+frames: 110000 epsilon: 0.03530591787444233 ep_num: 109 Reward: -20.6 Loss: 0.02702655829489231
+epi: 109 Reward per episode: -21.0  
+epi: 110 Reward per episode: -21.0  
+epi: 111 Reward per episode: -21.0  
+epi: 112 Reward per episode: -21.0  
+epi: 113 Reward per episode: -20.0  
+frames: 115000 epsilon: 0.03142099701229816 ep_num: 114 Reward: -20.7 Loss: 0.020314592868089676
+epi: 114 Reward per episode: -19.0  
+epi: 115 Reward per episode: -21.0  

@@ -1,0 +1,82 @@
+[Mon Apr 18 03:18:11 2022]starts experiments setting 4_18_0_18
+=> creating model ...
+episode: 10001 Reward per episode: -21.0  
+episode: 11033 Reward per episode: -20.0  
+episode: 11967 Reward per episode: -19.0  
+episode: 12802 Reward per episode: -20.0  
+episode: 13636 Reward per episode: -20.0  
+episode: 14673 Reward per episode: -20.0  
+frames: 15000 epsilon: 0.6104653531155071 ep_num: 6 Reward: -20.0 Loss: 109.85944366455078
+episode: 15509 Reward per episode: -20.0  
+episode: 16514 Reward per episode: -19.0  
+episode: 17359 Reward per episode: -21.0  
+episode: 18268 Reward per episode: -20.0  
+episode: 19195 Reward per episode: -20.0  
+frames: 20000 epsilon: 0.5182829478422661 ep_num: 11 Reward: -19.9 Loss: 7.665915489196777
+episode: 20093 Reward per episode: -21.0  
+episode: 20991 Reward per episode: -21.0  
+episode: 21883 Reward per episode: -20.0  
+episode: 22748 Reward per episode: -21.0  
+episode: 23692 Reward per episode: -20.0  
+episode: 24577 Reward per episode: -20.0  
+frames: 25000 epsilon: 0.4402522264220074 ep_num: 17 Reward: -20.3 Loss: 2.753629207611084
+episode: 25472 Reward per episode: -20.0  
+episode: 26311 Reward per episode: -20.0  
+episode: 27360 Reward per episode: -20.0  
+episode: 28321 Reward per episode: -19.0  
+episode: 29214 Reward per episode: -20.0  
+frames: 30000 epsilon: 0.3742006467597279 ep_num: 22 Reward: -20.1 Loss: 0.028014184907078743
+episode: 30163 Reward per episode: -20.0  
+episode: 31260 Reward per episode: -19.0  
+episode: 32019 Reward per episode: -21.0  
+episode: 32833 Reward per episode: -21.0  
+episode: 33730 Reward per episode: -21.0  
+episode: 34626 Reward per episode: -20.0  
+frames: 35000 epsilon: 0.3182891916754517 ep_num: 28 Reward: -20.1 Loss: 0.000392404617741704
+episode: 35405 Reward per episode: -21.0  
+episode: 36224 Reward per episode: -21.0  
+episode: 37058 Reward per episode: -20.0  
+episode: 37878 Reward per episode: -21.0  
+episode: 38759 Reward per episode: -21.0  
+episode: 39669 Reward per episode: -21.0  
+frames: 40000 epsilon: 0.2709611667345695 ep_num: 34 Reward: -20.8 Loss: 0.00022944854572415352
+episode: 40488 Reward per episode: -21.0  
+episode: 41263 Reward per episode: -21.0  
+episode: 42020 Reward per episode: -21.0  
+episode: 42866 Reward per episode: -21.0  
+episode: 43699 Reward per episode: -20.0  
+episode: 44536 Reward per episode: -20.0  
+frames: 45000 epsilon: 0.23089885854694553 ep_num: 40 Reward: -20.7 Loss: 0.060397468507289886
+episode: 45292 Reward per episode: -21.0  
+episode: 46109 Reward per episode: -21.0  
+episode: 46930 Reward per episode: -21.0  
+episode: 47764 Reward per episode: -20.0  
+episode: 48596 Reward per episode: -20.0  
+episode: 49356 Reward per episode: -21.0  
+frames: 50000 epsilon: 0.1969868468091862 ep_num: 46 Reward: -20.6 Loss: 0.000489126774482429
+episode: 50250 Reward per episode: -20.0  
+episode: 51069 Reward per episode: -21.0  
+episode: 51830 Reward per episode: -21.0  
+episode: 52588 Reward per episode: -21.0  
+episode: 53500 Reward per episode: -21.0  
+episode: 54380 Reward per episode: -21.0  
+frames: 55000 epsilon: 0.16828094861889697 ep_num: 52 Reward: -20.7 Loss: 0.0003950813552364707
+episode: 55262 Reward per episode: -21.0  
+episode: 56017 Reward per episode: -21.0  
+episode: 56977 Reward per episode: -21.0  
+episode: 57738 Reward per episode: -21.0  
+episode: 58498 Reward per episode: -21.0  
+episode: 59348 Reward per episode: -20.0  
+frames: 60000 epsilon: 0.1439819304042466 ep_num: 58 Reward: -20.9 Loss: 0.030291840434074402
+episode: 60227 Reward per episode: -21.0  
+episode: 61228 Reward per episode: -21.0  
+episode: 62002 Reward per episode: -21.0  
+episode: 62758 Reward per episode: -21.0  
+episode: 63604 Reward per episode: -21.0  
+episode: 64361 Reward per episode: -21.0  
+frames: 65000 epsilon: 0.12341325555276085 ep_num: 64 Reward: -20.9 Loss: 0.00046897935681045055
+episode: 65117 Reward per episode: -21.0  
+episode: 65938 Reward per episode: -21.0  
+episode: 66838 Reward per episode: -20.0  
+episode: 67653 Reward per episode: -21.0  
+episode: 68468 Reward per episode: -21.0  

@@ -22,7 +22,7 @@ from model import Model
 
 from torch.utils.tensorboard import SummaryWriter
 
-path = '/usr/src/DDQN-pytorch/logs/current_model_510000.pth'
+path = '/usr/src/DDQN-pytorch/logs/model-4_17_16_11.pth'
 
 # logger = get_logger(cfg)
 exp_time = get_tensorboard_name()
@@ -79,15 +79,15 @@ class NeuralNetwork(nn.Module):
         return self.fc5(x)
 
 q_net = Model(N_ACTIONS)
-model = torch.load(path)
-print(model)
+# model = torch.load(path)
+# print(model)
 # print(q_net.state_dict())
-# q_net.load_state_dict(torch.load(path))
+q_net.load_state_dict(torch.load(path)['state_dict'])
 
 while True:
     
-    model.eval().to('cpu')
-    actions_value = model.forward(s)
+    q_net.eval()
+    actions_value = q_net.forward(s)
     action = torch.max(actions_value, 1)[1].data.numpy()
     action = action[0] if ENV_A_SHAPE == 0 else action.reshape(ENV_A_SHAPE)  # return the argmax index
 

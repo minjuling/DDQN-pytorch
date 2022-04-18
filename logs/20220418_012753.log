@@ -1,0 +1,89 @@
+[Mon Apr 18 01:27:55 2022]starts experiments setting 4_18_-2_27
+=> creating model ...
+frames: 500  ep_num: 0 Reward: -8.0 Loss: 0.030687134712934494
+episode: 926 Reward per episode: -20.0  
+Did not solve after 1 episodes
+frames: 1000  ep_num: 1 Reward: -1.0 Loss: 0.03052256442606449
+frames: 1500  ep_num: 1 Reward: -12.0 Loss: 0.03067643567919731
+episode: 1912 Reward per episode: -21.0  
+Did not solve after 2 episodes
+frames: 2000  ep_num: 2 Reward: -1.0 Loss: 0.029700104147195816
+frames: 2500  ep_num: 2 Reward: -11.0 Loss: 0.0005335768219083548
+episode: 2841 Reward per episode: -20.0  
+Did not solve after 3 episodes
+frames: 3000  ep_num: 3 Reward: -3.0 Loss: 0.0004667285247705877
+frames: 3500  ep_num: 3 Reward: -17.0 Loss: 0.030055074021220207
+episode: 3737 Reward per episode: -21.0  
+Did not solve after 4 episodes
+frames: 4000  ep_num: 4 Reward: -6.0 Loss: 0.025668106973171234
+frames: 4500  ep_num: 4 Reward: -13.0 Loss: 0.03287350758910179
+episode: 4709 Reward per episode: -19.0  
+Did not solve after 5 episodes
+frames: 5000  ep_num: 5 Reward: -6.0 Loss: 0.060044609010219574
+frames: 5500  ep_num: 5 Reward: -19.0 Loss: 0.036535292863845825
+episode: 5553 Reward per episode: -21.0  
+Did not solve after 6 episodes
+frames: 6000  ep_num: 6 Reward: -11.0 Loss: 0.020951375365257263
+episode: 6390 Reward per episode: -21.0  
+Did not solve after 7 episodes
+frames: 6500  ep_num: 7 Reward: -2.0 Loss: 0.012148273177444935
+frames: 7000  ep_num: 7 Reward: -15.0 Loss: 0.0002985909814015031
+episode: 7208 Reward per episode: -21.0  
+Did not solve after 8 episodes
+frames: 7500  ep_num: 8 Reward: -7.0 Loss: 0.027944080531597137
+frames: 8000  ep_num: 8 Reward: -19.0 Loss: 0.0034777007531374693
+episode: 8048 Reward per episode: -21.0  
+Did not solve after 9 episodes
+frames: 8500  ep_num: 9 Reward: -5.0 Loss: 0.005175467114895582
+frames: 9000  ep_num: 9 Reward: -19.0 Loss: 0.02858991175889969
+episode: 9006 Reward per episode: -20.0  
+Did not solve after 10 episodes
+frames: 9500  ep_num: 10 Reward: -11.0 Loss: 0.00036404599086381495
+episode: 9826 Reward per episode: -21.0  
+Did not solve after 11 episodes
+frames: 10000  ep_num: 11 Reward: -4.0 Loss: 0.0011804052628576756
+frames: 10500  ep_num: 11 Reward: -18.0 Loss: 0.0004555805353447795
+episode: 10585 Reward per episode: -21.0  
+Did not solve after 12 episodes
+frames: 11000  ep_num: 12 Reward: -7.0 Loss: 0.00013462407514452934
+episode: 11447 Reward per episode: -20.0  
+Did not solve after 13 episodes
+frames: 11500  ep_num: 13 Reward: 0.0 Loss: 0.0015096203424036503
+frames: 12000  ep_num: 13 Reward: -6.0 Loss: 0.00029340217588469386
+frames: 12500  ep_num: 13 Reward: -18.0 Loss: 0.00037559308111667633
+episode: 12556 Reward per episode: -19.0  
+Did not solve after 14 episodes
+frames: 13000  ep_num: 14 Reward: -11.0 Loss: 0.000476942106615752
+episode: 13337 Reward per episode: -21.0  
+Did not solve after 15 episodes
+frames: 13500  ep_num: 15 Reward: -3.0 Loss: 0.004729148466140032
+frames: 14000  ep_num: 15 Reward: -18.0 Loss: 0.0013000403996556997
+episode: 14097 Reward per episode: -21.0  
+Did not solve after 16 episodes
+frames: 14500  ep_num: 16 Reward: -9.0 Loss: 0.0006044316687621176
+episode: 14886 Reward per episode: -21.0  
+Did not solve after 17 episodes
+frames: 15000  ep_num: 17 Reward: -2.0 Loss: 0.02230757661163807
+frames: 15500  ep_num: 17 Reward: -16.0 Loss: 0.000395409413613379
+episode: 15645 Reward per episode: -21.0  
+Did not solve after 18 episodes
+frames: 16000  ep_num: 18 Reward: -9.0 Loss: 0.0010180938988924026
+episode: 16405 Reward per episode: -21.0  
+Did not solve after 19 episodes
+frames: 16500  ep_num: 19 Reward: -2.0 Loss: 0.0003591894346754998
+frames: 17000  ep_num: 19 Reward: -16.0 Loss: 0.0005372042069211602
+episode: 17161 Reward per episode: -21.0  
+Did not solve after 20 episodes
+frames: 17500  ep_num: 20 Reward: -8.0 Loss: 0.0004869382828474045
+frames: 18000  ep_num: 20 Reward: -18.0 Loss: 0.0003479421720840037
+episode: 18059 Reward per episode: -20.0  
+Did not solve after 21 episodes
+frames: 18500  ep_num: 21 Reward: -8.0 Loss: 0.0004247717442922294
+episode: 18967 Reward per episode: -20.0  
+Did not solve after 22 episodes
+frames: 19000  ep_num: 22 Reward: 0.0 Loss: 0.0002118620031978935
+frames: 19500  ep_num: 22 Reward: -5.0 Loss: 0.00011714697757270187
+frames: 20000  ep_num: 22 Reward: -18.0 Loss: 0.0023059966042637825
+episode: 20019 Reward per episode: -19.0  
+Did not solve after 23 episodes
+frames: 20500  ep_num: 23 Reward: -8.0 Loss: 0.009672231040894985

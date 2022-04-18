@@ -8,35 +8,39 @@ from ReplayMemory import Replaymemory
 from utils import *
 from torch.autograd import Variable
 import os 
+import math
 import glob
+import random
 
 
 class DDQN(object):
-    def __init__(self,cfg, action_num, state_num, env_a_shape):
+    def __init__(self,cfg, action_num, state_shape, env_a_shape):
         self.q_net, self.target_q_net = Model(action_num), Model(action_num)
+        self.update_target_network()
+        print(self.q_net.parameters() == self.target_q_net.parameters())
 
         self.cfg = cfg
         self.action_num = action_num
-        self.state_num = state_num
         self.env_a_shape = env_a_shape
         self.replaymemory = Replaymemory(self.cfg.memory_size)
         self.optimizer = torch.optim.Adam(self.q_net.parameters(), lr=self.cfg.lr)
         self.loss_func = nn.MSELoss()
-        self.action_num = action_num
-        self.epsilon = self.cfg.epsilon_start
+        self.epsilon_by_frame = lambda frame_idx: self.cfg.epsilon_final + (self.cfg.epsilon_start - self.cfg.epsilon_final) * math.exp(
+            -1. * frame_idx / self.cfg.epsilon_decay)
 
-    def choose_action(self, x):
-        self.q_net.eval().to('cpu')
-        if self.epsilon > self.cfg.epsilon_final:
-            self.epsilon -= (self.cfg.epsilon_start - self.cfg.epsilon_final) / self.cfg.explore
+    def choose_action(self, x, epsilon):
+        self.q_net.to('cpu')
         # input only one sample
-        if np.random.uniform() > self.epsilon:   # greedy
+        if np.random.uniform() > epsilon:   # greedy
+            x = torch.tensor(x, dtype=torch.float).unsqueeze(0)
             actions_value = self.q_net.forward(x)
-            action = torch.max(actions_value, 1)[1].data.numpy()
-            action = action[0] if self.env_a_shape == 0 else action.reshape(self.env_a_shape)  # return the argmax index
+            action = torch.max(actions_value, 1)[1].item()
+            # action = action[0] if self.env_a_shape == 0 else action.reshape(self.env_a_shape)  # return the argmax index
+            print("action", action)
+            # exit()
         else:   # random
             action = np.random.randint(0, self.action_num)
-            action = action if self.env_a_shape == 0 else action.reshape(self.env_a_shape)
+            # action = action if self.env_a_shape == 0 else action.reshape(self.env_a_shape)
         return action
 
     def update_target_network(self):
@@ -46,52 +50,49 @@ class DDQN(object):
     def train(self):
 
         # sample batch transitions
-        batch_state, batch_action, batch_reward, batch_state_new, \
-        batch_over = self.replaymemory.sample(self.cfg.batch_size)
+        s0, a, r, s1, done = self.replaymemory.sample(self.cfg.batch_size)
         
-        state = torch.from_numpy(batch_state).float()/255.0
-        action = torch.from_numpy(batch_action).float()
-        state_new = torch.from_numpy(batch_state_new).float()/255.0
-        terminal = torch.from_numpy(batch_over).float()
-        reward = torch.from_numpy(batch_reward).float()
+        state = torch.from_numpy(s0).float()
+        action = torch.from_numpy(a).float()
+        state_new = torch.from_numpy(s1).float()
+        terminal = torch.from_numpy(done).float()
+        reward = torch.from_numpy(r).float()
 
-        state = state.to('cuda:2')
-        action = action.to('cuda:2')
-        state_new = state_new.to('cuda:2')
-        terminal = terminal.to('cuda:2')
-        reward = reward.to('cuda:2')
+        state = state.to('cuda:1')
+        action = action.to('cuda:1')
+        state_new = state_new.to('cuda:1')
+        terminal = terminal.to('cuda:1')
+        reward = reward.to('cuda:1')
 
         state = Variable(state)
         action = Variable(action)
         state_new = Variable(state_new)
         terminal = Variable(terminal)
         reward = Variable(reward)
-        self.q_net.eval().to('cuda:2')
-        self.target_q_net.eval().to('cuda:2')
+        self.q_net.to('cuda:1')
+        self.target_q_net.to('cuda:1')
         
         # print(action.shape, state_new.shape, terminal.shape, reward.shape)
         # torch.Size([32]) torch.Size([32, 4, 84, 84]) torch.Size([32]) torch.Size([32])
 
-        # -- target -- #
+        q_values = self.q_net.forward(state)
         next_q_values = self.q_net.forward(state_new)
-        next_target_q_values = self.q_net.forward(state_new)
+        next_target_q_values = self.target_q_net.forward(state_new)
 
+        # -- target -- #
         # torch.max(next_q_values, 1)[1] -> index of max q value [B]
         #  torch.max(next_q_values, 1)[1].unsqueeze(1) -> B, 1
         # target next q 중에서 next q value의 max 값에 해당하는 인덱스의 q 값을 [B] 만큼 가져옴
-        next_q_val = next_target_q_values.gather(1, torch.max(next_q_values, 1)[1].unsqueeze(1)).squeeze(1)
-
+        next_q_val = next_target_q_values.gather(1, next_q_values.max(1)[1].unsqueeze(1)).squeeze(1)
         q_target = reward + self.cfg.discount_factor * next_q_val * (1 - terminal)
 
         # -- output -- #
-        self.q_net.train()
-        q_values = self.q_net.forward(state)
-
+        # self.q_net.train()
         action = action.unsqueeze(1)
         q_val = q_values.gather(1, action.type(torch.int64)) # [B, 1]
         q_val = q_val.squeeze(1) # [B, 1]
         
-        loss = self.loss_func(q_val, q_target.detach().to('cuda:2'))
+        loss = self.loss_func(q_val, q_target.detach().to('cuda:1'))
         
         # backward optimize
         self.optimizer.zero_grad()

@@ -1,0 +1,2841 @@
+[Mon Apr 18 01:23:50 2022]starts experiments setting 4_18_-2_23
+=> creating model ...
+Episode: 33 step: 33 training_step: 0 Reward: 0.0 Loss: 0.0009214823367074132
+Did not solve after 0 episodes
+Episode: 34 step: 34 training_step: 1 Reward: 0.0 Loss: 0.000461702817119658
+Did not solve after 0 episodes
+Episode: 35 step: 35 training_step: 2 Reward: 0.0 Loss: 0.00020562000281643122
+Did not solve after 0 episodes
+Episode: 36 step: 36 training_step: 3 Reward: 0.0 Loss: 5.267609958536923e-05
+Did not solve after 0 episodes
+Episode: 37 step: 37 training_step: 4 Reward: 0.0 Loss: 3.4722124837571755e-06
+Did not solve after 0 episodes
+Episode: 38 step: 38 training_step: 5 Reward: 0.0 Loss: 2.702606980165001e-05
+Did not solve after 0 episodes
+Episode: 39 step: 39 training_step: 6 Reward: 0.0 Loss: 7.041858043521643e-05
+Did not solve after 0 episodes
+Episode: 40 step: 40 training_step: 7 Reward: 0.0 Loss: 8.794349560048431e-05
+Did not solve after 0 episodes
+Episode: 41 step: 41 training_step: 8 Reward: 0.0 Loss: 5.811560549773276e-05
+Did not solve after 0 episodes
+Episode: 42 step: 42 training_step: 9 Reward: 0.0 Loss: 2.8089654733776115e-05
+Did not solve after 0 episodes
+Episode: 43 step: 43 training_step: 10 Reward: 0.0 Loss: 8.612322744738776e-06
+Did not solve after 0 episodes
+Episode: 44 step: 44 training_step: 11 Reward: 0.0 Loss: 3.9203237065521535e-06
+Did not solve after 0 episodes
+Episode: 45 step: 45 training_step: 12 Reward: 0.0 Loss: 6.323966772470158e-06
+Did not solve after 0 episodes
+Episode: 46 step: 46 training_step: 13 Reward: 0.0 Loss: 1.3194242455938365e-05
+Did not solve after 0 episodes
+Episode: 47 step: 47 training_step: 14 Reward: 0.0 Loss: 2.0151965145487338e-05
+Did not solve after 0 episodes
+Episode: 48 step: 48 training_step: 15 Reward: 0.0 Loss: 1.8148222807212733e-05
+Did not solve after 0 episodes
+Episode: 49 step: 49 training_step: 16 Reward: 0.0 Loss: 1.5732664905954152e-05
+Did not solve after 0 episodes
+Episode: 50 step: 50 training_step: 17 Reward: 0.0 Loss: 1.4110190022620372e-05
+Did not solve after 0 episodes
+Episode: 51 step: 51 training_step: 18 Reward: 0.0 Loss: 1.0320944056729786e-05
+Did not solve after 0 episodes
+Episode: 52 step: 52 training_step: 19 Reward: 0.0 Loss: 9.380953997606412e-06
+Did not solve after 0 episodes
+Episode: 53 step: 53 training_step: 20 Reward: 0.0 Loss: 4.041730790049769e-06
+Did not solve after 0 episodes
+Episode: 54 step: 54 training_step: 21 Reward: 0.0 Loss: 2.6614911803335417e-06
+Did not solve after 0 episodes
+Episode: 55 step: 55 training_step: 22 Reward: 0.0 Loss: 1.5905404779914534e-06
+Did not solve after 0 episodes
+Episode: 56 step: 56 training_step: 23 Reward: 0.0 Loss: 1.6762808172643417e-06
+Did not solve after 0 episodes
+Episode: 57 step: 57 training_step: 24 Reward: 0.0 Loss: 2.9554155389632797e-06
+Did not solve after 0 episodes
+Episode: 58 step: 58 training_step: 25 Reward: -1.0 Loss: 3.1057497835718095e-06
+Did not solve after 0 episodes
+Episode: 59 step: 59 training_step: 26 Reward: -1.0 Loss: 3.958948582294397e-06
+Did not solve after 0 episodes
+Episode: 60 step: 60 training_step: 27 Reward: -1.0 Loss: 3.711154249685933e-06
+Did not solve after 0 episodes
+Episode: 61 step: 61 training_step: 28 Reward: -1.0 Loss: 3.8401449273806065e-06
+Did not solve after 0 episodes
+Episode: 62 step: 62 training_step: 29 Reward: -1.0 Loss: 0.031240755692124367
+Did not solve after 0 episodes
+Episode: 63 step: 63 training_step: 30 Reward: -1.0 Loss: 0.030836112797260284
+Did not solve after 0 episodes
+Episode: 64 step: 64 training_step: 31 Reward: -1.0 Loss: 0.03025437518954277
+Did not solve after 0 episodes
+Episode: 65 step: 65 training_step: 32 Reward: -1.0 Loss: 0.0294765904545784
+Did not solve after 0 episodes
+Episode: 66 step: 66 training_step: 33 Reward: -1.0 Loss: 0.00029477564385160804
+Did not solve after 0 episodes
+Episode: 67 step: 67 training_step: 34 Reward: -1.0 Loss: 0.027979325503110886
+Did not solve after 0 episodes
+Episode: 68 step: 68 training_step: 35 Reward: -1.0 Loss: 0.027216022834181786
+Did not solve after 0 episodes
+Episode: 69 step: 69 training_step: 36 Reward: -1.0 Loss: 0.026424793526530266
+Did not solve after 0 episodes
+Episode: 70 step: 70 training_step: 37 Reward: -1.0 Loss: 0.004636393394321203
+Did not solve after 0 episodes
+Episode: 71 step: 71 training_step: 38 Reward: -1.0 Loss: 0.026826517656445503
+Did not solve after 0 episodes
+Episode: 72 step: 72 training_step: 39 Reward: -1.0 Loss: 0.02552201598882675
+Did not solve after 0 episodes
+Episode: 73 step: 73 training_step: 40 Reward: -1.0 Loss: 0.026810474693775177
+Did not solve after 0 episodes
+Episode: 74 step: 74 training_step: 41 Reward: -1.0 Loss: 0.02833070419728756
+Did not solve after 0 episodes
+Episode: 75 step: 75 training_step: 42 Reward: -1.0 Loss: 0.005235661752521992
+Did not solve after 0 episodes
+Episode: 76 step: 76 training_step: 43 Reward: -1.0 Loss: 0.025524435564875603
+Did not solve after 0 episodes
+Episode: 77 step: 77 training_step: 44 Reward: -1.0 Loss: 0.02682209014892578
+Did not solve after 0 episodes
+Episode: 78 step: 78 training_step: 45 Reward: -1.0 Loss: 0.004204524680972099
+Did not solve after 0 episodes
+Episode: 79 step: 79 training_step: 46 Reward: -1.0 Loss: 0.026955479755997658
+Did not solve after 0 episodes
+Episode: 80 step: 80 training_step: 47 Reward: -1.0 Loss: 0.026348501443862915
+Did not solve after 0 episodes
+Episode: 81 step: 81 training_step: 48 Reward: -1.0 Loss: 0.02748098224401474
+Did not solve after 0 episodes
+Episode: 82 step: 82 training_step: 49 Reward: -1.0 Loss: 0.0019649039022624493
+Did not solve after 0 episodes
+Episode: 83 step: 83 training_step: 50 Reward: -1.0 Loss: 0.026722418144345284
+Did not solve after 0 episodes
+Episode: 84 step: 84 training_step: 51 Reward: -1.0 Loss: 0.00191661121789366
+Did not solve after 0 episodes
+Episode: 85 step: 85 training_step: 52 Reward: -1.0 Loss: 0.001488834386691451
+Did not solve after 0 episodes
+Episode: 86 step: 86 training_step: 53 Reward: -1.0 Loss: 0.0008594444370828569
+Did not solve after 0 episodes
+Episode: 87 step: 87 training_step: 54 Reward: -1.0 Loss: 0.027775665745139122
+Did not solve after 0 episodes
+Episode: 88 step: 88 training_step: 55 Reward: -1.0 Loss: 0.001118005602620542
+Did not solve after 0 episodes
+Episode: 89 step: 89 training_step: 56 Reward: -1.0 Loss: 0.02806340530514717
+Did not solve after 0 episodes
+Episode: 90 step: 90 training_step: 57 Reward: -1.0 Loss: 0.0010088308481499553
+Did not solve after 0 episodes
+Episode: 91 step: 91 training_step: 58 Reward: -1.0 Loss: 0.02849181368947029
+Did not solve after 0 episodes
+Episode: 92 step: 92 training_step: 59 Reward: -1.0 Loss: 0.028751131147146225
+Did not solve after 0 episodes
+Episode: 93 step: 93 training_step: 60 Reward: -2.0 Loss: 0.028249580413103104
+Did not solve after 0 episodes
+Episode: 94 step: 94 training_step: 61 Reward: -2.0 Loss: 0.028400417417287827
+Did not solve after 0 episodes
+Episode: 95 step: 95 training_step: 62 Reward: -2.0 Loss: 0.02853974513709545
+Did not solve after 0 episodes
+Episode: 96 step: 96 training_step: 63 Reward: -2.0 Loss: 0.00054219551384449
+Did not solve after 0 episodes
+Episode: 97 step: 97 training_step: 64 Reward: -2.0 Loss: 0.000878991384524852
+Did not solve after 0 episodes
+Episode: 98 step: 98 training_step: 65 Reward: -2.0 Loss: 0.0012103868648409843
+Did not solve after 0 episodes
+Episode: 99 step: 99 training_step: 66 Reward: -2.0 Loss: 0.0597580149769783
+Did not solve after 0 episodes
+Episode: 100 step: 100 training_step: 67 Reward: -2.0 Loss: 0.031898025423288345
+Did not solve after 0 episodes
+Episode: 101 step: 101 training_step: 68 Reward: -2.0 Loss: 0.0008092133793979883
+Did not solve after 0 episodes
+Episode: 102 step: 102 training_step: 69 Reward: -2.0 Loss: 0.0588722750544548
+Did not solve after 0 episodes
+Episode: 103 step: 103 training_step: 70 Reward: -2.0 Loss: 0.0008491241605952382
+Did not solve after 0 episodes
+Episode: 104 step: 104 training_step: 71 Reward: -2.0 Loss: 0.02803948149085045
+Did not solve after 0 episodes
+Episode: 105 step: 105 training_step: 72 Reward: -2.0 Loss: 0.028060413897037506
+Did not solve after 0 episodes
+Episode: 106 step: 106 training_step: 73 Reward: -2.0 Loss: 0.0006821251008659601
+Did not solve after 0 episodes
+Episode: 107 step: 107 training_step: 74 Reward: -2.0 Loss: 0.0008109462214633822
+Did not solve after 0 episodes
+Episode: 108 step: 108 training_step: 75 Reward: -2.0 Loss: 0.028255244717001915
+Did not solve after 0 episodes
+Episode: 109 step: 109 training_step: 76 Reward: -2.0 Loss: 0.028101380914449692
+Did not solve after 0 episodes
+Episode: 110 step: 110 training_step: 77 Reward: -2.0 Loss: 0.027721837162971497
+Did not solve after 0 episodes
+Episode: 111 step: 111 training_step: 78 Reward: -2.0 Loss: 0.027660690248012543
+Did not solve after 0 episodes
+Episode: 112 step: 112 training_step: 79 Reward: -2.0 Loss: 0.03120853565633297
+Did not solve after 0 episodes
+Episode: 113 step: 113 training_step: 80 Reward: -2.0 Loss: 0.03070402517914772
+Did not solve after 0 episodes
+Episode: 114 step: 114 training_step: 81 Reward: -2.0 Loss: 0.028712015599012375
+Did not solve after 0 episodes
+Episode: 115 step: 115 training_step: 82 Reward: -2.0 Loss: 0.031035440042614937
+Did not solve after 0 episodes
+Episode: 116 step: 116 training_step: 83 Reward: -2.0 Loss: 0.030310865491628647
+Did not solve after 0 episodes
+Episode: 117 step: 117 training_step: 84 Reward: -2.0 Loss: 0.0013065338134765625
+Did not solve after 0 episodes
+Episode: 118 step: 118 training_step: 85 Reward: -2.0 Loss: 0.0015381909906864166
+Did not solve after 0 episodes
+Episode: 119 step: 119 training_step: 86 Reward: -2.0 Loss: 0.0018780517857521772
+Did not solve after 0 episodes
+Episode: 120 step: 120 training_step: 87 Reward: -2.0 Loss: 0.0017334521980956197
+Did not solve after 0 episodes
+Episode: 121 step: 121 training_step: 88 Reward: -2.0 Loss: 0.001806772779673338
+Did not solve after 0 episodes
+Episode: 122 step: 122 training_step: 89 Reward: -2.0 Loss: 0.0010851934785023332
+Did not solve after 0 episodes
+Episode: 123 step: 123 training_step: 90 Reward: -2.0 Loss: 0.0009018803830258548
+Did not solve after 0 episodes
+Episode: 124 step: 124 training_step: 91 Reward: -2.0 Loss: 0.0006135761504992843
+Did not solve after 0 episodes
+Episode: 125 step: 125 training_step: 92 Reward: -2.0 Loss: 0.058117110282182693
+Did not solve after 0 episodes
+Episode: 126 step: 126 training_step: 93 Reward: -2.0 Loss: 0.0006411648355424404
+Did not solve after 0 episodes
+Episode: 127 step: 127 training_step: 94 Reward: -2.0 Loss: 0.02899128384888172
+Did not solve after 0 episodes
+Episode: 128 step: 128 training_step: 95 Reward: -3.0 Loss: 0.0003343344433233142
+Did not solve after 0 episodes
+Episode: 129 step: 129 training_step: 96 Reward: -3.0 Loss: 0.000625573331490159
+Did not solve after 0 episodes
+Episode: 130 step: 130 training_step: 97 Reward: -3.0 Loss: 0.0008214915869757533
+Did not solve after 0 episodes
+Episode: 131 step: 131 training_step: 98 Reward: -3.0 Loss: 0.0003230973961763084
+Did not solve after 0 episodes
+Episode: 132 step: 132 training_step: 99 Reward: -3.0 Loss: 0.0003648821439128369
+Did not solve after 0 episodes
+Episode: 133 step: 133 training_step: 100 Reward: -3.0 Loss: 0.000463209580630064
+Did not solve after 0 episodes
+Episode: 134 step: 134 training_step: 101 Reward: -3.0 Loss: 0.00035353313433006406
+Did not solve after 0 episodes
+Episode: 135 step: 135 training_step: 102 Reward: -3.0 Loss: 0.0003015293041244149
+Did not solve after 0 episodes
+Episode: 136 step: 136 training_step: 103 Reward: -3.0 Loss: 0.0004105947446078062
+Did not solve after 0 episodes
+Episode: 137 step: 137 training_step: 104 Reward: -3.0 Loss: 0.00022894424910191447
+Did not solve after 0 episodes
+Episode: 138 step: 138 training_step: 105 Reward: -3.0 Loss: 0.000244369322899729
+Did not solve after 0 episodes
+Episode: 139 step: 139 training_step: 106 Reward: -3.0 Loss: 0.00014416451449505985
+Did not solve after 0 episodes
+Episode: 140 step: 140 training_step: 107 Reward: -3.0 Loss: 0.061966024339199066
+Did not solve after 0 episodes
+Episode: 141 step: 141 training_step: 108 Reward: -3.0 Loss: 0.00010198398376815021
+Did not solve after 0 episodes
+Episode: 142 step: 142 training_step: 109 Reward: -3.0 Loss: 8.114510274026543e-05
+Did not solve after 0 episodes
+Episode: 143 step: 143 training_step: 110 Reward: -3.0 Loss: 0.03178907930850983
+Did not solve after 0 episodes
+Episode: 144 step: 144 training_step: 111 Reward: -3.0 Loss: 0.06139424443244934
+Did not solve after 0 episodes
+Episode: 145 step: 145 training_step: 112 Reward: -3.0 Loss: 0.03130647540092468
+Did not solve after 0 episodes
+Episode: 146 step: 146 training_step: 113 Reward: -3.0 Loss: 0.00010278799163643271
+Did not solve after 0 episodes
+Episode: 147 step: 147 training_step: 114 Reward: -3.0 Loss: 0.03073100931942463
+Did not solve after 0 episodes
+Episode: 148 step: 148 training_step: 115 Reward: -3.0 Loss: 0.030521858483552933
+Did not solve after 0 episodes
+Episode: 149 step: 149 training_step: 116 Reward: -3.0 Loss: 0.030064022168517113
+Did not solve after 0 episodes
+Episode: 150 step: 150 training_step: 117 Reward: -3.0 Loss: 0.05980966240167618
+Did not solve after 0 episodes
+Episode: 151 step: 151 training_step: 118 Reward: -3.0 Loss: 0.030361274257302284
+Did not solve after 0 episodes
+Episode: 152 step: 152 training_step: 119 Reward: -3.0 Loss: 0.0003615166642703116
+Did not solve after 0 episodes
+Episode: 153 step: 153 training_step: 120 Reward: -3.0 Loss: 0.029075872153043747
+Did not solve after 0 episodes
+Episode: 154 step: 154 training_step: 121 Reward: -3.0 Loss: 0.02874983660876751
+Did not solve after 0 episodes
+Episode: 155 step: 155 training_step: 122 Reward: -3.0 Loss: 0.0007928154082037508
+Did not solve after 0 episodes
+Episode: 156 step: 156 training_step: 123 Reward: -3.0 Loss: 0.030389532446861267
+Did not solve after 0 episodes
+Episode: 157 step: 157 training_step: 124 Reward: -3.0 Loss: 0.0012545862700790167
+Did not solve after 0 episodes
+Episode: 158 step: 158 training_step: 125 Reward: -3.0 Loss: 0.027907719835639
+Did not solve after 0 episodes
+Episode: 159 step: 159 training_step: 126 Reward: -3.0 Loss: 0.030622899532318115
+Did not solve after 0 episodes
+Episode: 160 step: 160 training_step: 127 Reward: -3.0 Loss: 0.028114497661590576
+Did not solve after 0 episodes
+Episode: 161 step: 161 training_step: 128 Reward: -3.0 Loss: 0.0016900241607800126
+Did not solve after 0 episodes
+Episode: 162 step: 162 training_step: 129 Reward: -3.0 Loss: 0.030138172209262848
+Did not solve after 0 episodes
+Episode: 163 step: 163 training_step: 130 Reward: -4.0 Loss: 0.001893746666610241
+Did not solve after 0 episodes
+Episode: 164 step: 164 training_step: 131 Reward: -4.0 Loss: 0.030271708965301514
+Did not solve after 0 episodes
+Episode: 165 step: 165 training_step: 132 Reward: -4.0 Loss: 0.0015684384852647781
+Did not solve after 0 episodes
+Episode: 166 step: 166 training_step: 133 Reward: -4.0 Loss: 0.030200865119695663
+Did not solve after 0 episodes
+Episode: 167 step: 167 training_step: 134 Reward: -4.0 Loss: 0.057866644114255905
+Did not solve after 0 episodes
+Episode: 168 step: 168 training_step: 135 Reward: -4.0 Loss: 0.0013767705531790853
+Did not solve after 0 episodes
+Episode: 169 step: 169 training_step: 136 Reward: -4.0 Loss: 0.0007521748193539679
+Did not solve after 0 episodes
+Episode: 170 step: 170 training_step: 137 Reward: -4.0 Loss: 0.0005910356994718313
+Did not solve after 0 episodes
+Episode: 171 step: 171 training_step: 138 Reward: -4.0 Loss: 0.03205210715532303
+Did not solve after 0 episodes
+Episode: 172 step: 172 training_step: 139 Reward: -4.0 Loss: 0.029857104644179344
+Did not solve after 0 episodes
+Episode: 173 step: 173 training_step: 140 Reward: -4.0 Loss: 0.0588284470140934
+Did not solve after 0 episodes
+Episode: 174 step: 174 training_step: 141 Reward: -4.0 Loss: 0.03032638132572174
+Did not solve after 0 episodes
+Episode: 175 step: 175 training_step: 142 Reward: -4.0 Loss: 0.0006564323557540774
+Did not solve after 0 episodes
+Episode: 176 step: 176 training_step: 143 Reward: -4.0 Loss: 0.060739386826753616
+Did not solve after 0 episodes
+Episode: 177 step: 177 training_step: 144 Reward: -4.0 Loss: 0.0008077980019152164
+Did not solve after 0 episodes
+Episode: 178 step: 178 training_step: 145 Reward: -4.0 Loss: 0.08995498716831207
+Did not solve after 0 episodes
+Episode: 179 step: 179 training_step: 146 Reward: -4.0 Loss: 0.0008733681752346456
+Did not solve after 0 episodes
+Episode: 180 step: 180 training_step: 147 Reward: -4.0 Loss: 0.029513217508792877
+Did not solve after 0 episodes
+Episode: 181 step: 181 training_step: 148 Reward: -4.0 Loss: 0.029511000961065292
+Did not solve after 0 episodes
+Episode: 182 step: 182 training_step: 149 Reward: -4.0 Loss: 0.00065019098110497
+Did not solve after 0 episodes
+Episode: 183 step: 183 training_step: 150 Reward: -4.0 Loss: 0.0006059288280084729
+Did not solve after 0 episodes
+Episode: 184 step: 184 training_step: 151 Reward: -4.0 Loss: 0.03052160143852234
+Did not solve after 0 episodes
+Episode: 185 step: 185 training_step: 152 Reward: -4.0 Loss: 0.0005165584734641016
+Did not solve after 0 episodes
+Episode: 186 step: 186 training_step: 153 Reward: -4.0 Loss: 0.0007755192928016186
+Did not solve after 0 episodes
+Episode: 187 step: 187 training_step: 154 Reward: -4.0 Loss: 0.028705766424536705
+Did not solve after 0 episodes
+Episode: 188 step: 188 training_step: 155 Reward: -4.0 Loss: 0.0005748042603954673
+Did not solve after 0 episodes
+Episode: 189 step: 189 training_step: 156 Reward: -4.0 Loss: 0.028558481484651566
+Did not solve after 0 episodes
+Episode: 190 step: 190 training_step: 157 Reward: -4.0 Loss: 0.0005731555866077542
+Did not solve after 0 episodes
+Episode: 191 step: 191 training_step: 158 Reward: -4.0 Loss: 0.0010595249477773905
+Did not solve after 0 episodes
+Episode: 192 step: 192 training_step: 159 Reward: -4.0 Loss: 0.000784186297096312
+Did not solve after 0 episodes
+Episode: 193 step: 193 training_step: 160 Reward: -4.0 Loss: 0.028438741341233253
+Did not solve after 0 episodes
+Episode: 194 step: 194 training_step: 161 Reward: -4.0 Loss: 0.0006597009487450123
+Did not solve after 0 episodes
+Episode: 195 step: 195 training_step: 162 Reward: -4.0 Loss: 0.0004385226347949356
+Did not solve after 0 episodes
+Episode: 196 step: 196 training_step: 163 Reward: -4.0 Loss: 0.061065372079610825
+Did not solve after 0 episodes
+Episode: 197 step: 197 training_step: 164 Reward: -4.0 Loss: 0.0010069238487631083
+Did not solve after 0 episodes
+Episode: 198 step: 198 training_step: 165 Reward: -5.0 Loss: 0.0007275654934346676
+Did not solve after 0 episodes
+Episode: 199 step: 199 training_step: 166 Reward: -5.0 Loss: 0.03142654150724411
+Did not solve after 0 episodes
+Episode: 200 step: 200 training_step: 167 Reward: -5.0 Loss: 0.028019042685627937
+Did not solve after 0 episodes
+Episode: 201 step: 201 training_step: 168 Reward: -5.0 Loss: 0.031223846599459648
+Did not solve after 0 episodes
+Episode: 202 step: 202 training_step: 169 Reward: -5.0 Loss: 0.03141973912715912
+Did not solve after 0 episodes
+Episode: 203 step: 203 training_step: 170 Reward: -5.0 Loss: 0.0006702939863316715
+Did not solve after 0 episodes
+Episode: 204 step: 204 training_step: 171 Reward: -5.0 Loss: 0.00087878224439919
+Did not solve after 0 episodes
+Episode: 205 step: 205 training_step: 172 Reward: -5.0 Loss: 0.0004454505105968565
+Did not solve after 0 episodes
+Episode: 206 step: 206 training_step: 173 Reward: -5.0 Loss: 0.030541960150003433
+Did not solve after 0 episodes
+Episode: 207 step: 207 training_step: 174 Reward: -5.0 Loss: 0.03029860556125641
+Did not solve after 0 episodes
+Episode: 208 step: 208 training_step: 175 Reward: -5.0 Loss: 0.0003339579561725259
+Did not solve after 0 episodes
+Episode: 209 step: 209 training_step: 176 Reward: -5.0 Loss: 0.0005984393646940589
+Did not solve after 0 episodes
+Episode: 210 step: 210 training_step: 177 Reward: -5.0 Loss: 0.03045922890305519
+Did not solve after 0 episodes
+Episode: 211 step: 211 training_step: 178 Reward: -5.0 Loss: 0.05919942632317543
+Did not solve after 0 episodes
+Episode: 212 step: 212 training_step: 179 Reward: -5.0 Loss: 0.03037722222507
+Did not solve after 0 episodes
+Episode: 213 step: 213 training_step: 180 Reward: -5.0 Loss: 0.00027546630008146167
+Did not solve after 0 episodes
+Episode: 214 step: 214 training_step: 181 Reward: -5.0 Loss: 0.03059806302189827
+Did not solve after 0 episodes
+Episode: 215 step: 215 training_step: 182 Reward: -5.0 Loss: 0.05876109004020691
+Did not solve after 0 episodes
+Episode: 216 step: 216 training_step: 183 Reward: -5.0 Loss: 0.05914008617401123
+Did not solve after 0 episodes
+Episode: 217 step: 217 training_step: 184 Reward: -5.0 Loss: 0.030342698097229004
+Did not solve after 0 episodes
+Episode: 218 step: 218 training_step: 185 Reward: -5.0 Loss: 0.0006121615879237652
+Did not solve after 0 episodes
+Episode: 219 step: 219 training_step: 186 Reward: -5.0 Loss: 0.0008706639055162668
+Did not solve after 0 episodes
+Episode: 220 step: 220 training_step: 187 Reward: -5.0 Loss: 0.030479764565825462
+Did not solve after 0 episodes
+Episode: 221 step: 221 training_step: 188 Reward: -5.0 Loss: 0.05961256101727486
+Did not solve after 0 episodes
+Episode: 222 step: 222 training_step: 189 Reward: -5.0 Loss: 0.028637345880270004
+Did not solve after 0 episodes
+Episode: 223 step: 223 training_step: 190 Reward: -5.0 Loss: 0.0007975962944328785
+Did not solve after 0 episodes
+Episode: 224 step: 224 training_step: 191 Reward: -5.0 Loss: 0.03018129989504814
+Did not solve after 0 episodes
+Episode: 225 step: 225 training_step: 192 Reward: -5.0 Loss: 0.00071615946944803
+Did not solve after 0 episodes
+Episode: 226 step: 226 training_step: 193 Reward: -5.0 Loss: 0.0012721131788566709
+Did not solve after 0 episodes
+Episode: 227 step: 227 training_step: 194 Reward: -5.0 Loss: 0.0009056665003299713
+Did not solve after 0 episodes
+Episode: 228 step: 228 training_step: 195 Reward: -5.0 Loss: 0.0006949275266379118
+Did not solve after 0 episodes
+Episode: 229 step: 229 training_step: 196 Reward: -5.0 Loss: 0.0009497108403593302
+Did not solve after 0 episodes
+Episode: 230 step: 230 training_step: 197 Reward: -5.0 Loss: 0.0008854494080878794
+Did not solve after 0 episodes
+Episode: 231 step: 231 training_step: 198 Reward: -5.0 Loss: 0.0008481355616822839
+Did not solve after 0 episodes
+Episode: 232 step: 232 training_step: 199 Reward: -5.0 Loss: 0.0007000251207500696
+Did not solve after 0 episodes
+Episode: 233 step: 233 training_step: 200 Reward: -6.0 Loss: 0.0008191388915292919
+Did not solve after 0 episodes
+Episode: 234 step: 234 training_step: 201 Reward: -6.0 Loss: 0.0005924726137891412
+Did not solve after 0 episodes
+Episode: 235 step: 235 training_step: 202 Reward: -6.0 Loss: 0.029875893145799637
+Did not solve after 0 episodes
+Episode: 236 step: 236 training_step: 203 Reward: -6.0 Loss: 0.02980685792863369
+Did not solve after 0 episodes
+Episode: 237 step: 237 training_step: 204 Reward: -6.0 Loss: 0.059437789022922516
+Did not solve after 0 episodes
+Episode: 238 step: 238 training_step: 205 Reward: -6.0 Loss: 0.0004990908782929182
+Did not solve after 0 episodes
+Episode: 239 step: 239 training_step: 206 Reward: -6.0 Loss: 0.0004096692136954516
+Did not solve after 0 episodes
+Episode: 240 step: 240 training_step: 207 Reward: -6.0 Loss: 0.029573824256658554
+Did not solve after 0 episodes
+Episode: 241 step: 241 training_step: 208 Reward: -6.0 Loss: 0.0603363923728466
+Did not solve after 0 episodes
+Episode: 242 step: 242 training_step: 209 Reward: -6.0 Loss: 0.06121740862727165
+Did not solve after 0 episodes
+Episode: 243 step: 243 training_step: 210 Reward: -6.0 Loss: 0.00038751200190745294
+Did not solve after 0 episodes
+Episode: 244 step: 244 training_step: 211 Reward: -6.0 Loss: 0.00046603006194345653
+Did not solve after 0 episodes
+Episode: 245 step: 245 training_step: 212 Reward: -6.0 Loss: 0.00048568262718617916
+Did not solve after 0 episodes
+Episode: 246 step: 246 training_step: 213 Reward: -6.0 Loss: 0.029349535703659058
+Did not solve after 0 episodes
+Episode: 247 step: 247 training_step: 214 Reward: -6.0 Loss: 0.029839396476745605
+Did not solve after 0 episodes
+Episode: 248 step: 248 training_step: 215 Reward: -6.0 Loss: 0.0005673596169799566
+Did not solve after 0 episodes
+Episode: 249 step: 249 training_step: 216 Reward: -6.0 Loss: 0.029523106291890144
+Did not solve after 0 episodes
+Episode: 250 step: 250 training_step: 217 Reward: -6.0 Loss: 0.00045437784865498543
+Did not solve after 0 episodes
+Episode: 251 step: 251 training_step: 218 Reward: -6.0 Loss: 0.0004317449638620019
+Did not solve after 0 episodes
+Episode: 252 step: 252 training_step: 219 Reward: -6.0 Loss: 0.0005470524774864316
+Did not solve after 0 episodes
+Episode: 253 step: 253 training_step: 220 Reward: -6.0 Loss: 0.029397765174508095
+Did not solve after 0 episodes
+Episode: 254 step: 254 training_step: 221 Reward: -6.0 Loss: 0.05954800918698311
+Did not solve after 0 episodes
+Episode: 255 step: 255 training_step: 222 Reward: -6.0 Loss: 0.058548685163259506
+Did not solve after 0 episodes
+Episode: 256 step: 256 training_step: 223 Reward: -6.0 Loss: 0.0006826724275015295
+Did not solve after 0 episodes
+Episode: 257 step: 257 training_step: 224 Reward: -6.0 Loss: 0.0582401268184185
+Did not solve after 0 episodes
+Episode: 258 step: 258 training_step: 225 Reward: -6.0 Loss: 0.05900272727012634
+Did not solve after 0 episodes
+Episode: 259 step: 259 training_step: 226 Reward: -6.0 Loss: 0.0008441276731900871
+Did not solve after 0 episodes
+Episode: 260 step: 260 training_step: 227 Reward: -6.0 Loss: 0.05739201232790947
+Did not solve after 0 episodes
+Episode: 261 step: 261 training_step: 228 Reward: -6.0 Loss: 0.08532781898975372
+Did not solve after 0 episodes
+Episode: 262 step: 262 training_step: 229 Reward: -6.0 Loss: 0.05756837874650955
+Did not solve after 0 episodes
+Episode: 263 step: 263 training_step: 230 Reward: -6.0 Loss: 0.0019462923519313335
+Did not solve after 0 episodes
+Episode: 264 step: 264 training_step: 231 Reward: -6.0 Loss: 0.027939073741436005
+Did not solve after 0 episodes
+Episode: 265 step: 265 training_step: 232 Reward: -6.0 Loss: 0.0020321535412222147
+Did not solve after 0 episodes
+Episode: 266 step: 266 training_step: 233 Reward: -6.0 Loss: 0.03446686267852783
+Did not solve after 0 episodes
+Episode: 267 step: 267 training_step: 234 Reward: -6.0 Loss: 0.00152688124217093
+Did not solve after 0 episodes
+Episode: 268 step: 268 training_step: 235 Reward: -7.0 Loss: 0.030735710635781288
+Did not solve after 0 episodes
+Episode: 269 step: 269 training_step: 236 Reward: -7.0 Loss: 0.028229760006070137
+Did not solve after 0 episodes
+Episode: 270 step: 270 training_step: 237 Reward: -7.0 Loss: 0.02760152891278267
+Did not solve after 0 episodes
+Episode: 271 step: 271 training_step: 238 Reward: -7.0 Loss: 0.05597537010908127
+Did not solve after 0 episodes
+Episode: 272 step: 272 training_step: 239 Reward: -7.0 Loss: 0.0023868116550147533
+Did not solve after 0 episodes
+Episode: 273 step: 273 training_step: 240 Reward: -7.0 Loss: 0.0016104764072224498
+Did not solve after 0 episodes
+Episode: 274 step: 274 training_step: 241 Reward: -7.0 Loss: 0.0016741971485316753
+Did not solve after 0 episodes
+Episode: 275 step: 275 training_step: 242 Reward: -7.0 Loss: 0.0294804647564888
+Did not solve after 0 episodes
+Episode: 276 step: 276 training_step: 243 Reward: -7.0 Loss: 0.06035073846578598
+Did not solve after 0 episodes
+Episode: 277 step: 277 training_step: 244 Reward: -7.0 Loss: 0.001209084875881672
+Did not solve after 0 episodes
+Episode: 278 step: 278 training_step: 245 Reward: -7.0 Loss: 0.05767526850104332
+Did not solve after 0 episodes
+Episode: 279 step: 279 training_step: 246 Reward: -7.0 Loss: 0.031934935599565506
+Did not solve after 0 episodes
+Episode: 280 step: 280 training_step: 247 Reward: -7.0 Loss: 0.0277891606092453
+Did not solve after 0 episodes
+Episode: 281 step: 281 training_step: 248 Reward: -7.0 Loss: 0.0015839203260838985
+Did not solve after 0 episodes
+Episode: 282 step: 282 training_step: 249 Reward: -7.0 Loss: 0.002271563746035099
+Did not solve after 0 episodes
+Episode: 283 step: 283 training_step: 250 Reward: -7.0 Loss: 0.05822354555130005
+Did not solve after 0 episodes
+Episode: 284 step: 284 training_step: 251 Reward: -7.0 Loss: 0.0013982171658426523
+Did not solve after 0 episodes
+Episode: 285 step: 285 training_step: 252 Reward: -7.0 Loss: 0.0012564252829179168
+Did not solve after 0 episodes
+Episode: 286 step: 286 training_step: 253 Reward: -7.0 Loss: 0.030906546860933304
+Did not solve after 0 episodes
+Episode: 287 step: 287 training_step: 254 Reward: -7.0 Loss: 0.0010010285768657923
+Did not solve after 0 episodes
+Episode: 288 step: 288 training_step: 255 Reward: -7.0 Loss: 0.0008941795094870031
+Did not solve after 0 episodes
+Episode: 289 step: 289 training_step: 256 Reward: -7.0 Loss: 0.05908931791782379
+Did not solve after 0 episodes
+Episode: 290 step: 290 training_step: 257 Reward: -7.0 Loss: 0.0008681971812620759
+Did not solve after 0 episodes
+Episode: 291 step: 291 training_step: 258 Reward: -7.0 Loss: 0.0008771819993853569
+Did not solve after 0 episodes
+Episode: 292 step: 292 training_step: 259 Reward: -7.0 Loss: 0.029227888211607933
+Did not solve after 0 episodes
+Episode: 293 step: 293 training_step: 260 Reward: -7.0 Loss: 0.05811583250761032
+Did not solve after 0 episodes
+Episode: 294 step: 294 training_step: 261 Reward: -7.0 Loss: 0.0008375518955290318
+Did not solve after 0 episodes
+Episode: 295 step: 295 training_step: 262 Reward: -7.0 Loss: 0.0006675579934380949
+Did not solve after 0 episodes
+Episode: 296 step: 296 training_step: 263 Reward: -7.0 Loss: 0.0007462480571120977
+Did not solve after 0 episodes
+Episode: 297 step: 297 training_step: 264 Reward: -7.0 Loss: 0.02936599589884281
+Did not solve after 0 episodes
+Episode: 298 step: 298 training_step: 265 Reward: -7.0 Loss: 0.02986638993024826
+Did not solve after 0 episodes
+Episode: 299 step: 299 training_step: 266 Reward: -7.0 Loss: 0.0009054623078554869
+Did not solve after 0 episodes
+Episode: 300 step: 300 training_step: 267 Reward: -7.0 Loss: 0.0006961549515835941
+Did not solve after 0 episodes
+Episode: 301 step: 301 training_step: 268 Reward: -7.0 Loss: 0.0006930630188435316
+Did not solve after 0 episodes
+Episode: 302 step: 302 training_step: 269 Reward: -7.0 Loss: 0.029512714594602585
+Did not solve after 0 episodes
+Episode: 303 step: 303 training_step: 270 Reward: -8.0 Loss: 0.00044489686843007803
+Did not solve after 0 episodes
+Episode: 304 step: 304 training_step: 271 Reward: -8.0 Loss: 0.0005487814778462052
+Did not solve after 0 episodes
+Episode: 305 step: 305 training_step: 272 Reward: -8.0 Loss: 0.0005776990437880158
+Did not solve after 0 episodes
+Episode: 306 step: 306 training_step: 273 Reward: -8.0 Loss: 0.029738090932369232
+Did not solve after 0 episodes
+Episode: 307 step: 307 training_step: 274 Reward: -8.0 Loss: 0.0296397153288126
+Did not solve after 0 episodes
+Episode: 308 step: 308 training_step: 275 Reward: -8.0 Loss: 0.12159200012683868
+Did not solve after 0 episodes
+Episode: 309 step: 309 training_step: 276 Reward: -8.0 Loss: 0.0003880284202750772
+Did not solve after 0 episodes
+Episode: 310 step: 310 training_step: 277 Reward: -8.0 Loss: 0.029736412689089775
+Did not solve after 0 episodes
+Episode: 311 step: 311 training_step: 278 Reward: -8.0 Loss: 0.0005527578759938478
+Did not solve after 0 episodes
+Episode: 312 step: 312 training_step: 279 Reward: -8.0 Loss: 0.0005962016293779016
+Did not solve after 0 episodes
+Episode: 313 step: 313 training_step: 280 Reward: -8.0 Loss: 0.05975981801748276
+Did not solve after 0 episodes
+Episode: 314 step: 314 training_step: 281 Reward: -8.0 Loss: 0.059762824326753616
+Did not solve after 0 episodes
+Episode: 315 step: 315 training_step: 282 Reward: -8.0 Loss: 0.03053891286253929
+Did not solve after 0 episodes
+Episode: 316 step: 316 training_step: 283 Reward: -8.0 Loss: 0.0006590225384570658
+Did not solve after 0 episodes
+Episode: 317 step: 317 training_step: 284 Reward: -8.0 Loss: 0.05933708697557449
+Did not solve after 0 episodes
+Episode: 318 step: 318 training_step: 285 Reward: -8.0 Loss: 0.000760503695346415
+Did not solve after 0 episodes
+Episode: 319 step: 319 training_step: 286 Reward: -8.0 Loss: 0.0007232620846480131
+Did not solve after 0 episodes
+Episode: 320 step: 320 training_step: 287 Reward: -8.0 Loss: 0.05846630036830902
+Did not solve after 0 episodes
+Episode: 321 step: 321 training_step: 288 Reward: -8.0 Loss: 0.0005599530995823443
+Did not solve after 0 episodes
+Episode: 322 step: 322 training_step: 289 Reward: -8.0 Loss: 0.06107746809720993
+Did not solve after 0 episodes
+Episode: 323 step: 323 training_step: 290 Reward: -8.0 Loss: 0.02910494990646839
+Did not solve after 0 episodes
+Episode: 324 step: 324 training_step: 291 Reward: -8.0 Loss: 0.02896992489695549
+Did not solve after 0 episodes
+Episode: 325 step: 325 training_step: 292 Reward: -8.0 Loss: 0.03147685155272484
+Did not solve after 0 episodes
+Episode: 326 step: 326 training_step: 293 Reward: -8.0 Loss: 0.030441787093877792
+Did not solve after 0 episodes
+Episode: 327 step: 327 training_step: 294 Reward: -8.0 Loss: 0.0008250845712609589
+Did not solve after 0 episodes
+Episode: 328 step: 328 training_step: 295 Reward: -8.0 Loss: 0.0009921977762132883
+Did not solve after 0 episodes
+Episode: 329 step: 329 training_step: 296 Reward: -8.0 Loss: 0.09080541133880615
+Did not solve after 0 episodes
+Episode: 330 step: 330 training_step: 297 Reward: -8.0 Loss: 0.0009382846765220165
+Did not solve after 0 episodes
+Episode: 331 step: 331 training_step: 298 Reward: -8.0 Loss: 0.0012974130222573876
+Did not solve after 0 episodes
+Episode: 332 step: 332 training_step: 299 Reward: -8.0 Loss: 0.0010806225473061204
+Did not solve after 0 episodes
+Episode: 333 step: 333 training_step: 300 Reward: -8.0 Loss: 0.030023135244846344
+Did not solve after 0 episodes
+Episode: 334 step: 334 training_step: 301 Reward: -8.0 Loss: 0.0007158105727285147
+Did not solve after 0 episodes
+Episode: 335 step: 335 training_step: 302 Reward: -8.0 Loss: 0.0008921842672862113
+Did not solve after 0 episodes
+Episode: 336 step: 336 training_step: 303 Reward: -8.0 Loss: 0.06057248264551163
+Did not solve after 0 episodes
+Episode: 337 step: 337 training_step: 304 Reward: -8.0 Loss: 0.0006926778587512672
+Did not solve after 0 episodes
+Episode: 338 step: 338 training_step: 305 Reward: -9.0 Loss: 0.029460115358233452
+Did not solve after 0 episodes
+Episode: 339 step: 339 training_step: 306 Reward: -9.0 Loss: 0.0006322875851765275
+Did not solve after 0 episodes
+Episode: 340 step: 340 training_step: 307 Reward: -9.0 Loss: 0.0007471656426787376
+Did not solve after 0 episodes
+Episode: 341 step: 341 training_step: 308 Reward: -9.0 Loss: 0.0006327186711132526
+Did not solve after 0 episodes
+Episode: 342 step: 342 training_step: 309 Reward: -9.0 Loss: 0.0007431040867231786
+Did not solve after 0 episodes
+Episode: 343 step: 343 training_step: 310 Reward: -9.0 Loss: 0.0005681453039869666
+Did not solve after 0 episodes
+Episode: 344 step: 344 training_step: 311 Reward: -9.0 Loss: 0.0006004809401929379
+Did not solve after 0 episodes
+Episode: 345 step: 345 training_step: 312 Reward: -9.0 Loss: 0.0006039043655619025
+Did not solve after 0 episodes
+Episode: 346 step: 346 training_step: 313 Reward: -9.0 Loss: 0.00054917111992836
+Did not solve after 0 episodes
+Episode: 347 step: 347 training_step: 314 Reward: -9.0 Loss: 0.0005447211442515254
+Did not solve after 0 episodes
+Episode: 348 step: 348 training_step: 315 Reward: -9.0 Loss: 0.03080536611378193
+Did not solve after 0 episodes
+Episode: 349 step: 349 training_step: 316 Reward: -9.0 Loss: 0.0004277406551409513
+Did not solve after 0 episodes
+Episode: 350 step: 350 training_step: 317 Reward: -9.0 Loss: 0.02985573746263981
+Did not solve after 0 episodes
+Episode: 351 step: 351 training_step: 318 Reward: -9.0 Loss: 0.0003769144241232425
+Did not solve after 0 episodes
+Episode: 352 step: 352 training_step: 319 Reward: -9.0 Loss: 0.000369231536751613
+Did not solve after 0 episodes
+Episode: 353 step: 353 training_step: 320 Reward: -9.0 Loss: 0.060554079711437225
+Did not solve after 0 episodes
+Episode: 354 step: 354 training_step: 321 Reward: -9.0 Loss: 0.0003177003818564117
+Did not solve after 0 episodes
+Episode: 355 step: 355 training_step: 322 Reward: -9.0 Loss: 0.030608249828219414
+Did not solve after 0 episodes
+Episode: 356 step: 356 training_step: 323 Reward: -9.0 Loss: 0.06042555719614029
+Did not solve after 0 episodes
+Episode: 357 step: 357 training_step: 324 Reward: -9.0 Loss: 0.06061974912881851
+Did not solve after 0 episodes
+Episode: 358 step: 358 training_step: 325 Reward: -9.0 Loss: 0.060058124363422394
+Did not solve after 0 episodes
+Episode: 359 step: 359 training_step: 326 Reward: -9.0 Loss: 0.0003392170765437186
+Did not solve after 0 episodes
+Episode: 360 step: 360 training_step: 327 Reward: -9.0 Loss: 0.02989978715777397
+Did not solve after 0 episodes
+Episode: 361 step: 361 training_step: 328 Reward: -9.0 Loss: 0.031516313552856445
+Did not solve after 0 episodes
+Episode: 362 step: 362 training_step: 329 Reward: -9.0 Loss: 0.0004203619319014251
+Did not solve after 0 episodes
+Episode: 363 step: 363 training_step: 330 Reward: -9.0 Loss: 0.031096352264285088
+Did not solve after 0 episodes
+Episode: 364 step: 364 training_step: 331 Reward: -9.0 Loss: 0.02936522848904133
+Did not solve after 0 episodes
+Episode: 365 step: 365 training_step: 332 Reward: -9.0 Loss: 0.0003911440435331315
+Did not solve after 0 episodes
+Episode: 366 step: 366 training_step: 333 Reward: -9.0 Loss: 0.0005857832147739828
+Did not solve after 0 episodes
+Episode: 367 step: 367 training_step: 334 Reward: -9.0 Loss: 0.0007600764511153102
+Did not solve after 0 episodes
+Episode: 368 step: 368 training_step: 335 Reward: -9.0 Loss: 0.11922458559274673
+Did not solve after 0 episodes
+Episode: 369 step: 369 training_step: 336 Reward: -9.0 Loss: 0.03043203614652157
+Did not solve after 0 episodes
+Episode: 370 step: 370 training_step: 337 Reward: -9.0 Loss: 0.02894018217921257
+Did not solve after 0 episodes
+Episode: 371 step: 371 training_step: 338 Reward: -9.0 Loss: 0.06124621257185936
+Did not solve after 0 episodes
+Episode: 372 step: 372 training_step: 339 Reward: -9.0 Loss: 0.03105028159916401
+Did not solve after 0 episodes
+Episode: 373 step: 373 training_step: 340 Reward: -10.0 Loss: 0.0012306097196415067
+Did not solve after 0 episodes
+Episode: 374 step: 374 training_step: 341 Reward: -10.0 Loss: 0.028508838266134262
+Did not solve after 0 episodes
+Episode: 375 step: 375 training_step: 342 Reward: -10.0 Loss: 0.0010574916377663612
+Did not solve after 0 episodes
+Episode: 376 step: 376 training_step: 343 Reward: -10.0 Loss: 0.0010512408334761858
+Did not solve after 0 episodes
+Episode: 377 step: 377 training_step: 344 Reward: -10.0 Loss: 0.0011310779955238104
+Did not solve after 0 episodes
+Episode: 378 step: 378 training_step: 345 Reward: -10.0 Loss: 0.0012459817808121443
+Did not solve after 0 episodes
+Episode: 379 step: 379 training_step: 346 Reward: -10.0 Loss: 0.030188189819455147
+Did not solve after 0 episodes
+Episode: 380 step: 380 training_step: 347 Reward: -10.0 Loss: 0.03217480331659317
+Did not solve after 0 episodes
+Episode: 381 step: 381 training_step: 348 Reward: -10.0 Loss: 0.0011271220864728093
+Did not solve after 0 episodes
+Episode: 382 step: 382 training_step: 349 Reward: -10.0 Loss: 0.030199388042092323
+Did not solve after 0 episodes
+Episode: 383 step: 383 training_step: 350 Reward: -10.0 Loss: 0.0008992365328595042
+Did not solve after 0 episodes
+Episode: 384 step: 384 training_step: 351 Reward: -10.0 Loss: 0.0609639510512352
+Did not solve after 0 episodes
+Episode: 385 step: 385 training_step: 352 Reward: -10.0 Loss: 0.029490161687135696
+Did not solve after 0 episodes
+Episode: 386 step: 386 training_step: 353 Reward: -10.0 Loss: 0.0007607415318489075
+Did not solve after 0 episodes
+Episode: 387 step: 387 training_step: 354 Reward: -10.0 Loss: 0.06047607213258743
+Did not solve after 0 episodes
+Episode: 388 step: 388 training_step: 355 Reward: -10.0 Loss: 0.03078654408454895
+Did not solve after 0 episodes
+Episode: 389 step: 389 training_step: 356 Reward: -10.0 Loss: 0.030149266123771667
+Did not solve after 0 episodes
+Episode: 390 step: 390 training_step: 357 Reward: -10.0 Loss: 0.059864405542612076
+Did not solve after 0 episodes
+Episode: 391 step: 391 training_step: 358 Reward: -10.0 Loss: 0.030011503025889397
+Did not solve after 0 episodes
+Episode: 392 step: 392 training_step: 359 Reward: -10.0 Loss: 0.0005092823412269354
+Did not solve after 0 episodes
+Episode: 393 step: 393 training_step: 360 Reward: -10.0 Loss: 0.000488270161440596
+Did not solve after 0 episodes
+Episode: 394 step: 394 training_step: 361 Reward: -10.0 Loss: 0.00047405509394593537
+Did not solve after 0 episodes
+Episode: 395 step: 395 training_step: 362 Reward: -10.0 Loss: 0.0005179124418646097
+Did not solve after 0 episodes
+Episode: 396 step: 396 training_step: 363 Reward: -10.0 Loss: 0.060175348073244095
+Did not solve after 0 episodes
+Episode: 397 step: 397 training_step: 364 Reward: -10.0 Loss: 0.03018888272345066
+Did not solve after 0 episodes
+Episode: 398 step: 398 training_step: 365 Reward: -10.0 Loss: 0.05910962447524071
+Did not solve after 0 episodes
+Episode: 399 step: 399 training_step: 366 Reward: -10.0 Loss: 0.030564069747924805
+Did not solve after 0 episodes
+Episode: 400 step: 400 training_step: 367 Reward: -10.0 Loss: 0.0007336314884014428
+Did not solve after 0 episodes
+Episode: 401 step: 401 training_step: 368 Reward: -10.0 Loss: 0.030207647010684013
+Did not solve after 0 episodes
+Episode: 402 step: 402 training_step: 369 Reward: -10.0 Loss: 0.0007794942939653993
+Did not solve after 0 episodes
+Episode: 403 step: 403 training_step: 370 Reward: -10.0 Loss: 0.0007112240418791771
+Did not solve after 0 episodes
+Episode: 404 step: 404 training_step: 371 Reward: -10.0 Loss: 0.05919073522090912
+Did not solve after 0 episodes
+Episode: 405 step: 405 training_step: 372 Reward: -10.0 Loss: 0.029972398653626442
+Did not solve after 0 episodes
+Episode: 406 step: 406 training_step: 373 Reward: -10.0 Loss: 0.030499624088406563
+Did not solve after 0 episodes
+Episode: 407 step: 407 training_step: 374 Reward: -10.0 Loss: 0.029911207035183907
+Did not solve after 0 episodes
+Episode: 408 step: 408 training_step: 375 Reward: -11.0 Loss: 0.06063259392976761
+Did not solve after 0 episodes
+Episode: 409 step: 409 training_step: 376 Reward: -11.0 Loss: 0.05894390493631363
+Did not solve after 0 episodes
+Episode: 410 step: 410 training_step: 377 Reward: -11.0 Loss: 0.060551226139068604
+Did not solve after 0 episodes
+Episode: 411 step: 411 training_step: 378 Reward: -11.0 Loss: 0.03008144348859787
+Did not solve after 0 episodes
+Episode: 412 step: 412 training_step: 379 Reward: -11.0 Loss: 0.02991553768515587
+Did not solve after 0 episodes
+Episode: 413 step: 413 training_step: 380 Reward: -11.0 Loss: 0.0590280182659626
+Did not solve after 0 episodes
+Episode: 414 step: 414 training_step: 381 Reward: -11.0 Loss: 0.029533876106142998
+Did not solve after 0 episodes
+Episode: 415 step: 415 training_step: 382 Reward: -11.0 Loss: 0.0010894943261519074
+Did not solve after 0 episodes
+Episode: 416 step: 416 training_step: 383 Reward: -11.0 Loss: 0.0012517800787463784
+Did not solve after 0 episodes
+Episode: 417 step: 417 training_step: 384 Reward: -11.0 Loss: 0.0011483804555609822
+Did not solve after 0 episodes
+Episode: 418 step: 418 training_step: 385 Reward: -11.0 Loss: 0.03000333160161972
+Did not solve after 0 episodes
+Episode: 419 step: 419 training_step: 386 Reward: -11.0 Loss: 0.029840858653187752
+Did not solve after 0 episodes
+Episode: 420 step: 420 training_step: 387 Reward: -11.0 Loss: 0.029644785448908806
+Did not solve after 0 episodes
+Episode: 421 step: 421 training_step: 388 Reward: -11.0 Loss: 0.001202190644107759
+Did not solve after 0 episodes
+Episode: 422 step: 422 training_step: 389 Reward: -11.0 Loss: 0.05803820490837097
+Did not solve after 0 episodes
+Episode: 423 step: 423 training_step: 390 Reward: -11.0 Loss: 0.0011107476893812418
+Did not solve after 0 episodes
+Episode: 424 step: 424 training_step: 391 Reward: -11.0 Loss: 0.029368704184889793
+Did not solve after 0 episodes
+Episode: 425 step: 425 training_step: 392 Reward: -11.0 Loss: 0.0010297700064256787
+Did not solve after 0 episodes
+Episode: 426 step: 426 training_step: 393 Reward: -11.0 Loss: 0.03127181902527809
+Did not solve after 0 episodes
+Episode: 427 step: 427 training_step: 394 Reward: -11.0 Loss: 0.03017549216747284
+Did not solve after 0 episodes
+Episode: 428 step: 428 training_step: 395 Reward: -11.0 Loss: 0.02993886172771454
+Did not solve after 0 episodes
+Episode: 429 step: 429 training_step: 396 Reward: -11.0 Loss: 0.0011104692239314318
+Did not solve after 0 episodes
+Episode: 430 step: 430 training_step: 397 Reward: -11.0 Loss: 0.030002929270267487
+Did not solve after 0 episodes
+Episode: 431 step: 431 training_step: 398 Reward: -11.0 Loss: 0.0011203958420082927
+Did not solve after 0 episodes
+Episode: 432 step: 432 training_step: 399 Reward: -11.0 Loss: 0.029939008876681328
+Did not solve after 0 episodes
+Episode: 433 step: 433 training_step: 400 Reward: -11.0 Loss: 0.06014010310173035
+Did not solve after 0 episodes
+Episode: 434 step: 434 training_step: 401 Reward: -11.0 Loss: 0.031073974445462227
+Did not solve after 0 episodes
+Episode: 435 step: 435 training_step: 402 Reward: -11.0 Loss: 0.059995707124471664
+Did not solve after 0 episodes
+Episode: 436 step: 436 training_step: 403 Reward: -11.0 Loss: 0.06007617712020874
+Did not solve after 0 episodes
+Episode: 437 step: 437 training_step: 404 Reward: -11.0 Loss: 0.08928917348384857
+Did not solve after 0 episodes
+Episode: 438 step: 438 training_step: 405 Reward: -11.0 Loss: 0.03221758455038071
+Did not solve after 0 episodes
+Episode: 439 step: 439 training_step: 406 Reward: -11.0 Loss: 0.02961658127605915
+Did not solve after 0 episodes
+Episode: 440 step: 440 training_step: 407 Reward: -11.0 Loss: 0.029899785295128822
+Did not solve after 0 episodes
+Episode: 441 step: 441 training_step: 408 Reward: -11.0 Loss: 0.06010841578245163
+Did not solve after 0 episodes
+Episode: 442 step: 442 training_step: 409 Reward: -11.0 Loss: 0.030100544914603233
+Did not solve after 0 episodes
+Episode: 443 step: 443 training_step: 410 Reward: -12.0 Loss: 0.029282335191965103
+Did not solve after 0 episodes
+Episode: 444 step: 444 training_step: 411 Reward: -12.0 Loss: 0.03135446831583977
+Did not solve after 0 episodes
+Episode: 445 step: 445 training_step: 412 Reward: -12.0 Loss: 0.029381727799773216
+Did not solve after 0 episodes
+Episode: 446 step: 446 training_step: 413 Reward: -12.0 Loss: 0.001209032372571528
+Did not solve after 0 episodes
+Episode: 447 step: 447 training_step: 414 Reward: -12.0 Loss: 0.001390240853652358
+Did not solve after 0 episodes
+Episode: 448 step: 448 training_step: 415 Reward: -12.0 Loss: 0.08742861449718475
+Did not solve after 0 episodes
+Episode: 449 step: 449 training_step: 416 Reward: -12.0 Loss: 0.05905325710773468
+Did not solve after 0 episodes
+Episode: 450 step: 450 training_step: 417 Reward: -12.0 Loss: 0.03184553608298302
+Did not solve after 0 episodes
+Episode: 451 step: 451 training_step: 418 Reward: -12.0 Loss: 0.0012011360377073288
+Did not solve after 0 episodes
+Episode: 452 step: 452 training_step: 419 Reward: -12.0 Loss: 0.0896357074379921
+Did not solve after 0 episodes
+Episode: 453 step: 453 training_step: 420 Reward: -12.0 Loss: 0.0014870080631226301
+Did not solve after 0 episodes
+Episode: 454 step: 454 training_step: 421 Reward: -12.0 Loss: 0.0011307806707918644
+Did not solve after 0 episodes
+Episode: 455 step: 455 training_step: 422 Reward: -12.0 Loss: 0.060075342655181885
+Did not solve after 0 episodes
+Episode: 456 step: 456 training_step: 423 Reward: -12.0 Loss: 0.030384071171283722
+Did not solve after 0 episodes
+Episode: 457 step: 457 training_step: 424 Reward: -12.0 Loss: 0.0011431872844696045
+Did not solve after 0 episodes
+Episode: 458 step: 458 training_step: 425 Reward: -12.0 Loss: 0.030843256041407585
+Did not solve after 0 episodes
+Episode: 459 step: 459 training_step: 426 Reward: -12.0 Loss: 0.000980643555521965
+Did not solve after 0 episodes
+Episode: 460 step: 460 training_step: 427 Reward: -12.0 Loss: 0.030864333733916283
+Did not solve after 0 episodes
+Episode: 461 step: 461 training_step: 428 Reward: -12.0 Loss: 0.058743659406900406
+Did not solve after 0 episodes
+Episode: 462 step: 462 training_step: 429 Reward: -12.0 Loss: 0.030243445187807083
+Did not solve after 0 episodes
+Episode: 463 step: 463 training_step: 430 Reward: -12.0 Loss: 0.0009951533284038305
+Did not solve after 0 episodes
+Episode: 464 step: 464 training_step: 431 Reward: -12.0 Loss: 0.05854128301143646
+Did not solve after 0 episodes
+Episode: 465 step: 465 training_step: 432 Reward: -12.0 Loss: 0.0009735298808664083
+Did not solve after 0 episodes
+Episode: 466 step: 466 training_step: 433 Reward: -12.0 Loss: 0.05804549902677536
+Did not solve after 0 episodes
+Episode: 467 step: 467 training_step: 434 Reward: -12.0 Loss: 0.0008741514175198972
+Did not solve after 0 episodes
+Episode: 468 step: 468 training_step: 435 Reward: -12.0 Loss: 0.0008762595243752003
+Did not solve after 0 episodes
+Episode: 469 step: 469 training_step: 436 Reward: -12.0 Loss: 0.0009181846398860216
+Did not solve after 0 episodes
+Episode: 470 step: 470 training_step: 437 Reward: -12.0 Loss: 0.029325585812330246
+Did not solve after 0 episodes
+Episode: 471 step: 471 training_step: 438 Reward: -12.0 Loss: 0.030613429844379425
+Did not solve after 0 episodes
+Episode: 472 step: 472 training_step: 439 Reward: -12.0 Loss: 0.030574046075344086
+Did not solve after 0 episodes
+Episode: 473 step: 473 training_step: 440 Reward: -12.0 Loss: 0.031042620539665222
+Did not solve after 0 episodes
+Episode: 474 step: 474 training_step: 441 Reward: -12.0 Loss: 0.03018803894519806
+Did not solve after 0 episodes
+Episode: 475 step: 475 training_step: 442 Reward: -12.0 Loss: 0.0007814780110493302
+Did not solve after 0 episodes
+Episode: 476 step: 476 training_step: 443 Reward: -12.0 Loss: 0.0007458149921149015
+Did not solve after 0 episodes
+Episode: 477 step: 477 training_step: 444 Reward: -12.0 Loss: 0.0008196471026167274
+Did not solve after 0 episodes
+Episode: 478 step: 478 training_step: 445 Reward: -13.0 Loss: 0.059413716197013855
+Did not solve after 0 episodes
+Episode: 479 step: 479 training_step: 446 Reward: -13.0 Loss: 0.0007055011810734868
+Did not solve after 0 episodes
+Episode: 480 step: 480 training_step: 447 Reward: -13.0 Loss: 0.000759501475840807
+Did not solve after 0 episodes
+Episode: 481 step: 481 training_step: 448 Reward: -13.0 Loss: 0.06094477325677872
+Did not solve after 0 episodes
+Episode: 482 step: 482 training_step: 449 Reward: -13.0 Loss: 0.0005049013998359442
+Did not solve after 0 episodes
+Episode: 483 step: 483 training_step: 450 Reward: -13.0 Loss: 0.000614726566709578
+Did not solve after 0 episodes
+Episode: 484 step: 484 training_step: 451 Reward: -13.0 Loss: 0.030643301084637642
+Did not solve after 0 episodes
+Episode: 485 step: 485 training_step: 452 Reward: -13.0 Loss: 0.02967207133769989
+Did not solve after 0 episodes
+Episode: 486 step: 486 training_step: 453 Reward: -13.0 Loss: 0.00043952124542556703
+Did not solve after 0 episodes
+Episode: 487 step: 487 training_step: 454 Reward: -13.0 Loss: 0.0005245006759651005
+Did not solve after 0 episodes
+Episode: 488 step: 488 training_step: 455 Reward: -13.0 Loss: 0.00043245183769613504
+Did not solve after 0 episodes
+Episode: 489 step: 489 training_step: 456 Reward: -13.0 Loss: 0.03059070184826851
+Did not solve after 0 episodes
+Episode: 490 step: 490 training_step: 457 Reward: -13.0 Loss: 0.08997845649719238
+Did not solve after 0 episodes
+Episode: 491 step: 491 training_step: 458 Reward: -13.0 Loss: 0.06002029776573181
+Did not solve after 0 episodes
+Episode: 492 step: 492 training_step: 459 Reward: -13.0 Loss: 0.0005667316727340221
+Did not solve after 0 episodes
+Episode: 493 step: 493 training_step: 460 Reward: -13.0 Loss: 0.0006092622643336654
+Did not solve after 0 episodes
+Episode: 494 step: 494 training_step: 461 Reward: -13.0 Loss: 0.0004959426587447524
+Did not solve after 0 episodes
+Episode: 495 step: 495 training_step: 462 Reward: -13.0 Loss: 0.0005701812915503979
+Did not solve after 0 episodes
+Episode: 496 step: 496 training_step: 463 Reward: -13.0 Loss: 0.029953036457300186
+Did not solve after 0 episodes
+Episode: 497 step: 497 training_step: 464 Reward: -13.0 Loss: 0.031003182753920555
+Did not solve after 0 episodes
+Episode: 498 step: 498 training_step: 465 Reward: -13.0 Loss: 0.029787881299853325
+Did not solve after 0 episodes
+Episode: 499 step: 499 training_step: 466 Reward: -13.0 Loss: 0.0005255889263935387
+Did not solve after 0 episodes
+Episode: 500 step: 500 training_step: 467 Reward: -13.0 Loss: 0.0006856921245343983
+Did not solve after 0 episodes
+Episode: 501 step: 501 training_step: 468 Reward: -13.0 Loss: 0.06041004881262779
+Did not solve after 0 episodes
+Episode: 502 step: 502 training_step: 469 Reward: -13.0 Loss: 0.029984919354319572
+Did not solve after 0 episodes
+Episode: 503 step: 503 training_step: 470 Reward: -13.0 Loss: 0.03172479197382927
+Did not solve after 0 episodes
+Episode: 504 step: 504 training_step: 471 Reward: -13.0 Loss: 0.0006269154837355018
+Did not solve after 0 episodes
+Episode: 505 step: 505 training_step: 472 Reward: -13.0 Loss: 0.03002559207379818
+Did not solve after 0 episodes
+Episode: 506 step: 506 training_step: 473 Reward: -13.0 Loss: 0.0004339182050898671
+Did not solve after 0 episodes
+Episode: 507 step: 507 training_step: 474 Reward: -13.0 Loss: 0.05961427092552185
+Did not solve after 0 episodes
+Episode: 508 step: 508 training_step: 475 Reward: -13.0 Loss: 0.0005655620479956269
+Did not solve after 0 episodes
+Episode: 509 step: 509 training_step: 476 Reward: -13.0 Loss: 0.030253255739808083
+Did not solve after 0 episodes
+Episode: 510 step: 510 training_step: 477 Reward: -13.0 Loss: 0.0006247086566872895
+Did not solve after 0 episodes
+Episode: 511 step: 511 training_step: 478 Reward: -13.0 Loss: 0.0004829559475183487
+Did not solve after 0 episodes
+Episode: 512 step: 512 training_step: 479 Reward: -13.0 Loss: 0.0005041713011451066
+Did not solve after 0 episodes
+Episode: 513 step: 513 training_step: 480 Reward: -14.0 Loss: 0.029820304363965988
+Did not solve after 0 episodes
+Episode: 514 step: 514 training_step: 481 Reward: -14.0 Loss: 0.029843956232070923
+Did not solve after 0 episodes
+Episode: 515 step: 515 training_step: 482 Reward: -14.0 Loss: 0.000451753061497584
+Did not solve after 0 episodes
+Episode: 516 step: 516 training_step: 483 Reward: -14.0 Loss: 0.0005472144111990929
+Did not solve after 0 episodes
+Episode: 517 step: 517 training_step: 484 Reward: -14.0 Loss: 0.029669316485524178
+Did not solve after 0 episodes
+Episode: 518 step: 518 training_step: 485 Reward: -14.0 Loss: 0.06091678887605667
+Did not solve after 0 episodes
+Episode: 519 step: 519 training_step: 486 Reward: -14.0 Loss: 0.029704641550779343
+Did not solve after 0 episodes
+Episode: 520 step: 520 training_step: 487 Reward: -14.0 Loss: 0.06126488000154495
+Did not solve after 0 episodes
+Episode: 521 step: 521 training_step: 488 Reward: -14.0 Loss: 0.02967006526887417
+Did not solve after 0 episodes
+Episode: 522 step: 522 training_step: 489 Reward: -14.0 Loss: 0.0005030838074162602
+Did not solve after 0 episodes
+Episode: 523 step: 523 training_step: 490 Reward: -14.0 Loss: 0.0003948930243495852
+Did not solve after 0 episodes
+Episode: 524 step: 524 training_step: 491 Reward: -14.0 Loss: 0.0006009738426655531
+Did not solve after 0 episodes
+Episode: 525 step: 525 training_step: 492 Reward: -14.0 Loss: 0.029708538204431534
+Did not solve after 0 episodes
+Episode: 526 step: 526 training_step: 493 Reward: -14.0 Loss: 0.060411907732486725
+Did not solve after 0 episodes
+Episode: 527 step: 527 training_step: 494 Reward: -14.0 Loss: 0.03125669062137604
+Did not solve after 0 episodes
+Episode: 528 step: 528 training_step: 495 Reward: -14.0 Loss: 0.060959577560424805
+Did not solve after 0 episodes
+Episode: 529 step: 529 training_step: 496 Reward: -14.0 Loss: 0.0312479417771101
+Did not solve after 0 episodes
+Episode: 530 step: 530 training_step: 497 Reward: -14.0 Loss: 0.0899137333035469
+Did not solve after 0 episodes
+Episode: 531 step: 531 training_step: 498 Reward: -14.0 Loss: 0.0006063394248485565
+Did not solve after 0 episodes
+Episode: 532 step: 532 training_step: 499 Reward: -14.0 Loss: 0.0601130872964859
+Did not solve after 0 episodes
+Episode: 533 step: 533 training_step: 500 Reward: -14.0 Loss: 0.08771631121635437
+Did not solve after 0 episodes
+Episode: 534 step: 534 training_step: 501 Reward: -14.0 Loss: 0.0009022778831422329
+Did not solve after 0 episodes
+Episode: 535 step: 535 training_step: 502 Reward: -14.0 Loss: 0.0010795618873089552
+Did not solve after 0 episodes
+Episode: 536 step: 536 training_step: 503 Reward: -14.0 Loss: 0.0011390032013878226
+Did not solve after 0 episodes
+Episode: 537 step: 537 training_step: 504 Reward: -14.0 Loss: 0.029573552310466766
+Did not solve after 0 episodes
+Episode: 538 step: 538 training_step: 505 Reward: -14.0 Loss: 0.0009849824709817767
+Did not solve after 0 episodes
+Episode: 539 step: 539 training_step: 506 Reward: -14.0 Loss: 0.08863270282745361
+Did not solve after 0 episodes
+Episode: 540 step: 540 training_step: 507 Reward: -14.0 Loss: 0.058745935559272766
+Did not solve after 0 episodes
+Episode: 541 step: 541 training_step: 508 Reward: -14.0 Loss: 0.0010468440596014261
+Did not solve after 0 episodes
+Episode: 542 step: 542 training_step: 509 Reward: -14.0 Loss: 0.03002423606812954
+Did not solve after 0 episodes
+Episode: 543 step: 543 training_step: 510 Reward: -14.0 Loss: 0.0015316284261643887
+Did not solve after 0 episodes
+Episode: 544 step: 544 training_step: 511 Reward: -14.0 Loss: 0.0011255366262048483
+Did not solve after 0 episodes
+Episode: 545 step: 545 training_step: 512 Reward: -14.0 Loss: 0.001435399055480957
+Did not solve after 0 episodes
+Episode: 546 step: 546 training_step: 513 Reward: -14.0 Loss: 0.0015466707991436124
+Did not solve after 0 episodes
+Episode: 547 step: 547 training_step: 514 Reward: -14.0 Loss: 0.05798416584730148
+Did not solve after 0 episodes
+Episode: 548 step: 548 training_step: 515 Reward: -15.0 Loss: 0.05832478776574135
+Did not solve after 0 episodes
+Episode: 549 step: 549 training_step: 516 Reward: -15.0 Loss: 0.029139751568436623
+Did not solve after 0 episodes
+Episode: 550 step: 550 training_step: 517 Reward: -15.0 Loss: 0.0013781229499727488
+Did not solve after 0 episodes
+Episode: 551 step: 551 training_step: 518 Reward: -15.0 Loss: 0.08599835634231567
+Did not solve after 0 episodes
+Episode: 552 step: 552 training_step: 519 Reward: -15.0 Loss: 0.029995126649737358
+Did not solve after 0 episodes
+Episode: 553 step: 553 training_step: 520 Reward: -15.0 Loss: 0.001570767373777926
+Did not solve after 0 episodes
+Episode: 554 step: 554 training_step: 521 Reward: -15.0 Loss: 0.05736078321933746
+Did not solve after 0 episodes
+Episode: 555 step: 555 training_step: 522 Reward: -15.0 Loss: 0.0016974529717117548
+Did not solve after 0 episodes
+Episode: 556 step: 556 training_step: 523 Reward: -15.0 Loss: 0.0016914914594963193
+Did not solve after 0 episodes
+Episode: 557 step: 557 training_step: 524 Reward: -15.0 Loss: 0.0015530480304732919
+Did not solve after 0 episodes
+Episode: 558 step: 558 training_step: 525 Reward: -15.0 Loss: 0.030490823090076447
+Did not solve after 0 episodes
+Episode: 559 step: 559 training_step: 526 Reward: -15.0 Loss: 0.0316440723836422
+Did not solve after 0 episodes
+Episode: 560 step: 560 training_step: 527 Reward: -15.0 Loss: 0.00125126785133034
+Did not solve after 0 episodes
+Episode: 561 step: 561 training_step: 528 Reward: -15.0 Loss: 0.029254166409373283
+Did not solve after 0 episodes
+Episode: 562 step: 562 training_step: 529 Reward: -15.0 Loss: 0.030431941151618958
+Did not solve after 0 episodes
+Episode: 563 step: 563 training_step: 530 Reward: -15.0 Loss: 0.028929200023412704
+Did not solve after 0 episodes
+Episode: 564 step: 564 training_step: 531 Reward: -15.0 Loss: 0.031041551381349564
+Did not solve after 0 episodes
+Episode: 565 step: 565 training_step: 532 Reward: -15.0 Loss: 0.030680065974593163
+Did not solve after 0 episodes
+Episode: 566 step: 566 training_step: 533 Reward: -15.0 Loss: 0.0010762852616608143
+Did not solve after 0 episodes
+Episode: 567 step: 567 training_step: 534 Reward: -15.0 Loss: 0.05998588353395462
+Did not solve after 0 episodes
+Episode: 568 step: 568 training_step: 535 Reward: -15.0 Loss: 0.030358174815773964
+Did not solve after 0 episodes
+Episode: 569 step: 569 training_step: 536 Reward: -15.0 Loss: 0.02918005734682083
+Did not solve after 0 episodes
+Episode: 570 step: 570 training_step: 537 Reward: -15.0 Loss: 0.030057284981012344
+Did not solve after 0 episodes
+Episode: 571 step: 571 training_step: 538 Reward: -15.0 Loss: 0.030595330521464348
+Did not solve after 0 episodes
+Episode: 572 step: 572 training_step: 539 Reward: -15.0 Loss: 0.03042859584093094
+Did not solve after 0 episodes
+Episode: 573 step: 573 training_step: 540 Reward: -15.0 Loss: 0.030720479786396027
+Did not solve after 0 episodes
+Episode: 574 step: 574 training_step: 541 Reward: -15.0 Loss: 0.0006719811935909092
+Did not solve after 0 episodes
+Episode: 575 step: 575 training_step: 542 Reward: -15.0 Loss: 0.029625697061419487
+Did not solve after 0 episodes
+Episode: 576 step: 576 training_step: 543 Reward: -15.0 Loss: 0.05987176299095154
+Did not solve after 0 episodes
+Episode: 577 step: 577 training_step: 544 Reward: -15.0 Loss: 0.0005704856012016535
+Did not solve after 0 episodes
+Episode: 578 step: 578 training_step: 545 Reward: -15.0 Loss: 0.000588423921726644
+Did not solve after 0 episodes
+Episode: 579 step: 579 training_step: 546 Reward: -15.0 Loss: 0.0005299312761053443
+Did not solve after 0 episodes
+Episode: 580 step: 580 training_step: 547 Reward: -15.0 Loss: 0.0006130931433290243
+Did not solve after 0 episodes
+Episode: 581 step: 581 training_step: 548 Reward: -15.0 Loss: 0.0005037611699663103
+Did not solve after 0 episodes
+Episode: 582 step: 582 training_step: 549 Reward: -15.0 Loss: 0.05999317765235901
+Did not solve after 0 episodes
+Episode: 583 step: 583 training_step: 550 Reward: -16.0 Loss: 0.0005400833324529231
+Did not solve after 0 episodes
+Episode: 584 step: 584 training_step: 551 Reward: -16.0 Loss: 0.000586878159083426
+Did not solve after 0 episodes
+Episode: 585 step: 585 training_step: 552 Reward: -16.0 Loss: 0.03097744844853878
+Did not solve after 0 episodes
+Episode: 586 step: 586 training_step: 553 Reward: -16.0 Loss: 0.05935673415660858
+Did not solve after 0 episodes
+Episode: 587 step: 587 training_step: 554 Reward: -16.0 Loss: 0.0006085681961849332
+Did not solve after 0 episodes
+Episode: 588 step: 588 training_step: 555 Reward: -16.0 Loss: 0.030861007049679756
+Did not solve after 0 episodes
+Episode: 589 step: 589 training_step: 556 Reward: -16.0 Loss: 0.030317438766360283
+Did not solve after 0 episodes
+Episode: 590 step: 590 training_step: 557 Reward: -16.0 Loss: 0.059485647827386856
+Did not solve after 0 episodes
+Episode: 591 step: 591 training_step: 558 Reward: -16.0 Loss: 0.0005229692906141281
+Did not solve after 0 episodes
+Episode: 592 step: 592 training_step: 559 Reward: -16.0 Loss: 0.029710663482546806
+Did not solve after 0 episodes
+Episode: 593 step: 593 training_step: 560 Reward: -16.0 Loss: 0.0008885113638825715
+Did not solve after 0 episodes
+Episode: 594 step: 594 training_step: 561 Reward: -16.0 Loss: 0.0006320835091173649
+Did not solve after 0 episodes
+Episode: 595 step: 595 training_step: 562 Reward: -16.0 Loss: 0.0006906673079356551
+Did not solve after 0 episodes
+Episode: 596 step: 596 training_step: 563 Reward: -16.0 Loss: 0.0006493681576102972
+Did not solve after 0 episodes
+Episode: 597 step: 597 training_step: 564 Reward: -16.0 Loss: 0.0006195130990818143
+Did not solve after 0 episodes
+Episode: 598 step: 598 training_step: 565 Reward: -16.0 Loss: 0.0007087564445100725
+Did not solve after 0 episodes
+Episode: 599 step: 599 training_step: 566 Reward: -16.0 Loss: 0.02975853905081749
+Did not solve after 0 episodes
+Episode: 600 step: 600 training_step: 567 Reward: -16.0 Loss: 0.030260685831308365
+Did not solve after 0 episodes
+Episode: 601 step: 601 training_step: 568 Reward: -16.0 Loss: 0.0005909971077926457
+Did not solve after 0 episodes
+Episode: 602 step: 602 training_step: 569 Reward: -16.0 Loss: 0.02967277355492115
+Did not solve after 0 episodes
+Episode: 603 step: 603 training_step: 570 Reward: -16.0 Loss: 0.0004707248299382627
+Did not solve after 0 episodes
+Episode: 604 step: 604 training_step: 571 Reward: -16.0 Loss: 0.00044057483319193125
+Did not solve after 0 episodes
+Episode: 605 step: 605 training_step: 572 Reward: -16.0 Loss: 0.05929118022322655
+Did not solve after 0 episodes
+Episode: 606 step: 606 training_step: 573 Reward: -16.0 Loss: 0.00042143790051341057
+Did not solve after 0 episodes
+Episode: 607 step: 607 training_step: 574 Reward: -16.0 Loss: 0.06044556573033333
+Did not solve after 0 episodes
+Episode: 608 step: 608 training_step: 575 Reward: -16.0 Loss: 0.0004287630436010659
+Did not solve after 0 episodes
+Episode: 609 step: 609 training_step: 576 Reward: -16.0 Loss: 0.0004011076525785029
+Did not solve after 0 episodes
+Episode: 610 step: 610 training_step: 577 Reward: -16.0 Loss: 0.0005548777990043163
+Did not solve after 0 episodes
+Episode: 611 step: 611 training_step: 578 Reward: -16.0 Loss: 0.03088524378836155
+Did not solve after 0 episodes
+Episode: 612 step: 612 training_step: 579 Reward: -16.0 Loss: 0.00017496618966106325
+Did not solve after 0 episodes
+Episode: 613 step: 613 training_step: 580 Reward: -16.0 Loss: 0.00027994782431051135
+Did not solve after 0 episodes
+Episode: 614 step: 614 training_step: 581 Reward: -16.0 Loss: 0.00036877006641589105
+Did not solve after 0 episodes
+Episode: 615 step: 615 training_step: 582 Reward: -16.0 Loss: 0.03088601678609848
+Did not solve after 0 episodes
+Episode: 616 step: 616 training_step: 583 Reward: -16.0 Loss: 0.00023671064991503954
+Did not solve after 0 episodes
+Episode: 617 step: 617 training_step: 584 Reward: -16.0 Loss: 0.031213629990816116
+Did not solve after 0 episodes
+Episode: 618 step: 618 training_step: 585 Reward: -16.0 Loss: 0.12166593968868256
+Did not solve after 0 episodes
+Episode: 619 step: 619 training_step: 586 Reward: -16.0 Loss: 0.0004013433353975415
+Did not solve after 0 episodes
+Episode: 620 step: 620 training_step: 587 Reward: -16.0 Loss: 0.06108037382364273
+Did not solve after 0 episodes
+Episode: 621 step: 621 training_step: 588 Reward: -16.0 Loss: 0.03132747486233711
+Did not solve after 0 episodes
+Episode: 622 step: 622 training_step: 589 Reward: -16.0 Loss: 0.03075115755200386
+Did not solve after 0 episodes
+Episode: 623 step: 623 training_step: 590 Reward: -16.0 Loss: 0.0004959518555551767
+Did not solve after 0 episodes
+Episode: 624 step: 624 training_step: 591 Reward: -16.0 Loss: 0.00048609901568852365
+Did not solve after 0 episodes
+Episode: 625 step: 625 training_step: 592 Reward: -16.0 Loss: 0.03126448020339012
+Did not solve after 0 episodes
+Episode: 626 step: 626 training_step: 593 Reward: -16.0 Loss: 0.0004936199402436614
+Did not solve after 0 episodes
+Episode: 627 step: 627 training_step: 594 Reward: -16.0 Loss: 0.059588734060525894
+Did not solve after 0 episodes
+Episode: 628 step: 628 training_step: 595 Reward: -16.0 Loss: 0.00048268440878018737
+Did not solve after 0 episodes
+Episode: 629 step: 629 training_step: 596 Reward: -16.0 Loss: 0.05957569554448128
+Did not solve after 0 episodes
+Episode: 630 step: 630 training_step: 597 Reward: -16.0 Loss: 0.03125305101275444
+Did not solve after 0 episodes
+Episode: 631 step: 631 training_step: 598 Reward: -16.0 Loss: 0.09001164138317108
+Did not solve after 0 episodes
+Episode: 632 step: 632 training_step: 599 Reward: -16.0 Loss: 0.0006216867477633059
+Did not solve after 0 episodes
+Episode: 633 step: 633 training_step: 600 Reward: -16.0 Loss: 0.0006017325213178992
+Did not solve after 0 episodes
+Episode: 634 step: 634 training_step: 601 Reward: -16.0 Loss: 0.061232950538396835
+Did not solve after 0 episodes
+Episode: 635 step: 635 training_step: 602 Reward: -16.0 Loss: 0.02978907711803913
+Did not solve after 0 episodes
+Episode: 636 step: 636 training_step: 603 Reward: -16.0 Loss: 0.03040734864771366
+Did not solve after 0 episodes
+Episode: 637 step: 637 training_step: 604 Reward: -16.0 Loss: 0.0006249650614336133
+Did not solve after 0 episodes
+Episode: 638 step: 638 training_step: 605 Reward: -16.0 Loss: 0.06125763803720474
+Did not solve after 0 episodes
+Episode: 639 step: 639 training_step: 606 Reward: -16.0 Loss: 0.0007687396137043834
+Did not solve after 0 episodes
+Episode: 640 step: 640 training_step: 607 Reward: -16.0 Loss: 0.0600150004029274
+Did not solve after 0 episodes
+Episode: 641 step: 641 training_step: 608 Reward: -16.0 Loss: 0.0298847034573555
+Did not solve after 0 episodes
+Episode: 642 step: 642 training_step: 609 Reward: -16.0 Loss: 0.02986372634768486
+Did not solve after 0 episodes
+Episode: 643 step: 643 training_step: 610 Reward: -16.0 Loss: 0.03142964839935303
+Did not solve after 0 episodes
+Episode: 644 step: 644 training_step: 611 Reward: -16.0 Loss: 0.05901336297392845
+Did not solve after 0 episodes
+Episode: 645 step: 645 training_step: 612 Reward: -16.0 Loss: 0.0009122042683884501
+Did not solve after 0 episodes
+Episode: 646 step: 646 training_step: 613 Reward: -16.0 Loss: 0.0008146318723447621
+Did not solve after 0 episodes
+Episode: 647 step: 647 training_step: 614 Reward: -16.0 Loss: 0.030369935557246208
+Did not solve after 0 episodes
+Episode: 648 step: 648 training_step: 615 Reward: -16.0 Loss: 0.0007860145997256041
+Did not solve after 0 episodes
+Episode: 649 step: 649 training_step: 616 Reward: -16.0 Loss: 0.08890518546104431
+Did not solve after 0 episodes
+Episode: 650 step: 650 training_step: 617 Reward: -16.0 Loss: 0.0007316634873859584
+Did not solve after 0 episodes
+Episode: 651 step: 651 training_step: 618 Reward: -16.0 Loss: 0.02993709035217762
+Did not solve after 0 episodes
+Episode: 652 step: 652 training_step: 619 Reward: -16.0 Loss: 0.0007856095908209682
+Did not solve after 0 episodes
+Episode: 653 step: 653 training_step: 620 Reward: -16.0 Loss: 0.0007802770123817027
+Did not solve after 0 episodes
+Episode: 654 step: 654 training_step: 621 Reward: -16.0 Loss: 0.06008855625987053
+Did not solve after 0 episodes
+Episode: 655 step: 655 training_step: 622 Reward: -16.0 Loss: 0.029911687597632408
+Did not solve after 0 episodes
+Episode: 656 step: 656 training_step: 623 Reward: -16.0 Loss: 0.030392589047551155
+Did not solve after 0 episodes
+Episode: 657 step: 657 training_step: 624 Reward: -16.0 Loss: 0.00057371542789042
+Did not solve after 0 episodes
+Episode: 658 step: 658 training_step: 625 Reward: -16.0 Loss: 0.02984006516635418
+Did not solve after 0 episodes
+Episode: 659 step: 659 training_step: 626 Reward: -16.0 Loss: 0.030647901818156242
+Did not solve after 0 episodes
+Episode: 660 step: 660 training_step: 627 Reward: -16.0 Loss: 0.0007970985025167465
+Did not solve after 0 episodes
+Episode: 661 step: 661 training_step: 628 Reward: -16.0 Loss: 0.08821678161621094
+Did not solve after 0 episodes
+Episode: 662 step: 662 training_step: 629 Reward: -16.0 Loss: 0.03026621975004673
+Did not solve after 0 episodes
+Episode: 663 step: 663 training_step: 630 Reward: -16.0 Loss: 0.03012806363403797
+Did not solve after 0 episodes
+Episode: 664 step: 664 training_step: 631 Reward: -16.0 Loss: 0.031155580654740334
+Did not solve after 0 episodes
+Episode: 665 step: 665 training_step: 632 Reward: -16.0 Loss: 0.02993990294635296
+Did not solve after 0 episodes
+Episode: 666 step: 666 training_step: 633 Reward: -16.0 Loss: 0.030848845839500427
+Did not solve after 0 episodes
+Episode: 667 step: 667 training_step: 634 Reward: -16.0 Loss: 0.029556110501289368
+Did not solve after 0 episodes
+Episode: 668 step: 668 training_step: 635 Reward: -16.0 Loss: 0.029674340039491653
+Did not solve after 0 episodes
+Episode: 669 step: 669 training_step: 636 Reward: -16.0 Loss: 0.03064216487109661
+Did not solve after 0 episodes
+Episode: 670 step: 670 training_step: 637 Reward: -16.0 Loss: 0.0009919507429003716
+Did not solve after 0 episodes
+Episode: 671 step: 671 training_step: 638 Reward: -16.0 Loss: 0.001069893129169941
+Did not solve after 0 episodes
+Episode: 672 step: 672 training_step: 639 Reward: -16.0 Loss: 0.0011196557898074389
+Did not solve after 0 episodes
+Episode: 673 step: 673 training_step: 640 Reward: -16.0 Loss: 0.05820489674806595
+Did not solve after 0 episodes
+Episode: 674 step: 674 training_step: 641 Reward: -16.0 Loss: 0.0010747839696705341
+Did not solve after 0 episodes
+Episode: 675 step: 675 training_step: 642 Reward: -16.0 Loss: 0.0011230752570554614
+Did not solve after 0 episodes
+Episode: 676 step: 676 training_step: 643 Reward: -16.0 Loss: 0.02976800873875618
+Did not solve after 0 episodes
+Episode: 677 step: 677 training_step: 644 Reward: -16.0 Loss: 0.0009627564577385783
+Did not solve after 0 episodes
+Episode: 678 step: 678 training_step: 645 Reward: -17.0 Loss: 0.0009726884309202433
+Did not solve after 0 episodes
+Episode: 679 step: 679 training_step: 646 Reward: -17.0 Loss: 0.001147222239524126
+Did not solve after 0 episodes
+Episode: 680 step: 680 training_step: 647 Reward: -17.0 Loss: 0.029429927468299866
+Did not solve after 0 episodes
+Episode: 681 step: 681 training_step: 648 Reward: -17.0 Loss: 0.09160882234573364
+Did not solve after 0 episodes
+Episode: 682 step: 682 training_step: 649 Reward: -17.0 Loss: 0.000712973705958575
+Did not solve after 0 episodes
+Episode: 683 step: 683 training_step: 650 Reward: -17.0 Loss: 0.03132583200931549
+Did not solve after 0 episodes
+Episode: 684 step: 684 training_step: 651 Reward: -17.0 Loss: 0.059231098741292953
+Did not solve after 0 episodes
+Episode: 685 step: 685 training_step: 652 Reward: -17.0 Loss: 0.08954568207263947
+Did not solve after 0 episodes
+Episode: 686 step: 686 training_step: 653 Reward: -17.0 Loss: 0.0007160482928156853
+Did not solve after 0 episodes
+Episode: 687 step: 687 training_step: 654 Reward: -17.0 Loss: 0.0007220200495794415
+Did not solve after 0 episodes
+Episode: 688 step: 688 training_step: 655 Reward: -17.0 Loss: 0.0007642643176950514
+Did not solve after 0 episodes
+Episode: 689 step: 689 training_step: 656 Reward: -17.0 Loss: 0.0006584117654711008
+Did not solve after 0 episodes
+Episode: 690 step: 690 training_step: 657 Reward: -17.0 Loss: 0.0006065540947020054
+Did not solve after 0 episodes
+Episode: 691 step: 691 training_step: 658 Reward: -17.0 Loss: 0.06025495007634163
+Did not solve after 0 episodes
+Episode: 692 step: 692 training_step: 659 Reward: -17.0 Loss: 0.059426791965961456
+Did not solve after 0 episodes
+Episode: 693 step: 693 training_step: 660 Reward: -17.0 Loss: 0.029915599152445793
+Did not solve after 0 episodes
+Episode: 694 step: 694 training_step: 661 Reward: -17.0 Loss: 0.08886098861694336
+Did not solve after 0 episodes
+Episode: 695 step: 695 training_step: 662 Reward: -17.0 Loss: 0.0005793989985249937
+Did not solve after 0 episodes
+Episode: 696 step: 696 training_step: 663 Reward: -17.0 Loss: 0.0007143652765080333
+Did not solve after 0 episodes
+Episode: 697 step: 697 training_step: 664 Reward: -17.0 Loss: 0.059030681848526
+Did not solve after 0 episodes
+Episode: 698 step: 698 training_step: 665 Reward: -17.0 Loss: 0.0007730071665719151
+Did not solve after 0 episodes
+Episode: 699 step: 699 training_step: 666 Reward: -17.0 Loss: 0.031133456155657768
+Did not solve after 0 episodes
+Episode: 700 step: 700 training_step: 667 Reward: -17.0 Loss: 0.03125773370265961
+Did not solve after 0 episodes
+Episode: 701 step: 701 training_step: 668 Reward: -17.0 Loss: 0.02962818555533886
+Did not solve after 0 episodes
+Episode: 702 step: 702 training_step: 669 Reward: -17.0 Loss: 0.058604128658771515
+Did not solve after 0 episodes
+Episode: 703 step: 703 training_step: 670 Reward: -17.0 Loss: 0.0005363440723158419
+Did not solve after 0 episodes
+Episode: 704 step: 704 training_step: 671 Reward: -17.0 Loss: 0.0007473423611372709
+Did not solve after 0 episodes
+Episode: 705 step: 705 training_step: 672 Reward: -17.0 Loss: 0.1183776706457138
+Did not solve after 0 episodes
+Episode: 706 step: 706 training_step: 673 Reward: -17.0 Loss: 0.0008489189785905182
+Did not solve after 0 episodes
+Episode: 707 step: 707 training_step: 674 Reward: -17.0 Loss: 0.059006039053201675
+Did not solve after 0 episodes
+Episode: 708 step: 708 training_step: 675 Reward: -17.0 Loss: 0.031054120510816574
+Did not solve after 0 episodes
+Episode: 709 step: 709 training_step: 676 Reward: -17.0 Loss: 0.0007244095904752612
+Did not solve after 0 episodes
+Episode: 710 step: 710 training_step: 677 Reward: -17.0 Loss: 0.02914634719491005
+Did not solve after 0 episodes
+Episode: 711 step: 711 training_step: 678 Reward: -17.0 Loss: 0.030803611502051353
+Did not solve after 0 episodes
+Episode: 712 step: 712 training_step: 679 Reward: -17.0 Loss: 0.0010434500873088837
+Did not solve after 0 episodes
+Episode: 713 step: 713 training_step: 680 Reward: -18.0 Loss: 0.031224412843585014
+Did not solve after 0 episodes
+Episode: 714 step: 714 training_step: 681 Reward: -18.0 Loss: 0.0008988111512735486
+Did not solve after 0 episodes
+Episode: 715 step: 715 training_step: 682 Reward: -18.0 Loss: 0.028957292437553406
+Did not solve after 0 episodes
+Episode: 716 step: 716 training_step: 683 Reward: -18.0 Loss: 0.0007497218903154135
+Did not solve after 0 episodes
+Episode: 717 step: 717 training_step: 684 Reward: -18.0 Loss: 0.0010240008123219013
+Did not solve after 0 episodes
+Episode: 718 step: 718 training_step: 685 Reward: -18.0 Loss: 0.0009621064527891576
+Did not solve after 0 episodes
+Episode: 719 step: 719 training_step: 686 Reward: -18.0 Loss: 0.0863514319062233
+Did not solve after 0 episodes
+Episode: 720 step: 720 training_step: 687 Reward: -18.0 Loss: 0.05925776809453964
+Did not solve after 0 episodes
+Episode: 721 step: 721 training_step: 688 Reward: -18.0 Loss: 0.031391583383083344
+Did not solve after 0 episodes
+Episode: 722 step: 722 training_step: 689 Reward: -18.0 Loss: 0.0013205467257648706
+Did not solve after 0 episodes
+Episode: 723 step: 723 training_step: 690 Reward: -18.0 Loss: 0.03073948249220848
+Did not solve after 0 episodes
+Episode: 724 step: 724 training_step: 691 Reward: -18.0 Loss: 0.0011194790713489056
+Did not solve after 0 episodes
+Episode: 725 step: 725 training_step: 692 Reward: -18.0 Loss: 0.0012915953993797302
+Did not solve after 0 episodes
+Episode: 726 step: 726 training_step: 693 Reward: -18.0 Loss: 0.0009125086944550276
+Did not solve after 0 episodes
+Episode: 727 step: 727 training_step: 694 Reward: -18.0 Loss: 0.05625307932496071
+Did not solve after 0 episodes
+Episode: 728 step: 728 training_step: 695 Reward: -18.0 Loss: 0.03163539618253708
+Did not solve after 0 episodes
+Episode: 729 step: 729 training_step: 696 Reward: -18.0 Loss: 0.028270473703742027
+Did not solve after 0 episodes
+Episode: 730 step: 730 training_step: 697 Reward: -18.0 Loss: 0.02867375873029232
+Did not solve after 0 episodes
+Episode: 731 step: 731 training_step: 698 Reward: -18.0 Loss: 0.03112746775150299
+Did not solve after 0 episodes
+Episode: 732 step: 732 training_step: 699 Reward: -18.0 Loss: 0.0012383682187646627
+Did not solve after 0 episodes
+Episode: 733 step: 733 training_step: 700 Reward: -18.0 Loss: 0.0006557750748470426
+Did not solve after 0 episodes
+Episode: 734 step: 734 training_step: 701 Reward: -18.0 Loss: 0.0010372851975262165
+Did not solve after 0 episodes
+Episode: 735 step: 735 training_step: 702 Reward: -18.0 Loss: 0.030416904017329216
+Did not solve after 0 episodes
+Episode: 736 step: 736 training_step: 703 Reward: -18.0 Loss: 0.028014814481139183
+Did not solve after 0 episodes
+Episode: 737 step: 737 training_step: 704 Reward: -18.0 Loss: 0.000843144254758954
+Did not solve after 0 episodes
+Episode: 738 step: 738 training_step: 705 Reward: -18.0 Loss: 0.06156637519598007
+Did not solve after 0 episodes
+Episode: 739 step: 739 training_step: 706 Reward: -18.0 Loss: 0.028226124122738838
+Did not solve after 0 episodes
+Episode: 740 step: 740 training_step: 707 Reward: -18.0 Loss: 0.0008862212998792529
+Did not solve after 0 episodes
+Episode: 741 step: 741 training_step: 708 Reward: -18.0 Loss: 0.05869467929005623
+Did not solve after 0 episodes
+Episode: 742 step: 742 training_step: 709 Reward: -18.0 Loss: 0.06165441870689392
+Did not solve after 0 episodes
+Episode: 743 step: 743 training_step: 710 Reward: -18.0 Loss: 0.0012836328241974115
+Did not solve after 0 episodes
+Episode: 744 step: 744 training_step: 711 Reward: -18.0 Loss: 0.05864502489566803
+Did not solve after 0 episodes
+Episode: 745 step: 745 training_step: 712 Reward: -18.0 Loss: 0.030961180105805397
+Did not solve after 0 episodes
+Episode: 746 step: 746 training_step: 713 Reward: -18.0 Loss: 0.0009569420944899321
+Did not solve after 0 episodes
+Episode: 747 step: 747 training_step: 714 Reward: -18.0 Loss: 0.0560036338865757
+Did not solve after 0 episodes
+Episode: 748 step: 748 training_step: 715 Reward: -19.0 Loss: 0.0007880919147282839
+Did not solve after 0 episodes
+Episode: 749 step: 749 training_step: 716 Reward: -19.0 Loss: 0.05806643143296242
+Did not solve after 0 episodes
+Episode: 750 step: 750 training_step: 717 Reward: -19.0 Loss: 0.03062555193901062
+Did not solve after 0 episodes
+Episode: 751 step: 751 training_step: 718 Reward: -19.0 Loss: 0.03046382963657379
+Did not solve after 0 episodes
+Episode: 752 step: 752 training_step: 719 Reward: -19.0 Loss: 0.000841101398691535
+Did not solve after 0 episodes
+Episode: 753 step: 753 training_step: 720 Reward: -19.0 Loss: 0.0010471385903656483
+Did not solve after 0 episodes
+Episode: 754 step: 754 training_step: 721 Reward: -19.0 Loss: 0.030770866200327873
+Did not solve after 0 episodes
+Episode: 755 step: 755 training_step: 722 Reward: -19.0 Loss: 0.0013272013748064637
+Did not solve after 0 episodes
+Episode: 756 step: 756 training_step: 723 Reward: -19.0 Loss: 0.031061328947544098
+Did not solve after 0 episodes
+Episode: 757 step: 757 training_step: 724 Reward: -19.0 Loss: 0.030942264944314957
+Did not solve after 0 episodes
+Episode: 758 step: 758 training_step: 725 Reward: -19.0 Loss: 0.0011231518583372235
+Did not solve after 0 episodes
+Episode: 759 step: 759 training_step: 726 Reward: -19.0 Loss: 0.0009667850681580603
+Did not solve after 0 episodes
+Episode: 760 step: 760 training_step: 727 Reward: -19.0 Loss: 0.0009865437168627977
+Did not solve after 0 episodes
+Episode: 761 step: 761 training_step: 728 Reward: -19.0 Loss: 0.057770825922489166
+Did not solve after 0 episodes
+Episode: 762 step: 762 training_step: 729 Reward: -19.0 Loss: 0.031076883897185326
+Did not solve after 0 episodes
+Episode: 763 step: 763 training_step: 730 Reward: -19.0 Loss: 0.02870575711131096
+Did not solve after 0 episodes
+Episode: 764 step: 764 training_step: 731 Reward: -19.0 Loss: 0.0007064662640914321
+Did not solve after 0 episodes
+Episode: 765 step: 765 training_step: 732 Reward: -19.0 Loss: 0.0584382526576519
+Did not solve after 0 episodes
+Episode: 766 step: 766 training_step: 733 Reward: -19.0 Loss: 0.030712373554706573
+Did not solve after 0 episodes
+Episode: 767 step: 767 training_step: 734 Reward: -19.0 Loss: 0.0008688118541613221
+Did not solve after 0 episodes
+Episode: 768 step: 768 training_step: 735 Reward: -19.0 Loss: 0.030592944473028183
+Did not solve after 0 episodes
+Episode: 769 step: 769 training_step: 736 Reward: -19.0 Loss: 0.060815539211034775
+Did not solve after 0 episodes
+Episode: 770 step: 770 training_step: 737 Reward: -19.0 Loss: 0.030656322836875916
+Did not solve after 0 episodes
+Episode: 771 step: 771 training_step: 738 Reward: -19.0 Loss: 0.06073177233338356
+Did not solve after 0 episodes
+Episode: 772 step: 772 training_step: 739 Reward: -19.0 Loss: 0.028450921177864075
+Did not solve after 0 episodes
+Episode: 773 step: 773 training_step: 740 Reward: -19.0 Loss: 0.0009024806786328554
+Did not solve after 0 episodes
+Episode: 774 step: 774 training_step: 741 Reward: -19.0 Loss: 0.02871391363441944
+Did not solve after 0 episodes
+Episode: 775 step: 775 training_step: 742 Reward: -19.0 Loss: 0.0010161048267036676
+Did not solve after 0 episodes
+Episode: 776 step: 776 training_step: 743 Reward: -19.0 Loss: 0.028856804594397545
+Did not solve after 0 episodes
+Episode: 777 step: 777 training_step: 744 Reward: -19.0 Loss: 0.05848182737827301
+Did not solve after 0 episodes
+Episode: 778 step: 778 training_step: 745 Reward: -19.0 Loss: 0.030562464147806168
+Did not solve after 0 episodes
+Episode: 779 step: 779 training_step: 746 Reward: -19.0 Loss: 0.030177349224686623
+Did not solve after 0 episodes
+Episode: 780 step: 780 training_step: 747 Reward: -19.0 Loss: 0.028484778478741646
+Did not solve after 0 episodes
+Episode: 781 step: 781 training_step: 748 Reward: -19.0 Loss: 0.030971113592386246
+Did not solve after 0 episodes
+Episode: 782 step: 782 training_step: 749 Reward: -19.0 Loss: 0.028617775067687035
+Did not solve after 0 episodes
+Episode: 783 step: 783 training_step: 750 Reward: -20.0 Loss: 0.0006806926103308797
+Did not solve after 0 episodes
+Episode: 784 step: 784 training_step: 751 Reward: -20.0 Loss: 0.057879455387592316
+Did not solve after 0 episodes
+Episode: 785 step: 785 training_step: 752 Reward: -20.0 Loss: 0.057890214025974274
+Did not solve after 0 episodes
+Episode: 786 step: 786 training_step: 753 Reward: -20.0 Loss: 0.03034791350364685
+Did not solve after 0 episodes
+Episode: 787 step: 787 training_step: 754 Reward: -20.0 Loss: 0.028708435595035553
+Did not solve after 0 episodes
+Episode: 788 step: 788 training_step: 755 Reward: -20.0 Loss: 0.0011821273947134614
+Did not solve after 0 episodes
+Episode: 789 step: 789 training_step: 756 Reward: -20.0 Loss: 0.027760928496718407
+Did not solve after 0 episodes
+Episode: 790 step: 790 training_step: 757 Reward: -20.0 Loss: 0.0012288731522858143
+Did not solve after 0 episodes
+Episode: 791 step: 791 training_step: 758 Reward: -20.0 Loss: 0.0011442664545029402
+Did not solve after 0 episodes
+Episode: 792 step: 792 training_step: 759 Reward: -20.0 Loss: 0.030124163255095482
+Did not solve after 0 episodes
+Episode: 793 step: 793 training_step: 760 Reward: -20.0 Loss: 0.0011309931287541986
+Did not solve after 0 episodes
+Episode: 794 step: 794 training_step: 761 Reward: -20.0 Loss: 0.028129123151302338
+Did not solve after 0 episodes
+Episode: 795 step: 795 training_step: 762 Reward: -20.0 Loss: 0.0007308462518267334
+Did not solve after 0 episodes
+Episode: 796 step: 796 training_step: 763 Reward: -20.0 Loss: 0.030895905569195747
+Did not solve after 0 episodes
+Episode: 797 step: 797 training_step: 764 Reward: -20.0 Loss: 0.057857099920511246
+Did not solve after 0 episodes
+Episode: 798 step: 798 training_step: 765 Reward: -20.0 Loss: 0.0014772869180887938
+Did not solve after 0 episodes
+Episode: 799 step: 799 training_step: 766 Reward: -20.0 Loss: 0.028083767741918564
+Did not solve after 0 episodes
+Episode: 800 step: 800 training_step: 767 Reward: -20.0 Loss: 0.03274041786789894
+Did not solve after 0 episodes
+Episode: 801 step: 801 training_step: 768 Reward: -20.0 Loss: 0.0008726618252694607
+Did not solve after 0 episodes
+Episode: 802 step: 802 training_step: 769 Reward: -20.0 Loss: 0.0012387685710564256
+Did not solve after 0 episodes
+Episode: 803 step: 803 training_step: 770 Reward: -20.0 Loss: 0.03232908621430397
+Did not solve after 0 episodes
+Episode: 804 step: 804 training_step: 771 Reward: -20.0 Loss: 0.031065665185451508
+Did not solve after 0 episodes
+Episode: 805 step: 805 training_step: 772 Reward: -20.0 Loss: 0.030957648530602455
+Did not solve after 0 episodes
+Episode: 806 step: 806 training_step: 773 Reward: -20.0 Loss: 0.0010098021011799574
+Did not solve after 0 episodes
+Episode: 807 step: 807 training_step: 774 Reward: -20.0 Loss: 0.0005688674282282591
+Did not solve after 0 episodes
+Episode: 808 step: 808 training_step: 775 Reward: -20.0 Loss: 0.0006794173386879265
+Did not solve after 0 episodes
+Episode: 809 step: 809 training_step: 776 Reward: -20.0 Loss: 0.03064737468957901
+Did not solve after 0 episodes
+Episode: 810 step: 810 training_step: 777 Reward: -20.0 Loss: 0.0006578306201845407
+Did not solve after 0 episodes
+Episode: 811 step: 811 training_step: 778 Reward: -20.0 Loss: 0.0005044331774115562
+Did not solve after 0 episodes
+Episode: 812 step: 812 training_step: 779 Reward: -20.0 Loss: 0.03061646968126297
+Did not solve after 0 episodes
+Episode: 813 step: 813 training_step: 780 Reward: -20.0 Loss: 0.03133357688784599
+Did not solve after 0 episodes
+Episode: 814 step: 814 training_step: 781 Reward: -20.0 Loss: 0.0006498727016150951
+Did not solve after 0 episodes
+Episode: 815 step: 815 training_step: 782 Reward: -20.0 Loss: 0.06004226580262184
+Did not solve after 0 episodes
+Episode: 816 step: 816 training_step: 783 Reward: -20.0 Loss: 0.00047575344797223806
+Did not solve after 0 episodes
+Episode: 817 step: 817 training_step: 784 Reward: -20.0 Loss: 0.031030137091875076
+Did not solve after 0 episodes
+Episode: 818 step: 818 training_step: 785 Reward: -20.0 Loss: 0.02925201505422592
+Did not solve after 0 episodes
+Episode: 819 step: 819 training_step: 786 Reward: -20.0 Loss: 0.029378823935985565
+Did not solve after 0 episodes
+Episode: 820 step: 820 training_step: 787 Reward: -20.0 Loss: 0.0004228062171023339
+Did not solve after 0 episodes
+Episode: 821 step: 821 training_step: 788 Reward: -20.0 Loss: 0.029352594166994095
+Did not solve after 0 episodes
+Episode: 822 step: 822 training_step: 789 Reward: -20.0 Loss: 0.0004988711443729699
+Did not solve after 0 episodes
+Episode: 823 step: 823 training_step: 790 Reward: -20.0 Loss: 0.05859467759728432
+Did not solve after 0 episodes
+Episode: 824 step: 824 training_step: 791 Reward: -20.0 Loss: 0.00036404660204425454
+Did not solve after 0 episodes
+Episode: 825 step: 825 training_step: 792 Reward: -20.0 Loss: 0.029927553609013557
+Did not solve after 0 episodes
+Episode: 826 step: 826 training_step: 793 Reward: -20.0 Loss: 0.029179520905017853
+Did not solve after 0 episodes
+Episode: 827 step: 827 training_step: 794 Reward: -20.0 Loss: 0.0005494379438459873
+Did not solve after 0 episodes
+Episode: 828 step: 828 training_step: 795 Reward: -20.0 Loss: 0.08657360076904297
+Did not solve after 0 episodes
+Episode: 829 step: 829 training_step: 796 Reward: -20.0 Loss: 0.001013685017824173
+Did not solve after 0 episodes
+Episode: 830 step: 830 training_step: 797 Reward: -20.0 Loss: 0.0007205202709883451
+Did not solve after 0 episodes
+Episode: 831 step: 831 training_step: 798 Reward: -20.0 Loss: 0.0007503781816922128
+Did not solve after 0 episodes
+Episode: 832 step: 832 training_step: 799 Reward: -20.0 Loss: 0.029823558405041695
+Did not solve after 0 episodes
+Episode: 833 step: 833 training_step: 800 Reward: -20.0 Loss: 0.06065673008561134
+Did not solve after 0 episodes
+Episode: 834 step: 834 training_step: 801 Reward: -20.0 Loss: 0.0005843742401339114
+Did not solve after 0 episodes
+Episode: 835 step: 835 training_step: 802 Reward: -20.0 Loss: 0.03143055737018585
+Did not solve after 0 episodes
+Episode: 836 step: 836 training_step: 803 Reward: -20.0 Loss: 0.0008393351454287767
+Did not solve after 0 episodes
+Episode: 837 step: 837 training_step: 804 Reward: -20.0 Loss: 0.03139359876513481
+Did not solve after 0 episodes
+Episode: 838 step: 838 training_step: 805 Reward: -20.0 Loss: 0.029791152104735374
+Did not solve after 0 episodes
+Episode: 839 step: 839 training_step: 806 Reward: -20.0 Loss: 0.0005060083349235356
+Did not solve after 0 episodes
+Episode: 840 step: 840 training_step: 807 Reward: -20.0 Loss: 0.028632549569010735
+Did not solve after 0 episodes
+Episode: 841 step: 841 training_step: 808 Reward: -20.0 Loss: 0.0008511344785802066
+Did not solve after 0 episodes
+Episode: 842 step: 842 training_step: 809 Reward: -20.0 Loss: 0.02956165000796318
+Did not solve after 0 episodes
+Episode: 843 step: 843 training_step: 810 Reward: -20.0 Loss: 0.0007878347532823682
+Did not solve after 0 episodes
+Episode: 844 step: 844 training_step: 811 Reward: -20.0 Loss: 0.028590815141797066
+Did not solve after 0 episodes
+Episode: 845 step: 845 training_step: 812 Reward: -20.0 Loss: 0.0007034419686533511
+Did not solve after 0 episodes
+Episode: 846 step: 846 training_step: 813 Reward: -21.0 Loss: 0.028796643018722534
+episode: 846 Reward per episode: -21.0  
+Did not solve after 1 episodes
+Episode: 847 step: 847 training_step: 814 Reward: 0.0 Loss: 0.0003618926857598126
+Did not solve after 1 episodes
+Episode: 848 step: 848 training_step: 815 Reward: 0.0 Loss: 0.0005279547185637057
+Did not solve after 1 episodes
+Episode: 849 step: 849 training_step: 816 Reward: 0.0 Loss: 0.031613461673259735
+Did not solve after 1 episodes
+Episode: 850 step: 850 training_step: 817 Reward: 0.0 Loss: 0.060277462005615234
+Did not solve after 1 episodes
+Episode: 851 step: 851 training_step: 818 Reward: 0.0 Loss: 0.02987331710755825
+Did not solve after 1 episodes
+Episode: 852 step: 852 training_step: 819 Reward: 0.0 Loss: 0.0006896273116581142
+Did not solve after 1 episodes
+Episode: 853 step: 853 training_step: 820 Reward: 0.0 Loss: 0.03144336864352226
+Did not solve after 1 episodes
+Episode: 854 step: 854 training_step: 821 Reward: 0.0 Loss: 0.0005190081428736448
+Did not solve after 1 episodes
+Episode: 855 step: 855 training_step: 822 Reward: 0.0 Loss: 0.029561422765254974
+Did not solve after 1 episodes
+Episode: 856 step: 856 training_step: 823 Reward: 0.0 Loss: 0.028877096250653267
+Did not solve after 1 episodes
+Episode: 857 step: 857 training_step: 824 Reward: 0.0 Loss: 0.0006640077335759997
+Did not solve after 1 episodes
+Episode: 858 step: 858 training_step: 825 Reward: 0.0 Loss: 0.0006566661177203059
+Did not solve after 1 episodes
+Episode: 859 step: 859 training_step: 826 Reward: 0.0 Loss: 0.031405746936798096
+Did not solve after 1 episodes
+Episode: 860 step: 860 training_step: 827 Reward: 0.0 Loss: 0.03150120750069618
+Did not solve after 1 episodes
+Episode: 861 step: 861 training_step: 828 Reward: 0.0 Loss: 0.02922085113823414
+Did not solve after 1 episodes
+Episode: 862 step: 862 training_step: 829 Reward: 0.0 Loss: 0.029639070853590965
+Did not solve after 1 episodes
+Episode: 863 step: 863 training_step: 830 Reward: 0.0 Loss: 0.0006993861752562225
+Did not solve after 1 episodes
+Episode: 864 step: 864 training_step: 831 Reward: 0.0 Loss: 0.0005455006612464786
+Did not solve after 1 episodes
+Episode: 865 step: 865 training_step: 832 Reward: 0.0 Loss: 0.028865568339824677
+Did not solve after 1 episodes
+Episode: 866 step: 866 training_step: 833 Reward: 0.0 Loss: 0.0597618892788887
+Did not solve after 1 episodes
+Episode: 867 step: 867 training_step: 834 Reward: 0.0 Loss: 0.03134981915354729
+Did not solve after 1 episodes
+Episode: 868 step: 868 training_step: 835 Reward: 0.0 Loss: 0.087399423122406
+Did not solve after 1 episodes
+Episode: 869 step: 869 training_step: 836 Reward: 0.0 Loss: 0.05779912695288658
+Did not solve after 1 episodes
+Episode: 870 step: 870 training_step: 837 Reward: 0.0 Loss: 0.05739240348339081
+Did not solve after 1 episodes
+Episode: 871 step: 871 training_step: 838 Reward: 0.0 Loss: 0.061972200870513916
+Did not solve after 1 episodes
+Episode: 872 step: 872 training_step: 839 Reward: 0.0 Loss: 0.031707119196653366
+Did not solve after 1 episodes
+Episode: 873 step: 873 training_step: 840 Reward: 0.0 Loss: 0.028582008555531502
+Did not solve after 1 episodes
+Episode: 874 step: 874 training_step: 841 Reward: 0.0 Loss: 0.0007965292315930128
+Did not solve after 1 episodes
+Episode: 875 step: 875 training_step: 842 Reward: 0.0 Loss: 0.029777195304632187
+Did not solve after 1 episodes
+Episode: 876 step: 876 training_step: 843 Reward: 0.0 Loss: 0.029700670391321182
+Did not solve after 1 episodes
+Episode: 877 step: 877 training_step: 844 Reward: 0.0 Loss: 0.0279686376452446
+Did not solve after 1 episodes
+Episode: 878 step: 878 training_step: 845 Reward: 0.0 Loss: 0.0013161152601242065
+Did not solve after 1 episodes
+Episode: 879 step: 879 training_step: 846 Reward: 0.0 Loss: 0.0006147201638668776
+Did not solve after 1 episodes
+Episode: 880 step: 880 training_step: 847 Reward: 0.0 Loss: 0.0013167456490918994
+Did not solve after 1 episodes
+Episode: 881 step: 881 training_step: 848 Reward: 0.0 Loss: 0.062091175466775894
+Did not solve after 1 episodes
+Episode: 882 step: 882 training_step: 849 Reward: 0.0 Loss: 0.0014437665231525898
+Did not solve after 1 episodes
+Episode: 883 step: 883 training_step: 850 Reward: 0.0 Loss: 0.02824341133236885
+Did not solve after 1 episodes
+Episode: 884 step: 884 training_step: 851 Reward: 0.0 Loss: 0.0011327613610774279
+Did not solve after 1 episodes
+Episode: 885 step: 885 training_step: 852 Reward: 0.0 Loss: 0.0876864641904831
+Did not solve after 1 episodes
+Episode: 886 step: 886 training_step: 853 Reward: 0.0 Loss: 0.08526251465082169
+Did not solve after 1 episodes
+Episode: 887 step: 887 training_step: 854 Reward: 0.0 Loss: 0.028231186792254448
+Did not solve after 1 episodes
+Episode: 888 step: 888 training_step: 855 Reward: 0.0 Loss: 0.02800135314464569
+Did not solve after 1 episodes
+Episode: 889 step: 889 training_step: 856 Reward: 0.0 Loss: 0.05785190314054489
+Did not solve after 1 episodes
+Episode: 890 step: 890 training_step: 857 Reward: 0.0 Loss: 0.0012453122762963176
+Did not solve after 1 episodes
+Episode: 891 step: 891 training_step: 858 Reward: 0.0 Loss: 0.058559928089380264
+Did not solve after 1 episodes
+Episode: 892 step: 892 training_step: 859 Reward: 0.0 Loss: 0.0016165185952559114
+Did not solve after 1 episodes
+Episode: 893 step: 893 training_step: 860 Reward: 0.0 Loss: 0.03086142987012863
+Did not solve after 1 episodes
+Episode: 894 step: 894 training_step: 861 Reward: 0.0 Loss: 0.0012866666074842215
+Did not solve after 1 episodes
+Episode: 895 step: 895 training_step: 862 Reward: 0.0 Loss: 0.0020622562151402235
+Did not solve after 1 episodes
+Episode: 896 step: 896 training_step: 863 Reward: 0.0 Loss: 0.028675099834799767
+Did not solve after 1 episodes
+Episode: 897 step: 897 training_step: 864 Reward: 0.0 Loss: 0.030859017744660378
+Did not solve after 1 episodes
+Episode: 898 step: 898 training_step: 865 Reward: 0.0 Loss: 0.03177233412861824
+Did not solve after 1 episodes
+Episode: 899 step: 899 training_step: 866 Reward: 0.0 Loss: 0.05777715519070625
+Did not solve after 1 episodes
+Episode: 900 step: 900 training_step: 867 Reward: 0.0 Loss: 0.0011129055637866259
+Did not solve after 1 episodes
+Episode: 901 step: 901 training_step: 868 Reward: 0.0 Loss: 0.0015554638812318444
+Did not solve after 1 episodes
+Episode: 902 step: 902 training_step: 869 Reward: 0.0 Loss: 0.031895771622657776
+Did not solve after 1 episodes
+Episode: 903 step: 903 training_step: 870 Reward: 0.0 Loss: 0.0016016080044209957
+Did not solve after 1 episodes
+Episode: 904 step: 904 training_step: 871 Reward: 0.0 Loss: 0.027140898630023003
+Did not solve after 1 episodes
+Episode: 905 step: 905 training_step: 872 Reward: 0.0 Loss: 0.0012913593091070652
+Did not solve after 1 episodes
+Episode: 906 step: 906 training_step: 873 Reward: 0.0 Loss: 0.031382039189338684
+Did not solve after 1 episodes
+Episode: 907 step: 907 training_step: 874 Reward: -1.0 Loss: 0.06119634956121445
+Did not solve after 1 episodes
+Episode: 908 step: 908 training_step: 875 Reward: -1.0 Loss: 0.0014305845834314823
+Did not solve after 1 episodes
+Episode: 909 step: 909 training_step: 876 Reward: -1.0 Loss: 0.05475498363375664
+Did not solve after 1 episodes
+Episode: 910 step: 910 training_step: 877 Reward: -1.0 Loss: 0.0010247987229377031
+Did not solve after 1 episodes
+Episode: 911 step: 911 training_step: 878 Reward: -1.0 Loss: 0.0008210586383938789
+Did not solve after 1 episodes
+Episode: 912 step: 912 training_step: 879 Reward: -1.0 Loss: 0.03136308863759041
+Did not solve after 1 episodes
+Episode: 913 step: 913 training_step: 880 Reward: -1.0 Loss: 0.031039215624332428
+Did not solve after 1 episodes
+Episode: 914 step: 914 training_step: 881 Reward: -1.0 Loss: 0.027959058061242104
+Did not solve after 1 episodes
+Episode: 915 step: 915 training_step: 882 Reward: -1.0 Loss: 0.0011103032156825066
+Did not solve after 1 episodes
+Episode: 916 step: 916 training_step: 883 Reward: -1.0 Loss: 0.03038017638027668
+Did not solve after 1 episodes
+Episode: 917 step: 917 training_step: 884 Reward: -1.0 Loss: 0.030664721503853798
+Did not solve after 1 episodes
+Episode: 918 step: 918 training_step: 885 Reward: -1.0 Loss: 0.08784732967615128
+Did not solve after 1 episodes
+Episode: 919 step: 919 training_step: 886 Reward: -1.0 Loss: 0.0008148301858454943
+Did not solve after 1 episodes
+Episode: 920 step: 920 training_step: 887 Reward: -1.0 Loss: 0.00103672849945724
+Did not solve after 1 episodes
+Episode: 921 step: 921 training_step: 888 Reward: -1.0 Loss: 0.028397709131240845
+Did not solve after 1 episodes
+Episode: 922 step: 922 training_step: 889 Reward: -1.0 Loss: 0.09009971469640732
+Did not solve after 1 episodes
+Episode: 923 step: 923 training_step: 890 Reward: -1.0 Loss: 0.02821376547217369
+Did not solve after 1 episodes
+Episode: 924 step: 924 training_step: 891 Reward: -1.0 Loss: 0.0012427393812686205
+Did not solve after 1 episodes
+Episode: 925 step: 925 training_step: 892 Reward: -1.0 Loss: 0.0012305171694606543
+Did not solve after 1 episodes
+Episode: 926 step: 926 training_step: 893 Reward: -1.0 Loss: 0.0007821058388799429
+Did not solve after 1 episodes
+Episode: 927 step: 927 training_step: 894 Reward: -1.0 Loss: 0.058583155274391174
+Did not solve after 1 episodes
+Episode: 928 step: 928 training_step: 895 Reward: -1.0 Loss: 0.028153320774435997
+Did not solve after 1 episodes
+Episode: 929 step: 929 training_step: 896 Reward: -1.0 Loss: 0.03070325031876564
+Did not solve after 1 episodes
+Episode: 930 step: 930 training_step: 897 Reward: -1.0 Loss: 0.03137937933206558
+Did not solve after 1 episodes
+Episode: 931 step: 931 training_step: 898 Reward: -1.0 Loss: 0.02778424136340618
+Did not solve after 1 episodes
+Episode: 932 step: 932 training_step: 899 Reward: -1.0 Loss: 0.0015204115770757198
+Did not solve after 1 episodes
+Episode: 933 step: 933 training_step: 900 Reward: -1.0 Loss: 0.0015737984795123339
+Did not solve after 1 episodes
+Episode: 934 step: 934 training_step: 901 Reward: -1.0 Loss: 0.09111475944519043
+Did not solve after 1 episodes
+Episode: 935 step: 935 training_step: 902 Reward: -1.0 Loss: 0.031179754063487053
+Did not solve after 1 episodes
+Episode: 936 step: 936 training_step: 903 Reward: -1.0 Loss: 0.02789008431136608
+Did not solve after 1 episodes
+Episode: 937 step: 937 training_step: 904 Reward: -1.0 Loss: 0.0011928229359909892
+Did not solve after 1 episodes
+Episode: 938 step: 938 training_step: 905 Reward: -1.0 Loss: 0.0010342077584937215
+Did not solve after 1 episodes
+Episode: 939 step: 939 training_step: 906 Reward: -1.0 Loss: 0.0011409451253712177
+Did not solve after 1 episodes
+Episode: 940 step: 940 training_step: 907 Reward: -1.0 Loss: 0.027603426948189735
+Did not solve after 1 episodes
+Episode: 941 step: 941 training_step: 908 Reward: -1.0 Loss: 0.0009488504147157073
+Did not solve after 1 episodes
+Episode: 942 step: 942 training_step: 909 Reward: -2.0 Loss: 0.027751121670007706
+Did not solve after 1 episodes
+Episode: 943 step: 943 training_step: 910 Reward: -2.0 Loss: 0.02810007706284523
+Did not solve after 1 episodes
+Episode: 944 step: 944 training_step: 911 Reward: -2.0 Loss: 0.028012264519929886
+Did not solve after 1 episodes
+Episode: 945 step: 945 training_step: 912 Reward: -2.0 Loss: 0.0008100542472675443
+Did not solve after 1 episodes
+Episode: 946 step: 946 training_step: 913 Reward: -2.0 Loss: 0.027760101482272148
+Did not solve after 1 episodes
+Episode: 947 step: 947 training_step: 914 Reward: -2.0 Loss: 0.03165660426020622
+Did not solve after 1 episodes
+Episode: 948 step: 948 training_step: 915 Reward: -2.0 Loss: 0.001712094759568572
+Did not solve after 1 episodes
+Episode: 949 step: 949 training_step: 916 Reward: -2.0 Loss: 0.05484408885240555
+Did not solve after 1 episodes
+Episode: 950 step: 950 training_step: 917 Reward: -2.0 Loss: 0.027530590072274208
+Did not solve after 1 episodes
+Episode: 951 step: 951 training_step: 918 Reward: -2.0 Loss: 0.061131104826927185
+Did not solve after 1 episodes
+Episode: 952 step: 952 training_step: 919 Reward: -2.0 Loss: 0.031168654561042786
+Did not solve after 1 episodes
+Episode: 953 step: 953 training_step: 920 Reward: -2.0 Loss: 0.001495281932875514
+Did not solve after 1 episodes
+Episode: 954 step: 954 training_step: 921 Reward: -2.0 Loss: 0.054007790982723236
+Did not solve after 1 episodes
+Episode: 955 step: 955 training_step: 922 Reward: -2.0 Loss: 0.0008655358687974513
+Did not solve after 1 episodes
+Episode: 956 step: 956 training_step: 923 Reward: -2.0 Loss: 0.0015628975816071033
+Did not solve after 1 episodes
+Episode: 957 step: 957 training_step: 924 Reward: -2.0 Loss: 0.0012386542512103915
+Did not solve after 1 episodes
+Episode: 958 step: 958 training_step: 925 Reward: -2.0 Loss: 0.0014301405753940344
+Did not solve after 1 episodes
+Episode: 959 step: 959 training_step: 926 Reward: -2.0 Loss: 0.0010558497160673141
+Did not solve after 1 episodes
+Episode: 960 step: 960 training_step: 927 Reward: -2.0 Loss: 0.031713131815195084
+Did not solve after 1 episodes
+Episode: 961 step: 961 training_step: 928 Reward: -2.0 Loss: 0.03173563629388809
+Did not solve after 1 episodes
+Episode: 962 step: 962 training_step: 929 Reward: -2.0 Loss: 0.030874038115143776
+Did not solve after 1 episodes
+Episode: 963 step: 963 training_step: 930 Reward: -2.0 Loss: 0.001030082581564784
+Did not solve after 1 episodes
+Episode: 964 step: 964 training_step: 931 Reward: -2.0 Loss: 0.0016253599897027016
+Did not solve after 1 episodes
+Episode: 965 step: 965 training_step: 932 Reward: -2.0 Loss: 0.058001015335321426
+Did not solve after 1 episodes
+Episode: 966 step: 966 training_step: 933 Reward: -2.0 Loss: 0.0010210906621068716
+Did not solve after 1 episodes
+Episode: 967 step: 967 training_step: 934 Reward: -2.0 Loss: 0.0004781074821949005
+Did not solve after 1 episodes
+Episode: 968 step: 968 training_step: 935 Reward: -2.0 Loss: 0.03046571835875511
+Did not solve after 1 episodes
+Episode: 969 step: 969 training_step: 936 Reward: -2.0 Loss: 0.031556837260723114
+Did not solve after 1 episodes
+Episode: 970 step: 970 training_step: 937 Reward: -2.0 Loss: 0.031274642795324326
+Did not solve after 1 episodes
+Episode: 971 step: 971 training_step: 938 Reward: -2.0 Loss: 0.031016016378998756
+Did not solve after 1 episodes
+Episode: 972 step: 972 training_step: 939 Reward: -2.0 Loss: 0.0008238776354119182
+Did not solve after 1 episodes
+Episode: 973 step: 973 training_step: 940 Reward: -2.0 Loss: 0.032006699591875076
+Did not solve after 1 episodes
+Episode: 974 step: 974 training_step: 941 Reward: -2.0 Loss: 0.0008133712690323591
+Did not solve after 1 episodes
+Episode: 975 step: 975 training_step: 942 Reward: -2.0 Loss: 0.0008102885913103819
+Did not solve after 1 episodes
+Episode: 976 step: 976 training_step: 943 Reward: -2.0 Loss: 0.030555112287402153
+Did not solve after 1 episodes
+Episode: 977 step: 977 training_step: 944 Reward: -3.0 Loss: 0.028536532074213028
+Did not solve after 1 episodes
+Episode: 978 step: 978 training_step: 945 Reward: -3.0 Loss: 0.000475753506179899
+Did not solve after 1 episodes
+Episode: 979 step: 979 training_step: 946 Reward: -3.0 Loss: 0.0003620569477789104
+Did not solve after 1 episodes
+Episode: 980 step: 980 training_step: 947 Reward: -3.0 Loss: 0.030698787420988083
+Did not solve after 1 episodes
+Episode: 981 step: 981 training_step: 948 Reward: -3.0 Loss: 0.0003316258662380278
+Did not solve after 1 episodes
+Episode: 982 step: 982 training_step: 949 Reward: -3.0 Loss: 0.029171619564294815
+Did not solve after 1 episodes
+Episode: 983 step: 983 training_step: 950 Reward: -3.0 Loss: 0.00028298917459324
+Did not solve after 1 episodes
+Episode: 984 step: 984 training_step: 951 Reward: -3.0 Loss: 0.031256839632987976
+Did not solve after 1 episodes
+Episode: 985 step: 985 training_step: 952 Reward: -3.0 Loss: 0.031218459829688072
+Did not solve after 1 episodes
+Episode: 986 step: 986 training_step: 953 Reward: -3.0 Loss: 0.05931701883673668
+Did not solve after 1 episodes
+Episode: 987 step: 987 training_step: 954 Reward: -3.0 Loss: 0.030439356341958046
+Did not solve after 1 episodes
+Episode: 988 step: 988 training_step: 955 Reward: -3.0 Loss: 0.0004428995307534933
+Did not solve after 1 episodes
+Episode: 989 step: 989 training_step: 956 Reward: -3.0 Loss: 0.00029849185375496745
+Did not solve after 1 episodes
+Episode: 990 step: 990 training_step: 957 Reward: -3.0 Loss: 0.0005763868684880435
+Did not solve after 1 episodes
+Episode: 991 step: 991 training_step: 958 Reward: -3.0 Loss: 0.0004302574088796973
+Did not solve after 1 episodes
+Episode: 992 step: 992 training_step: 959 Reward: -3.0 Loss: 0.0003013846871908754
+Did not solve after 1 episodes
+Episode: 993 step: 993 training_step: 960 Reward: -3.0 Loss: 0.03116242215037346
+Did not solve after 1 episodes
+Episode: 994 step: 994 training_step: 961 Reward: -3.0 Loss: 0.0004520316724665463
+Did not solve after 1 episodes
+Episode: 995 step: 995 training_step: 962 Reward: -3.0 Loss: 0.0003062717441935092
+Did not solve after 1 episodes
+Episode: 996 step: 996 training_step: 963 Reward: -3.0 Loss: 0.029377225786447525
+Did not solve after 1 episodes
+Episode: 997 step: 997 training_step: 964 Reward: -3.0 Loss: 0.029522014781832695
+Did not solve after 1 episodes
+Episode: 998 step: 998 training_step: 965 Reward: -3.0 Loss: 0.000425605452619493
+Did not solve after 1 episodes
+Episode: 999 step: 999 training_step: 966 Reward: -3.0 Loss: 0.11833274364471436
+Did not solve after 1 episodes
+Episode: 1000 step: 1000 training_step: 967 Reward: -3.0 Loss: 0.00032126999576576054
+Did not solve after 1 episodes
+Episode: 1001 step: 1001 training_step: 968 Reward: -3.0 Loss: 0.0002755990135483444
+Did not solve after 1 episodes
+Episode: 1002 step: 1002 training_step: 969 Reward: -3.0 Loss: 0.0002987485204357654
+Did not solve after 1 episodes
+Episode: 1003 step: 1003 training_step: 970 Reward: -3.0 Loss: 0.06112932413816452
+Did not solve after 1 episodes
+Episode: 1004 step: 1004 training_step: 971 Reward: -3.0 Loss: 0.06060191988945007
+Did not solve after 1 episodes
+Episode: 1005 step: 1005 training_step: 972 Reward: -3.0 Loss: 0.00040966723463498056
+Did not solve after 1 episodes
+Episode: 1006 step: 1006 training_step: 973 Reward: -3.0 Loss: 0.0006551523692905903
+Did not solve after 1 episodes
+Episode: 1007 step: 1007 training_step: 974 Reward: -3.0 Loss: 0.00044674862874671817
+Did not solve after 1 episodes
+Episode: 1008 step: 1008 training_step: 975 Reward: -3.0 Loss: 0.0003847978950943798
+Did not solve after 1 episodes
+Episode: 1009 step: 1009 training_step: 976 Reward: -3.0 Loss: 0.00024404794385191053
+Did not solve after 1 episodes
+Episode: 1010 step: 1010 training_step: 977 Reward: -3.0 Loss: 0.0006230220897123218
+Did not solve after 1 episodes
+Episode: 1011 step: 1011 training_step: 978 Reward: -3.0 Loss: 0.00042252131970599294
+Did not solve after 1 episodes
+Episode: 1012 step: 1012 training_step: 979 Reward: -4.0 Loss: 0.0004042944929096848
+Did not solve after 1 episodes
+Episode: 1013 step: 1013 training_step: 980 Reward: -4.0 Loss: 0.028892530128359795
+Did not solve after 1 episodes
+Episode: 1014 step: 1014 training_step: 981 Reward: -4.0 Loss: 0.05883146449923515
+Did not solve after 1 episodes
+Episode: 1015 step: 1015 training_step: 982 Reward: -4.0 Loss: 0.03145413100719452
+Did not solve after 1 episodes
+Episode: 1016 step: 1016 training_step: 983 Reward: -4.0 Loss: 0.00043640247895382345
+Did not solve after 1 episodes
+Episode: 1017 step: 1017 training_step: 984 Reward: -4.0 Loss: 0.0002903622225858271
+Did not solve after 1 episodes
+Episode: 1018 step: 1018 training_step: 985 Reward: -4.0 Loss: 0.03120734915137291
+Did not solve after 1 episodes
+Episode: 1019 step: 1019 training_step: 986 Reward: -4.0 Loss: 0.028920020908117294
+Did not solve after 1 episodes
+Episode: 1020 step: 1020 training_step: 987 Reward: -4.0 Loss: 0.030789127573370934
+Did not solve after 1 episodes
+Episode: 1021 step: 1021 training_step: 988 Reward: -4.0 Loss: 0.030593309551477432
+Did not solve after 1 episodes
+Episode: 1022 step: 1022 training_step: 989 Reward: -4.0 Loss: 0.060712579637765884
+Did not solve after 1 episodes
+Episode: 1023 step: 1023 training_step: 990 Reward: -4.0 Loss: 0.00045103716547600925
+Did not solve after 1 episodes
+Episode: 1024 step: 1024 training_step: 991 Reward: -4.0 Loss: 0.11906106770038605
+Did not solve after 1 episodes
+Episode: 1025 step: 1025 training_step: 992 Reward: -4.0 Loss: 0.08564762771129608
+Did not solve after 1 episodes
+Episode: 1026 step: 1026 training_step: 993 Reward: -4.0 Loss: 0.03005758672952652
+Did not solve after 1 episodes
+Episode: 1027 step: 1027 training_step: 994 Reward: -4.0 Loss: 0.030322212725877762
+Did not solve after 1 episodes
+Episode: 1028 step: 1028 training_step: 995 Reward: -4.0 Loss: 0.0008232631953433156
+Did not solve after 1 episodes
+Episode: 1029 step: 1029 training_step: 996 Reward: -4.0 Loss: 0.0008346959366463125
+Did not solve after 1 episodes
+Episode: 1030 step: 1030 training_step: 997 Reward: -4.0 Loss: 0.028649382293224335
+Did not solve after 1 episodes
+Episode: 1031 step: 1031 training_step: 998 Reward: -4.0 Loss: 0.02994639240205288
+Did not solve after 1 episodes
+Episode: 1032 step: 1032 training_step: 999 Reward: -4.0 Loss: 0.060032229870557785
+Did not solve after 1 episodes
+Episode: 1033 step: 1033 training_step: 1000 Reward: -4.0 Loss: 0.001009399420581758
+Did not solve after 1 episodes
+Episode: 1034 step: 1034 training_step: 1001 Reward: -4.0 Loss: 0.03125229477882385
+Did not solve after 1 episodes
+Episode: 1035 step: 1035 training_step: 1002 Reward: -4.0 Loss: 0.0012426538160070777
+Did not solve after 1 episodes
+Episode: 1036 step: 1036 training_step: 1003 Reward: -4.0 Loss: 0.0005224677734076977
+Did not solve after 1 episodes
+Episode: 1037 step: 1037 training_step: 1004 Reward: -4.0 Loss: 0.0009051946690306067
+Did not solve after 1 episodes
+Episode: 1038 step: 1038 training_step: 1005 Reward: -4.0 Loss: 0.031011398881673813
+Did not solve after 1 episodes
+Episode: 1039 step: 1039 training_step: 1006 Reward: -4.0 Loss: 0.02885914035141468
+Did not solve after 1 episodes
+Episode: 1040 step: 1040 training_step: 1007 Reward: -4.0 Loss: 0.0308572668582201
+Did not solve after 1 episodes
+Episode: 1041 step: 1041 training_step: 1008 Reward: -4.0 Loss: 0.029760494828224182
+Did not solve after 1 episodes
+Episode: 1042 step: 1042 training_step: 1009 Reward: -4.0 Loss: 0.058966703712940216
+Did not solve after 1 episodes
+Episode: 1043 step: 1043 training_step: 1010 Reward: -4.0 Loss: 0.028677694499492645
+Did not solve after 1 episodes
+Episode: 1044 step: 1044 training_step: 1011 Reward: -4.0 Loss: 0.000859052175655961
+Did not solve after 1 episodes
+Episode: 1045 step: 1045 training_step: 1012 Reward: -4.0 Loss: 0.0009463266469538212
+Did not solve after 1 episodes
+Episode: 1046 step: 1046 training_step: 1013 Reward: -4.0 Loss: 0.029788270592689514
+Did not solve after 1 episodes
+Episode: 1047 step: 1047 training_step: 1014 Reward: -4.0 Loss: 0.03069141134619713
+Did not solve after 1 episodes
+Episode: 1048 step: 1048 training_step: 1015 Reward: -4.0 Loss: 0.0011066901497542858
+Did not solve after 1 episodes
+Episode: 1049 step: 1049 training_step: 1016 Reward: -4.0 Loss: 0.0007503415690734982
+Did not solve after 1 episodes
+Episode: 1050 step: 1050 training_step: 1017 Reward: -4.0 Loss: 0.029978862032294273
+Did not solve after 1 episodes
+Episode: 1051 step: 1051 training_step: 1018 Reward: -4.0 Loss: 0.029077179729938507
+Did not solve after 1 episodes
+Episode: 1052 step: 1052 training_step: 1019 Reward: -4.0 Loss: 0.06118156015872955
+Did not solve after 1 episodes
+Episode: 1053 step: 1053 training_step: 1020 Reward: -4.0 Loss: 0.030747458338737488
+Did not solve after 1 episodes
+Episode: 1054 step: 1054 training_step: 1021 Reward: -4.0 Loss: 0.05902153626084328
+Did not solve after 1 episodes
+Episode: 1055 step: 1055 training_step: 1022 Reward: -4.0 Loss: 0.02882206439971924
+Did not solve after 1 episodes
+Episode: 1056 step: 1056 training_step: 1023 Reward: -4.0 Loss: 0.056898802518844604
+Did not solve after 1 episodes
+Episode: 1057 step: 1057 training_step: 1024 Reward: -4.0 Loss: 0.000756606284994632
+Did not solve after 1 episodes
+Episode: 1058 step: 1058 training_step: 1025 Reward: -4.0 Loss: 0.0007889616535976529
+Did not solve after 1 episodes
+Episode: 1059 step: 1059 training_step: 1026 Reward: -4.0 Loss: 0.0009279754012823105
+Did not solve after 1 episodes
+Episode: 1060 step: 1060 training_step: 1027 Reward: -3.0 Loss: 0.029992781579494476
+Did not solve after 1 episodes
+Episode: 1061 step: 1061 training_step: 1028 Reward: -3.0 Loss: 0.0008047180599533021
+Did not solve after 1 episodes
+Episode: 1062 step: 1062 training_step: 1029 Reward: -3.0 Loss: 0.0008351549040526152
+Did not solve after 1 episodes
+Episode: 1063 step: 1063 training_step: 1030 Reward: -3.0 Loss: 0.0007322569144889712
+Did not solve after 1 episodes
+Episode: 1064 step: 1064 training_step: 1031 Reward: -3.0 Loss: 0.0006078220903873444
+Did not solve after 1 episodes
+Episode: 1065 step: 1065 training_step: 1032 Reward: -3.0 Loss: 0.028509389609098434
+Did not solve after 1 episodes
+Episode: 1066 step: 1066 training_step: 1033 Reward: -3.0 Loss: 0.031126676127314568
+Did not solve after 1 episodes
+Episode: 1067 step: 1067 training_step: 1034 Reward: -3.0 Loss: 0.06019962206482887
+Did not solve after 1 episodes
+Episode: 1068 step: 1068 training_step: 1035 Reward: -3.0 Loss: 0.03187352046370506
+Did not solve after 1 episodes
+Episode: 1069 step: 1069 training_step: 1036 Reward: -3.0 Loss: 0.02982459031045437
+Did not solve after 1 episodes
+Episode: 1070 step: 1070 training_step: 1037 Reward: -3.0 Loss: 0.0006187009857967496
+Did not solve after 1 episodes
+Episode: 1071 step: 1071 training_step: 1038 Reward: -3.0 Loss: 0.028880039229989052
+Did not solve after 1 episodes
+Episode: 1072 step: 1072 training_step: 1039 Reward: -3.0 Loss: 0.02976818196475506
+Did not solve after 1 episodes
+Episode: 1073 step: 1073 training_step: 1040 Reward: -3.0 Loss: 0.030631626024842262
+Did not solve after 1 episodes
+Episode: 1074 step: 1074 training_step: 1041 Reward: -3.0 Loss: 0.0006731214234605432
+Did not solve after 1 episodes
+Episode: 1075 step: 1075 training_step: 1042 Reward: -3.0 Loss: 0.0003926812787540257
+Did not solve after 1 episodes
+Episode: 1076 step: 1076 training_step: 1043 Reward: -3.0 Loss: 0.0005858071381226182
+Did not solve after 1 episodes
+Episode: 1077 step: 1077 training_step: 1044 Reward: -3.0 Loss: 0.061146385967731476
+Did not solve after 1 episodes
+Episode: 1078 step: 1078 training_step: 1045 Reward: -3.0 Loss: 0.0008731711423024535
+Did not solve after 1 episodes
+Episode: 1079 step: 1079 training_step: 1046 Reward: -3.0 Loss: 0.0004322825698181987
+Did not solve after 1 episodes
+Episode: 1080 step: 1080 training_step: 1047 Reward: -3.0 Loss: 0.03144730255007744
+Did not solve after 1 episodes
+Episode: 1081 step: 1081 training_step: 1048 Reward: -3.0 Loss: 0.03158124163746834
+Did not solve after 1 episodes
+Episode: 1082 step: 1082 training_step: 1049 Reward: -3.0 Loss: 0.0006050587398931384
+Did not solve after 1 episodes
+Episode: 1083 step: 1083 training_step: 1050 Reward: -3.0 Loss: 0.00046506739454343915
+Did not solve after 1 episodes
+Episode: 1084 step: 1084 training_step: 1051 Reward: -3.0 Loss: 0.0006438657292164862
+Did not solve after 1 episodes
+Episode: 1085 step: 1085 training_step: 1052 Reward: -3.0 Loss: 0.057013269513845444
+Did not solve after 1 episodes
+Episode: 1086 step: 1086 training_step: 1053 Reward: -3.0 Loss: 0.058104369789361954
+Did not solve after 1 episodes
+Episode: 1087 step: 1087 training_step: 1054 Reward: -3.0 Loss: 0.0006931012612767518
+Did not solve after 1 episodes
+Episode: 1088 step: 1088 training_step: 1055 Reward: -3.0 Loss: 0.0004563966067507863
+Did not solve after 1 episodes
+Episode: 1089 step: 1089 training_step: 1056 Reward: -3.0 Loss: 0.06031957268714905
+Did not solve after 1 episodes
+Episode: 1090 step: 1090 training_step: 1057 Reward: -3.0 Loss: 0.0006253309547901154
+Did not solve after 1 episodes
+Episode: 1091 step: 1091 training_step: 1058 Reward: -3.0 Loss: 0.06002992019057274
+Did not solve after 1 episodes
+Episode: 1092 step: 1092 training_step: 1059 Reward: -3.0 Loss: 0.0005800924263894558
+Did not solve after 1 episodes
+Episode: 1093 step: 1093 training_step: 1060 Reward: -3.0 Loss: 0.0593661405146122
+Did not solve after 1 episodes
+Episode: 1094 step: 1094 training_step: 1061 Reward: -3.0 Loss: 0.0007376082940027118
+Did not solve after 1 episodes
+Episode: 1095 step: 1095 training_step: 1062 Reward: -3.0 Loss: 0.029861383140087128
+Did not solve after 1 episodes
+Episode: 1096 step: 1096 training_step: 1063 Reward: -3.0 Loss: 0.0007038186304271221
+Did not solve after 1 episodes
+Episode: 1097 step: 1097 training_step: 1064 Reward: -3.0 Loss: 0.00046844989992678165
+Did not solve after 1 episodes
+Episode: 1098 step: 1098 training_step: 1065 Reward: -3.0 Loss: 0.03079829178750515
+Did not solve after 1 episodes
+Episode: 1099 step: 1099 training_step: 1066 Reward: -3.0 Loss: 0.0291049275547266
+Did not solve after 1 episodes
+Episode: 1100 step: 1100 training_step: 1067 Reward: -3.0 Loss: 0.030772047117352486
+Did not solve after 1 episodes
+Episode: 1101 step: 1101 training_step: 1068 Reward: -3.0 Loss: 0.0005247612716630101
+Did not solve after 1 episodes
+Episode: 1102 step: 1102 training_step: 1069 Reward: -3.0 Loss: 0.0007841727929189801
+Did not solve after 1 episodes
+Episode: 1103 step: 1103 training_step: 1070 Reward: -3.0 Loss: 0.05794050544500351
+Did not solve after 1 episodes
+Episode: 1104 step: 1104 training_step: 1071 Reward: -3.0 Loss: 0.05971366539597511
+Did not solve after 1 episodes
+Episode: 1105 step: 1105 training_step: 1072 Reward: -3.0 Loss: 0.05985845625400543
+Did not solve after 1 episodes
+Episode: 1106 step: 1106 training_step: 1073 Reward: -3.0 Loss: 0.06175032630562782
+Did not solve after 1 episodes
+Episode: 1107 step: 1107 training_step: 1074 Reward: -3.0 Loss: 0.02909960225224495
+Did not solve after 1 episodes
+Episode: 1108 step: 1108 training_step: 1075 Reward: -3.0 Loss: 0.0008032115874812007
+Did not solve after 1 episodes
+Episode: 1109 step: 1109 training_step: 1076 Reward: -3.0 Loss: 0.05940422788262367
+Did not solve after 1 episodes
+Episode: 1110 step: 1110 training_step: 1077 Reward: -3.0 Loss: 0.0011375057511031628
+Did not solve after 1 episodes
+Episode: 1111 step: 1111 training_step: 1078 Reward: -3.0 Loss: 0.0011570691131055355
+Did not solve after 1 episodes
+Episode: 1112 step: 1112 training_step: 1079 Reward: -3.0 Loss: 0.0010987448040395975
+Did not solve after 1 episodes
+Episode: 1113 step: 1113 training_step: 1080 Reward: -3.0 Loss: 0.028608500957489014
+Did not solve after 1 episodes
+Episode: 1114 step: 1114 training_step: 1081 Reward: -3.0 Loss: 0.00047818938037380576
+Did not solve after 1 episodes
+Episode: 1115 step: 1115 training_step: 1082 Reward: -3.0 Loss: 0.030524248257279396
+Did not solve after 1 episodes
+Episode: 1116 step: 1116 training_step: 1083 Reward: -3.0 Loss: 0.05989975109696388
+Did not solve after 1 episodes
+Episode: 1117 step: 1117 training_step: 1084 Reward: -3.0 Loss: 0.03059142641723156
+Did not solve after 1 episodes
+Episode: 1118 step: 1118 training_step: 1085 Reward: -3.0 Loss: 0.0009683466050773859
+Did not solve after 1 episodes
+Episode: 1119 step: 1119 training_step: 1086 Reward: -3.0 Loss: 0.0007194381905719638
+Did not solve after 1 episodes
+Episode: 1120 step: 1120 training_step: 1087 Reward: -3.0 Loss: 0.03303781524300575
+Did not solve after 1 episodes
+Episode: 1121 step: 1121 training_step: 1088 Reward: -3.0 Loss: 0.0005759077612310648
+Did not solve after 1 episodes
+Episode: 1122 step: 1122 training_step: 1089 Reward: -3.0 Loss: 0.06006965786218643
+Did not solve after 1 episodes
+Episode: 1123 step: 1123 training_step: 1090 Reward: -3.0 Loss: 0.0009202986257150769
+Did not solve after 1 episodes
+Episode: 1124 step: 1124 training_step: 1091 Reward: -3.0 Loss: 0.05796016752719879
+Did not solve after 1 episodes
+Episode: 1125 step: 1125 training_step: 1092 Reward: -4.0 Loss: 0.0007600349490530789
+Did not solve after 1 episodes
+Episode: 1126 step: 1126 training_step: 1093 Reward: -4.0 Loss: 0.0007765364134684205
+Did not solve after 1 episodes
+Episode: 1127 step: 1127 training_step: 1094 Reward: -4.0 Loss: 0.0008103998261503875
+Did not solve after 1 episodes
+Episode: 1128 step: 1128 training_step: 1095 Reward: -4.0 Loss: 0.0006129185203462839
+Did not solve after 1 episodes
+Episode: 1129 step: 1129 training_step: 1096 Reward: -4.0 Loss: 0.03278099000453949
+Did not solve after 1 episodes
+Episode: 1130 step: 1130 training_step: 1097 Reward: -4.0 Loss: 0.029646286740899086
+Did not solve after 1 episodes
+Episode: 1131 step: 1131 training_step: 1098 Reward: -4.0 Loss: 0.00039253017166629434
+Did not solve after 1 episodes
+Episode: 1132 step: 1132 training_step: 1099 Reward: -4.0 Loss: 0.0003780376282520592
+Did not solve after 1 episodes
+Episode: 1133 step: 1133 training_step: 1100 Reward: -4.0 Loss: 0.00045546068577095866
+Did not solve after 1 episodes
+Episode: 1134 step: 1134 training_step: 1101 Reward: -4.0 Loss: 0.029590433463454247
+Did not solve after 1 episodes
+Episode: 1135 step: 1135 training_step: 1102 Reward: -4.0 Loss: 0.0004100267542526126
+Did not solve after 1 episodes
+Episode: 1136 step: 1136 training_step: 1103 Reward: -4.0 Loss: 0.02961888164281845
+Did not solve after 1 episodes
+Episode: 1137 step: 1137 training_step: 1104 Reward: -4.0 Loss: 0.0002993776579387486
+Did not solve after 1 episodes
+Episode: 1138 step: 1138 training_step: 1105 Reward: -4.0 Loss: 0.030872050672769547
+Did not solve after 1 episodes
+Episode: 1139 step: 1139 training_step: 1106 Reward: -4.0 Loss: 0.02981465868651867
+Did not solve after 1 episodes
+Episode: 1140 step: 1140 training_step: 1107 Reward: -4.0 Loss: 0.0002797231136355549
+Did not solve after 1 episodes
+Episode: 1141 step: 1141 training_step: 1108 Reward: -4.0 Loss: 0.00036469579208642244
+Did not solve after 1 episodes
+Episode: 1142 step: 1142 training_step: 1109 Reward: -4.0 Loss: 0.03015822172164917
+Did not solve after 1 episodes
+Episode: 1143 step: 1143 training_step: 1110 Reward: -4.0 Loss: 0.00023465209233108908
+Did not solve after 1 episodes
+Episode: 1144 step: 1144 training_step: 1111 Reward: -4.0 Loss: 0.03132931888103485
+Did not solve after 1 episodes
+Episode: 1145 step: 1145 training_step: 1112 Reward: -4.0 Loss: 0.031220247969031334
+Did not solve after 1 episodes
+Episode: 1146 step: 1146 training_step: 1113 Reward: -4.0 Loss: 0.03070741891860962
+Did not solve after 1 episodes
+Episode: 1147 step: 1147 training_step: 1114 Reward: -4.0 Loss: 0.00029164523584768176
+Did not solve after 1 episodes
+Episode: 1148 step: 1148 training_step: 1115 Reward: -4.0 Loss: 0.0003842679434455931
+Did not solve after 1 episodes
+Episode: 1149 step: 1149 training_step: 1116 Reward: -4.0 Loss: 0.029670145362615585
+Did not solve after 1 episodes
+Episode: 1150 step: 1150 training_step: 1117 Reward: -4.0 Loss: 0.00042429857421666384
+Did not solve after 1 episodes
+Episode: 1151 step: 1151 training_step: 1118 Reward: -4.0 Loss: 0.0003016775590367615
+Did not solve after 1 episodes
+Episode: 1152 step: 1152 training_step: 1119 Reward: -4.0 Loss: 0.00036528598866425455
+Did not solve after 1 episodes
+Episode: 1153 step: 1153 training_step: 1120 Reward: -4.0 Loss: 0.00027844414580613375
+Did not solve after 1 episodes
+Episode: 1154 step: 1154 training_step: 1121 Reward: -4.0 Loss: 0.029610542580485344
+Did not solve after 1 episodes
+Episode: 1155 step: 1155 training_step: 1122 Reward: -4.0 Loss: 0.05994335561990738
+Did not solve after 1 episodes
+Episode: 1156 step: 1156 training_step: 1123 Reward: -4.0 Loss: 0.02955729514360428
+Did not solve after 1 episodes
+Episode: 1157 step: 1157 training_step: 1124 Reward: -4.0 Loss: 0.0003206420806236565
+Did not solve after 1 episodes
+Episode: 1158 step: 1158 training_step: 1125 Reward: -4.0 Loss: 0.029253026470541954
+Did not solve after 1 episodes
+Episode: 1159 step: 1159 training_step: 1126 Reward: -4.0 Loss: 0.0006196252070367336
+Did not solve after 1 episodes
+Episode: 1160 step: 1160 training_step: 1127 Reward: -5.0 Loss: 0.0004889208357781172
+Did not solve after 1 episodes
+Episode: 1161 step: 1161 training_step: 1128 Reward: -5.0 Loss: 0.00047814458957873285
+Did not solve after 1 episodes
+Episode: 1162 step: 1162 training_step: 1129 Reward: -5.0 Loss: 0.05817583203315735
+Did not solve after 1 episodes
+Episode: 1163 step: 1163 training_step: 1130 Reward: -5.0 Loss: 0.0864572748541832
+Did not solve after 1 episodes
+Episode: 1164 step: 1164 training_step: 1131 Reward: -5.0 Loss: 0.02876233495771885
+Did not solve after 1 episodes
+Episode: 1165 step: 1165 training_step: 1132 Reward: -5.0 Loss: 0.0006416960386559367
+Did not solve after 1 episodes
+Episode: 1166 step: 1166 training_step: 1133 Reward: -5.0 Loss: 0.060577649623155594
+Did not solve after 1 episodes
+Episode: 1167 step: 1167 training_step: 1134 Reward: -5.0 Loss: 0.0008373314631171525
+Did not solve after 1 episodes
+Episode: 1168 step: 1168 training_step: 1135 Reward: -5.0 Loss: 0.0317801870405674
+Did not solve after 1 episodes
+Episode: 1169 step: 1169 training_step: 1136 Reward: -5.0 Loss: 0.0007335300324484706
+Did not solve after 1 episodes
+Episode: 1170 step: 1170 training_step: 1137 Reward: -5.0 Loss: 0.05690266937017441
+Did not solve after 1 episodes
+Episode: 1171 step: 1171 training_step: 1138 Reward: -5.0 Loss: 0.0007515400648117065
+Did not solve after 1 episodes
+Episode: 1172 step: 1172 training_step: 1139 Reward: -5.0 Loss: 0.030640846118330956
+Did not solve after 1 episodes
+Episode: 1173 step: 1173 training_step: 1140 Reward: -5.0 Loss: 0.027548927813768387
+Did not solve after 1 episodes
+Episode: 1174 step: 1174 training_step: 1141 Reward: -5.0 Loss: 0.0006969269015826285
+Did not solve after 1 episodes
+Episode: 1175 step: 1175 training_step: 1142 Reward: -5.0 Loss: 0.0011774938320741057
+Did not solve after 1 episodes
+Episode: 1176 step: 1176 training_step: 1143 Reward: -5.0 Loss: 0.0010008550016209483
+Did not solve after 1 episodes
+Episode: 1177 step: 1177 training_step: 1144 Reward: -5.0 Loss: 0.11552579700946808
+Did not solve after 1 episodes
+Episode: 1178 step: 1178 training_step: 1145 Reward: -5.0 Loss: 0.0326756127178669
+Did not solve after 1 episodes
+Episode: 1179 step: 1179 training_step: 1146 Reward: -5.0 Loss: 0.05784726142883301
+Did not solve after 1 episodes
+Episode: 1180 step: 1180 training_step: 1147 Reward: -5.0 Loss: 0.0010566490236669779
+Did not solve after 1 episodes
+Episode: 1181 step: 1181 training_step: 1148 Reward: -5.0 Loss: 0.028346387669444084
+Did not solve after 1 episodes
+Episode: 1182 step: 1182 training_step: 1149 Reward: -5.0 Loss: 0.027627278119325638
+Did not solve after 1 episodes
+Episode: 1183 step: 1183 training_step: 1150 Reward: -5.0 Loss: 0.0009721983806230128
+Did not solve after 1 episodes
+Episode: 1184 step: 1184 training_step: 1151 Reward: -5.0 Loss: 0.0014824566897004843
+Did not solve after 1 episodes
+Episode: 1185 step: 1185 training_step: 1152 Reward: -5.0 Loss: 0.05951804295182228
+Did not solve after 1 episodes
+Episode: 1186 step: 1186 training_step: 1153 Reward: -5.0 Loss: 0.0576847642660141
+Did not solve after 1 episodes
+Episode: 1187 step: 1187 training_step: 1154 Reward: -5.0 Loss: 0.001115847029723227
+Did not solve after 1 episodes
+Episode: 1188 step: 1188 training_step: 1155 Reward: -5.0 Loss: 0.0021006071474403143
+Did not solve after 1 episodes
+Episode: 1189 step: 1189 training_step: 1156 Reward: -5.0 Loss: 0.11763349175453186
+Did not solve after 1 episodes
+Episode: 1190 step: 1190 training_step: 1157 Reward: -5.0 Loss: 0.0021467639598995447
+Did not solve after 1 episodes
+Episode: 1191 step: 1191 training_step: 1158 Reward: -5.0 Loss: 0.0312688909471035
+Did not solve after 1 episodes
+Episode: 1192 step: 1192 training_step: 1159 Reward: -5.0 Loss: 0.0018026697216555476
+Did not solve after 1 episodes
+Episode: 1193 step: 1193 training_step: 1160 Reward: -5.0 Loss: 0.030346756801009178
+Did not solve after 1 episodes
+Episode: 1194 step: 1194 training_step: 1161 Reward: -5.0 Loss: 0.0009546129731461406
+Did not solve after 1 episodes
+Episode: 1195 step: 1195 training_step: 1162 Reward: -6.0 Loss: 0.06220593303442001
+Did not solve after 1 episodes
+Episode: 1196 step: 1196 training_step: 1163 Reward: -6.0 Loss: 0.05471663549542427
+Did not solve after 1 episodes
+Episode: 1197 step: 1197 training_step: 1164 Reward: -6.0 Loss: 0.0005052144406363368
+Did not solve after 1 episodes
+Episode: 1198 step: 1198 training_step: 1165 Reward: -6.0 Loss: 0.03162667155265808
+Did not solve after 1 episodes
+Episode: 1199 step: 1199 training_step: 1166 Reward: -6.0 Loss: 0.02814209833741188
+Did not solve after 1 episodes
+Episode: 1200 step: 1200 training_step: 1167 Reward: -6.0 Loss: 0.0013510555727407336
+Did not solve after 1 episodes
+Episode: 1201 step: 1201 training_step: 1168 Reward: -6.0 Loss: 0.0008274067658931017
+Did not solve after 1 episodes
+Episode: 1202 step: 1202 training_step: 1169 Reward: -6.0 Loss: 0.02775500901043415
+Did not solve after 1 episodes
+Episode: 1203 step: 1203 training_step: 1170 Reward: -6.0 Loss: 0.029802193865180016
+Did not solve after 1 episodes
+Episode: 1204 step: 1204 training_step: 1171 Reward: -6.0 Loss: 0.06073661893606186
+Did not solve after 1 episodes
+Episode: 1205 step: 1205 training_step: 1172 Reward: -6.0 Loss: 0.0009360280819237232
+Did not solve after 1 episodes
+Episode: 1206 step: 1206 training_step: 1173 Reward: -6.0 Loss: 0.0009517272701486945
+Did not solve after 1 episodes
+Episode: 1207 step: 1207 training_step: 1174 Reward: -6.0 Loss: 0.02790573611855507
+Did not solve after 1 episodes
+Episode: 1208 step: 1208 training_step: 1175 Reward: -6.0 Loss: 0.030888035893440247
+Did not solve after 1 episodes
+Episode: 1209 step: 1209 training_step: 1176 Reward: -6.0 Loss: 0.05778809264302254
+Did not solve after 1 episodes
+Episode: 1210 step: 1210 training_step: 1177 Reward: -6.0 Loss: 0.031534891575574875
+Did not solve after 1 episodes
+Episode: 1211 step: 1211 training_step: 1178 Reward: -6.0 Loss: 0.030485276132822037
+Did not solve after 1 episodes
+Episode: 1212 step: 1212 training_step: 1179 Reward: -6.0 Loss: 0.030168816447257996
+Did not solve after 1 episodes
+Episode: 1213 step: 1213 training_step: 1180 Reward: -6.0 Loss: 0.05972868576645851
+Did not solve after 1 episodes
+Episode: 1214 step: 1214 training_step: 1181 Reward: -6.0 Loss: 0.02783985063433647
+Did not solve after 1 episodes
+Episode: 1215 step: 1215 training_step: 1182 Reward: -6.0 Loss: 0.0010180616518482566
+Did not solve after 1 episodes
+Episode: 1216 step: 1216 training_step: 1183 Reward: -6.0 Loss: 0.0011422067182138562
+Did not solve after 1 episodes
+Episode: 1217 step: 1217 training_step: 1184 Reward: -6.0 Loss: 0.028415031731128693
+Did not solve after 1 episodes
+Episode: 1218 step: 1218 training_step: 1185 Reward: -6.0 Loss: 0.0009904165053740144
+Did not solve after 1 episodes
+Episode: 1219 step: 1219 training_step: 1186 Reward: -6.0 Loss: 0.0008827443816699088
+Did not solve after 1 episodes
+Episode: 1220 step: 1220 training_step: 1187 Reward: -6.0 Loss: 0.0005672296974807978
+Did not solve after 1 episodes
+Episode: 1221 step: 1221 training_step: 1188 Reward: -6.0 Loss: 0.06002838909626007
+Did not solve after 1 episodes
+Episode: 1222 step: 1222 training_step: 1189 Reward: -6.0 Loss: 0.05729661136865616
+Did not solve after 1 episodes
+Episode: 1223 step: 1223 training_step: 1190 Reward: -6.0 Loss: 0.0006597934989258647
+Did not solve after 1 episodes
+Episode: 1224 step: 1224 training_step: 1191 Reward: -6.0 Loss: 0.0006221039220690727
+Did not solve after 1 episodes
+Episode: 1225 step: 1225 training_step: 1192 Reward: -6.0 Loss: 0.0011470532044768333
+Did not solve after 1 episodes
+Episode: 1226 step: 1226 training_step: 1193 Reward: -6.0 Loss: 0.0005805013934150338
+Did not solve after 1 episodes
+Episode: 1227 step: 1227 training_step: 1194 Reward: -6.0 Loss: 0.060457561165094376
+Did not solve after 1 episodes
+Episode: 1228 step: 1228 training_step: 1195 Reward: -6.0 Loss: 0.03015238605439663
+Did not solve after 1 episodes
+Episode: 1229 step: 1229 training_step: 1196 Reward: -6.0 Loss: 0.05888814106583595
+Did not solve after 1 episodes
+Episode: 1230 step: 1230 training_step: 1197 Reward: -7.0 Loss: 0.0006199441850185394
+Did not solve after 1 episodes
+Episode: 1231 step: 1231 training_step: 1198 Reward: -7.0 Loss: 0.029686668887734413
+Did not solve after 1 episodes
+Episode: 1232 step: 1232 training_step: 1199 Reward: -7.0 Loss: 0.0005207156063988805
+Did not solve after 1 episodes
+Episode: 1233 step: 1233 training_step: 1200 Reward: -7.0 Loss: 0.02928817644715309
+Did not solve after 1 episodes
+Episode: 1234 step: 1234 training_step: 1201 Reward: -7.0 Loss: 0.030780818313360214
+Did not solve after 1 episodes
+Episode: 1235 step: 1235 training_step: 1202 Reward: -7.0 Loss: 0.00038937514182180166
+Did not solve after 1 episodes
+Episode: 1236 step: 1236 training_step: 1203 Reward: -7.0 Loss: 0.03101968951523304
+Did not solve after 1 episodes
+Episode: 1237 step: 1237 training_step: 1204 Reward: -7.0 Loss: 0.0004989475128240883
+Did not solve after 1 episodes
+Episode: 1238 step: 1238 training_step: 1205 Reward: -7.0 Loss: 0.06098476052284241
+Did not solve after 1 episodes
+Episode: 1239 step: 1239 training_step: 1206 Reward: -7.0 Loss: 0.0003794345539063215
+Did not solve after 1 episodes
+Episode: 1240 step: 1240 training_step: 1207 Reward: -7.0 Loss: 0.059973932802677155
+Did not solve after 1 episodes
+Episode: 1241 step: 1241 training_step: 1208 Reward: -7.0 Loss: 0.0005372615996748209
+Did not solve after 1 episodes
+Episode: 1242 step: 1242 training_step: 1209 Reward: -7.0 Loss: 0.05826529860496521
+Did not solve after 1 episodes
+Episode: 1243 step: 1243 training_step: 1210 Reward: -7.0 Loss: 0.029019353911280632
+Did not solve after 1 episodes
+Episode: 1244 step: 1244 training_step: 1211 Reward: -7.0 Loss: 0.029430361464619637
+Did not solve after 1 episodes
+Episode: 1245 step: 1245 training_step: 1212 Reward: -7.0 Loss: 0.00044029566925019026
+Did not solve after 1 episodes
+Episode: 1246 step: 1246 training_step: 1213 Reward: -7.0 Loss: 0.03046141378581524
+Did not solve after 1 episodes
+Episode: 1247 step: 1247 training_step: 1214 Reward: -7.0 Loss: 0.000480197137221694
+Did not solve after 1 episodes
+Episode: 1248 step: 1248 training_step: 1215 Reward: -7.0 Loss: 0.030318057164549828
+Did not solve after 1 episodes
+Episode: 1249 step: 1249 training_step: 1216 Reward: -7.0 Loss: 0.030504850670695305
+Did not solve after 1 episodes
+Episode: 1250 step: 1250 training_step: 1217 Reward: -7.0 Loss: 0.030367949977517128
+Did not solve after 1 episodes
+Episode: 1251 step: 1251 training_step: 1218 Reward: -7.0 Loss: 0.0009867590852081776
+Did not solve after 1 episodes
+Episode: 1252 step: 1252 training_step: 1219 Reward: -7.0 Loss: 0.05983775109052658
+Did not solve after 1 episodes
+Episode: 1253 step: 1253 training_step: 1220 Reward: -7.0 Loss: 0.029791684821248055
+Did not solve after 1 episodes
+Episode: 1254 step: 1254 training_step: 1221 Reward: -7.0 Loss: 0.0007578864460811019
+Did not solve after 1 episodes
+Episode: 1255 step: 1255 training_step: 1222 Reward: -7.0 Loss: 0.0007948526181280613
+Did not solve after 1 episodes
+Episode: 1256 step: 1256 training_step: 1223 Reward: -7.0 Loss: 0.0007729532662779093
+Did not solve after 1 episodes
+Episode: 1257 step: 1257 training_step: 1224 Reward: -7.0 Loss: 0.0009079710580408573
+Did not solve after 1 episodes
+Episode: 1258 step: 1258 training_step: 1225 Reward: -7.0 Loss: 0.05820239335298538
+Did not solve after 1 episodes
+Episode: 1259 step: 1259 training_step: 1226 Reward: -7.0 Loss: 0.0007647683378309011
+Did not solve after 1 episodes
+Episode: 1260 step: 1260 training_step: 1227 Reward: -7.0 Loss: 0.0008203925099223852
+Did not solve after 1 episodes
+Episode: 1261 step: 1261 training_step: 1228 Reward: -7.0 Loss: 0.029865846037864685
+Did not solve after 1 episodes
+Episode: 1262 step: 1262 training_step: 1229 Reward: -7.0 Loss: 0.0006517597939819098
+Did not solve after 1 episodes
+Episode: 1263 step: 1263 training_step: 1230 Reward: -7.0 Loss: 0.02862788550555706
+Did not solve after 1 episodes
+Episode: 1264 step: 1264 training_step: 1231 Reward: -7.0 Loss: 0.02947145886719227
+Did not solve after 1 episodes
+Episode: 1265 step: 1265 training_step: 1232 Reward: -8.0 Loss: 0.0007251921342685819
+Did not solve after 1 episodes
+Episode: 1266 step: 1266 training_step: 1233 Reward: -8.0 Loss: 0.0008498711977154016
+Did not solve after 1 episodes
+Episode: 1267 step: 1267 training_step: 1234 Reward: -8.0 Loss: 0.0006583626382052898
+Did not solve after 1 episodes
+Episode: 1268 step: 1268 training_step: 1235 Reward: -8.0 Loss: 0.058417245745658875
+Did not solve after 1 episodes
+Episode: 1269 step: 1269 training_step: 1236 Reward: -8.0 Loss: 0.05761691927909851
+Did not solve after 1 episodes
+Episode: 1270 step: 1270 training_step: 1237 Reward: -8.0 Loss: 0.05808750167489052
+Did not solve after 1 episodes
+Episode: 1271 step: 1271 training_step: 1238 Reward: -8.0 Loss: 0.06287966668605804
+Did not solve after 1 episodes
+Episode: 1272 step: 1272 training_step: 1239 Reward: -8.0 Loss: 0.0008738861652091146
+Did not solve after 1 episodes
+Episode: 1273 step: 1273 training_step: 1240 Reward: -8.0 Loss: 0.028813594952225685
+Did not solve after 1 episodes
+Episode: 1274 step: 1274 training_step: 1241 Reward: -8.0 Loss: 0.0007319704745896161
+Did not solve after 1 episodes
+Episode: 1275 step: 1275 training_step: 1242 Reward: -8.0 Loss: 0.056600358337163925
+Did not solve after 1 episodes
+Episode: 1276 step: 1276 training_step: 1243 Reward: -8.0 Loss: 0.028555506840348244
+Did not solve after 1 episodes
+Episode: 1277 step: 1277 training_step: 1244 Reward: -8.0 Loss: 0.030680283904075623
+Did not solve after 1 episodes
+Episode: 1278 step: 1278 training_step: 1245 Reward: -8.0 Loss: 0.0007406383519992232
+Did not solve after 1 episodes
+Episode: 1279 step: 1279 training_step: 1246 Reward: -8.0 Loss: 0.028079479932785034
+Did not solve after 1 episodes
+Episode: 1280 step: 1280 training_step: 1247 Reward: -8.0 Loss: 0.0006099258898757398
+Did not solve after 1 episodes
+Episode: 1281 step: 1281 training_step: 1248 Reward: -8.0 Loss: 0.0008669305825605989
+Did not solve after 1 episodes
+Episode: 1282 step: 1282 training_step: 1249 Reward: -8.0 Loss: 0.0006159946788102388
+Did not solve after 1 episodes
+Episode: 1283 step: 1283 training_step: 1250 Reward: -8.0 Loss: 0.0008276848820969462
+Did not solve after 1 episodes
+Episode: 1284 step: 1284 training_step: 1251 Reward: -8.0 Loss: 0.028066016733646393
+Did not solve after 1 episodes
+Episode: 1285 step: 1285 training_step: 1252 Reward: -8.0 Loss: 0.0011309622786939144
+Did not solve after 1 episodes
+Episode: 1286 step: 1286 training_step: 1253 Reward: -8.0 Loss: 0.029804609715938568
+Did not solve after 1 episodes
+Episode: 1287 step: 1287 training_step: 1254 Reward: -8.0 Loss: 0.0007077419431880116
+Did not solve after 1 episodes
+Episode: 1288 step: 1288 training_step: 1255 Reward: -8.0 Loss: 0.031790319830179214
+Did not solve after 1 episodes
+Episode: 1289 step: 1289 training_step: 1256 Reward: -8.0 Loss: 0.0005089516052976251
+Did not solve after 1 episodes
+Episode: 1290 step: 1290 training_step: 1257 Reward: -8.0 Loss: 0.05912559852004051
+Did not solve after 1 episodes
+Episode: 1291 step: 1291 training_step: 1258 Reward: -8.0 Loss: 0.0007032095454633236
+Did not solve after 1 episodes
+Episode: 1292 step: 1292 training_step: 1259 Reward: -8.0 Loss: 0.030066808685660362
+Did not solve after 1 episodes
+Episode: 1293 step: 1293 training_step: 1260 Reward: -8.0 Loss: 0.02983873523771763
+Did not solve after 1 episodes
+Episode: 1294 step: 1294 training_step: 1261 Reward: -8.0 Loss: 0.0004909734707325697
+Did not solve after 1 episodes
+Episode: 1295 step: 1295 training_step: 1262 Reward: -8.0 Loss: 0.0007134921615943313
+Did not solve after 1 episodes
+Episode: 1296 step: 1296 training_step: 1263 Reward: -8.0 Loss: 0.05961455777287483
+Did not solve after 1 episodes
+Episode: 1297 step: 1297 training_step: 1264 Reward: -8.0 Loss: 0.029159286990761757
+Did not solve after 1 episodes
+Episode: 1298 step: 1298 training_step: 1265 Reward: -8.0 Loss: 0.0002881092659663409
+Did not solve after 1 episodes
+Episode: 1299 step: 1299 training_step: 1266 Reward: -8.0 Loss: 0.02835090085864067
+Did not solve after 1 episodes
+Episode: 1300 step: 1300 training_step: 1267 Reward: -9.0 Loss: 0.0005449055461212993
+Did not solve after 1 episodes
+Episode: 1301 step: 1301 training_step: 1268 Reward: -9.0 Loss: 0.031071921810507774
+Did not solve after 1 episodes
+Episode: 1302 step: 1302 training_step: 1269 Reward: -9.0 Loss: 0.06266120821237564
+Did not solve after 1 episodes
+Episode: 1303 step: 1303 training_step: 1270 Reward: -9.0 Loss: 0.000386961386539042
+Did not solve after 1 episodes
+Episode: 1304 step: 1304 training_step: 1271 Reward: -9.0 Loss: 0.028961222618818283
+Did not solve after 1 episodes
+Episode: 1305 step: 1305 training_step: 1272 Reward: -9.0 Loss: 0.031305525451898575
+Did not solve after 1 episodes
+Episode: 1306 step: 1306 training_step: 1273 Reward: -9.0 Loss: 0.0006962634506635368
+Did not solve after 1 episodes
+Episode: 1307 step: 1307 training_step: 1274 Reward: -9.0 Loss: 0.02882388047873974
+Did not solve after 1 episodes
+Episode: 1308 step: 1308 training_step: 1275 Reward: -9.0 Loss: 0.0004047261318191886
+Did not solve after 1 episodes
+Episode: 1309 step: 1309 training_step: 1276 Reward: -9.0 Loss: 0.00045450060861185193
+Did not solve after 1 episodes
+Episode: 1310 step: 1310 training_step: 1277 Reward: -9.0 Loss: 0.028784777969121933
+Did not solve after 1 episodes
+Episode: 1311 step: 1311 training_step: 1278 Reward: -9.0 Loss: 0.057263560593128204
+Did not solve after 1 episodes
+Episode: 1312 step: 1312 training_step: 1279 Reward: -9.0 Loss: 0.00044985703425481915
+Did not solve after 1 episodes
+Episode: 1313 step: 1313 training_step: 1280 Reward: -9.0 Loss: 0.000826637726277113
+Did not solve after 1 episodes
+Episode: 1314 step: 1314 training_step: 1281 Reward: -9.0 Loss: 0.031619902700185776
+Did not solve after 1 episodes
+Episode: 1315 step: 1315 training_step: 1282 Reward: -9.0 Loss: 0.02904123067855835
+Did not solve after 1 episodes
+Episode: 1316 step: 1316 training_step: 1283 Reward: -9.0 Loss: 0.03087056241929531
+Did not solve after 1 episodes
+Episode: 1317 step: 1317 training_step: 1284 Reward: -9.0 Loss: 0.0006591110723093152
+Did not solve after 1 episodes
+Episode: 1318 step: 1318 training_step: 1285 Reward: -9.0 Loss: 0.0007048158440738916
+Did not solve after 1 episodes
+Episode: 1319 step: 1319 training_step: 1286 Reward: -9.0 Loss: 0.0007380740717053413
+Did not solve after 1 episodes
+Episode: 1320 step: 1320 training_step: 1287 Reward: -9.0 Loss: 0.058933380991220474
+Did not solve after 1 episodes
+Episode: 1321 step: 1321 training_step: 1288 Reward: -9.0 Loss: 0.056909721344709396
+Did not solve after 1 episodes
+Episode: 1322 step: 1322 training_step: 1289 Reward: -9.0 Loss: 0.0008211868116632104
+Did not solve after 1 episodes
+Episode: 1323 step: 1323 training_step: 1290 Reward: -9.0 Loss: 0.05783730745315552
+Did not solve after 1 episodes
+Episode: 1324 step: 1324 training_step: 1291 Reward: -9.0 Loss: 0.03040461428463459
+Did not solve after 1 episodes
+Episode: 1325 step: 1325 training_step: 1292 Reward: -9.0 Loss: 0.028936872258782387
+Did not solve after 1 episodes
+Episode: 1326 step: 1326 training_step: 1293 Reward: -9.0 Loss: 0.0009365507867187262
+Did not solve after 1 episodes
+Episode: 1327 step: 1327 training_step: 1294 Reward: -9.0 Loss: 0.0007460003835149109
+Did not solve after 1 episodes
+Episode: 1328 step: 1328 training_step: 1295 Reward: -9.0 Loss: 0.0010619531385600567
+Did not solve after 1 episodes
+Episode: 1329 step: 1329 training_step: 1296 Reward: -9.0 Loss: 0.03041854500770569
+Did not solve after 1 episodes
+Episode: 1330 step: 1330 training_step: 1297 Reward: -9.0 Loss: 0.02811599336564541
+Did not solve after 1 episodes
+Episode: 1331 step: 1331 training_step: 1298 Reward: -9.0 Loss: 0.03261641040444374
+Did not solve after 1 episodes
+Episode: 1332 step: 1332 training_step: 1299 Reward: -9.0 Loss: 0.0009009700734168291
+Did not solve after 1 episodes
+Episode: 1333 step: 1333 training_step: 1300 Reward: -9.0 Loss: 0.0007511606090702116
+Did not solve after 1 episodes
+Episode: 1334 step: 1334 training_step: 1301 Reward: -9.0 Loss: 0.05669965595006943
+Did not solve after 1 episodes
+Episode: 1335 step: 1335 training_step: 1302 Reward: -10.0 Loss: 0.031143849715590477
+Did not solve after 1 episodes
+Episode: 1336 step: 1336 training_step: 1303 Reward: -10.0 Loss: 0.0007047369726933539
+Did not solve after 1 episodes
+Episode: 1337 step: 1337 training_step: 1304 Reward: -10.0 Loss: 0.02958786115050316
+Did not solve after 1 episodes
+Episode: 1338 step: 1338 training_step: 1305 Reward: -10.0 Loss: 0.0006466895574703813
+Did not solve after 1 episodes
+Episode: 1339 step: 1339 training_step: 1306 Reward: -10.0 Loss: 0.0004420031327754259
+Did not solve after 1 episodes
+Episode: 1340 step: 1340 training_step: 1307 Reward: -10.0 Loss: 0.0006447930354624987
+Did not solve after 1 episodes
+Episode: 1341 step: 1341 training_step: 1308 Reward: -10.0 Loss: 0.000478922767797485
+Did not solve after 1 episodes
+Episode: 1342 step: 1342 training_step: 1309 Reward: -10.0 Loss: 0.05898740515112877
+Did not solve after 1 episodes
+Episode: 1343 step: 1343 training_step: 1310 Reward: -10.0 Loss: 0.030840568244457245
+Did not solve after 1 episodes
+Episode: 1344 step: 1344 training_step: 1311 Reward: -10.0 Loss: 0.03161028400063515
+Did not solve after 1 episodes
+Episode: 1345 step: 1345 training_step: 1312 Reward: -10.0 Loss: 0.000385760999051854
+Did not solve after 1 episodes
+Episode: 1346 step: 1346 training_step: 1313 Reward: -10.0 Loss: 0.00023580482229590416
+Did not solve after 1 episodes
+Episode: 1347 step: 1347 training_step: 1314 Reward: -10.0 Loss: 0.06064946949481964
+Did not solve after 1 episodes
+Episode: 1348 step: 1348 training_step: 1315 Reward: -10.0 Loss: 0.0004480670904740691
+Did not solve after 1 episodes
+Episode: 1349 step: 1349 training_step: 1316 Reward: -10.0 Loss: 0.150885671377182
+Did not solve after 1 episodes
+Episode: 1350 step: 1350 training_step: 1317 Reward: -10.0 Loss: 0.05837046355009079
+Did not solve after 1 episodes
+Episode: 1351 step: 1351 training_step: 1318 Reward: -10.0 Loss: 0.02943759225308895
+Did not solve after 1 episodes
+Episode: 1352 step: 1352 training_step: 1319 Reward: -10.0 Loss: 0.0006156995659694076
+Did not solve after 1 episodes
+Episode: 1353 step: 1353 training_step: 1320 Reward: -10.0 Loss: 0.0006381846615113318
+Did not solve after 1 episodes
+Episode: 1354 step: 1354 training_step: 1321 Reward: -10.0 Loss: 0.0011385998222976923
+Did not solve after 1 episodes
+Episode: 1355 step: 1355 training_step: 1322 Reward: -10.0 Loss: 0.02880639210343361
+Did not solve after 1 episodes
+Episode: 1356 step: 1356 training_step: 1323 Reward: -10.0 Loss: 0.05846667289733887
+Did not solve after 1 episodes
+Episode: 1357 step: 1357 training_step: 1324 Reward: -10.0 Loss: 0.029231948778033257
+Did not solve after 1 episodes
+Episode: 1358 step: 1358 training_step: 1325 Reward: -10.0 Loss: 0.0569801926612854
+Did not solve after 1 episodes
+Episode: 1359 step: 1359 training_step: 1326 Reward: -10.0 Loss: 0.057964906096458435
+Did not solve after 1 episodes
+Episode: 1360 step: 1360 training_step: 1327 Reward: -10.0 Loss: 0.028916968032717705
+Did not solve after 1 episodes
+Episode: 1361 step: 1361 training_step: 1328 Reward: -10.0 Loss: 0.03244134411215782
+Did not solve after 1 episodes
+Episode: 1362 step: 1362 training_step: 1329 Reward: -10.0 Loss: 0.030283577740192413
+Did not solve after 1 episodes
+Episode: 1363 step: 1363 training_step: 1330 Reward: -10.0 Loss: 0.0012495454866439104
+Did not solve after 1 episodes
+Episode: 1364 step: 1364 training_step: 1331 Reward: -10.0 Loss: 0.02866293676197529
+Did not solve after 1 episodes
+Episode: 1365 step: 1365 training_step: 1332 Reward: -10.0 Loss: 0.031104285269975662
+Did not solve after 1 episodes
+Episode: 1366 step: 1366 training_step: 1333 Reward: -10.0 Loss: 0.02869277633726597
+Did not solve after 1 episodes
+Episode: 1367 step: 1367 training_step: 1334 Reward: -10.0 Loss: 0.05631871148943901
+Did not solve after 1 episodes
+Episode: 1368 step: 1368 training_step: 1335 Reward: -10.0 Loss: 0.0008731221314519644
+Did not solve after 1 episodes
+Episode: 1369 step: 1369 training_step: 1336 Reward: -10.0 Loss: 0.02856065332889557
+Did not solve after 1 episodes
+Episode: 1370 step: 1370 training_step: 1337 Reward: -11.0 Loss: 0.0557006299495697
+Did not solve after 1 episodes
+Episode: 1371 step: 1371 training_step: 1338 Reward: -11.0 Loss: 0.031310953199863434
+Did not solve after 1 episodes
+Episode: 1372 step: 1372 training_step: 1339 Reward: -11.0 Loss: 0.0006751030450686812
+Did not solve after 1 episodes
+Episode: 1373 step: 1373 training_step: 1340 Reward: -11.0 Loss: 0.030370475724339485
+Did not solve after 1 episodes
+Episode: 1374 step: 1374 training_step: 1341 Reward: -11.0 Loss: 0.0009270954178646207
+Did not solve after 1 episodes
+Episode: 1375 step: 1375 training_step: 1342 Reward: -11.0 Loss: 0.0006597542087547481
+Did not solve after 1 episodes
+Episode: 1376 step: 1376 training_step: 1343 Reward: -11.0 Loss: 0.0009899187134578824
+Did not solve after 1 episodes
+Episode: 1377 step: 1377 training_step: 1344 Reward: -11.0 Loss: 0.0006257398054003716
+Did not solve after 1 episodes
+Episode: 1378 step: 1378 training_step: 1345 Reward: -11.0 Loss: 0.0575394406914711
+Did not solve after 1 episodes
+Episode: 1379 step: 1379 training_step: 1346 Reward: -11.0 Loss: 0.030144568532705307
+Did not solve after 1 episodes
+Episode: 1380 step: 1380 training_step: 1347 Reward: -11.0 Loss: 0.0005178352002985775
+Did not solve after 1 episodes
+Episode: 1381 step: 1381 training_step: 1348 Reward: -11.0 Loss: 0.05842813476920128
+Did not solve after 1 episodes
+Episode: 1382 step: 1382 training_step: 1349 Reward: -11.0 Loss: 0.0005495507502928376
+Did not solve after 1 episodes
+Episode: 1383 step: 1383 training_step: 1350 Reward: -11.0 Loss: 0.00043762853601947427
+Did not solve after 1 episodes
+Episode: 1384 step: 1384 training_step: 1351 Reward: -11.0 Loss: 0.032973844558000565
+Did not solve after 1 episodes
+Episode: 1385 step: 1385 training_step: 1352 Reward: -11.0 Loss: 0.000491133367177099
+Did not solve after 1 episodes
+Episode: 1386 step: 1386 training_step: 1353 Reward: -11.0 Loss: 0.09011165797710419
+Did not solve after 1 episodes
+Episode: 1387 step: 1387 training_step: 1354 Reward: -11.0 Loss: 0.0003509056696202606
+Did not solve after 1 episodes
+Episode: 1388 step: 1388 training_step: 1355 Reward: -11.0 Loss: 0.05562805384397507
+Did not solve after 1 episodes
+Episode: 1389 step: 1389 training_step: 1356 Reward: -11.0 Loss: 0.0585908368229866
+Did not solve after 1 episodes
+Episode: 1390 step: 1390 training_step: 1357 Reward: -11.0 Loss: 0.05924980714917183
+Did not solve after 1 episodes
+Episode: 1391 step: 1391 training_step: 1358 Reward: -11.0 Loss: 0.0004689766501542181
+Did not solve after 1 episodes
+Episode: 1392 step: 1392 training_step: 1359 Reward: -11.0 Loss: 0.05923561006784439
+Did not solve after 1 episodes
+Episode: 1393 step: 1393 training_step: 1360 Reward: -11.0 Loss: 0.027986105531454086
+Did not solve after 1 episodes
+Episode: 1394 step: 1394 training_step: 1361 Reward: -11.0 Loss: 0.03119734115898609
+Did not solve after 1 episodes
+Episode: 1395 step: 1395 training_step: 1362 Reward: -11.0 Loss: 0.0014358909102156758
+Did not solve after 1 episodes
+Episode: 1396 step: 1396 training_step: 1363 Reward: -11.0 Loss: 0.028298385441303253
+Did not solve after 1 episodes
+Episode: 1397 step: 1397 training_step: 1364 Reward: -11.0 Loss: 0.0014563098084181547
+Did not solve after 1 episodes
+Episode: 1398 step: 1398 training_step: 1365 Reward: -11.0 Loss: 0.02761470153927803
+Did not solve after 1 episodes
+Episode: 1399 step: 1399 training_step: 1366 Reward: -11.0 Loss: 0.0011453008046373725
+Did not solve after 1 episodes
+Episode: 1400 step: 1400 training_step: 1367 Reward: -11.0 Loss: 0.0013449699617922306
+Did not solve after 1 episodes
+Episode: 1401 step: 1401 training_step: 1368 Reward: -11.0 Loss: 0.0011259115999564528
+Did not solve after 1 episodes
+Episode: 1402 step: 1402 training_step: 1369 Reward: -11.0 Loss: 0.0009011030197143555
+Did not solve after 1 episodes
+Episode: 1403 step: 1403 training_step: 1370 Reward: -11.0 Loss: 0.0007892256835475564
+Did not solve after 1 episodes
+Episode: 1404 step: 1404 training_step: 1371 Reward: -11.0 Loss: 0.000572056567762047
+Did not solve after 1 episodes
+Episode: 1405 step: 1405 training_step: 1372 Reward: -12.0 Loss: 0.028211424127221107
+Did not solve after 1 episodes
+Episode: 1406 step: 1406 training_step: 1373 Reward: -12.0 Loss: 0.06060357019305229
+Did not solve after 1 episodes
+Episode: 1407 step: 1407 training_step: 1374 Reward: -12.0 Loss: 0.0005243942723609507
+Did not solve after 1 episodes
+Episode: 1408 step: 1408 training_step: 1375 Reward: -12.0 Loss: 0.00040456303395330906
+Did not solve after 1 episodes
+Episode: 1409 step: 1409 training_step: 1376 Reward: -12.0 Loss: 0.09169318526983261
+Did not solve after 1 episodes
+Episode: 1410 step: 1410 training_step: 1377 Reward: -12.0 Loss: 0.028007054701447487
+Did not solve after 1 episodes
+Episode: 1411 step: 1411 training_step: 1378 Reward: -12.0 Loss: 0.0005142149748280644
+Did not solve after 1 episodes
+Episode: 1412 step: 1412 training_step: 1379 Reward: -12.0 Loss: 0.060195960104465485
+Did not solve after 1 episodes
+Episode: 1413 step: 1413 training_step: 1380 Reward: -12.0 Loss: 0.02889314480125904
+Did not solve after 1 episodes
+Episode: 1414 step: 1414 training_step: 1381 Reward: -12.0 Loss: 0.03308682143688202
+Did not solve after 1 episodes
+Episode: 1415 step: 1415 training_step: 1382 Reward: -12.0 Loss: 0.05895064398646355
+Did not solve after 1 episodes
+Episode: 1416 step: 1416 training_step: 1383 Reward: -12.0 Loss: 0.02778070978820324
+Did not solve after 1 episodes
+Episode: 1417 step: 1417 training_step: 1384 Reward: -12.0 Loss: 0.029838357120752335
+Did not solve after 1 episodes
+Episode: 1418 step: 1418 training_step: 1385 Reward: -12.0 Loss: 0.05940091982483864
+Did not solve after 1 episodes
+Episode: 1419 step: 1419 training_step: 1386 Reward: -12.0 Loss: 0.0012466051848605275
+Did not solve after 1 episodes
+Episode: 1420 step: 1420 training_step: 1387 Reward: -12.0 Loss: 0.0014120176201686263
+Did not solve after 1 episodes
+Episode: 1421 step: 1421 training_step: 1388 Reward: -12.0 Loss: 0.03444579616189003
+Did not solve after 1 episodes
+Episode: 1422 step: 1422 training_step: 1389 Reward: -12.0 Loss: 0.02904616855084896
+Did not solve after 1 episodes
+Episode: 1423 step: 1423 training_step: 1390 Reward: -12.0 Loss: 0.00073794781928882
+Did not solve after 1 episodes
+Episode: 1424 step: 1424 training_step: 1391 Reward: -12.0 Loss: 0.0007452002610079944
+Did not solve after 1 episodes
+Episode: 1425 step: 1425 training_step: 1392 Reward: -12.0 Loss: 0.00047566340072080493
+Did not solve after 1 episodes
+Episode: 1426 step: 1426 training_step: 1393 Reward: -12.0 Loss: 0.08719983696937561
+Did not solve after 1 episodes
+Episode: 1427 step: 1427 training_step: 1394 Reward: -12.0 Loss: 0.02801697328686714
+Did not solve after 1 episodes
+Episode: 1428 step: 1428 training_step: 1395 Reward: -12.0 Loss: 0.03168817237019539
+Did not solve after 1 episodes
+Episode: 1429 step: 1429 training_step: 1396 Reward: -12.0 Loss: 0.00032960454700514674
+Did not solve after 1 episodes
+Episode: 1430 step: 1430 training_step: 1397 Reward: -12.0 Loss: 0.0002666515647433698
+Did not solve after 1 episodes
+Episode: 1431 step: 1431 training_step: 1398 Reward: -12.0 Loss: 0.0002552792720962316
+Did not solve after 1 episodes
+Episode: 1432 step: 1432 training_step: 1399 Reward: -12.0 Loss: 0.03127612918615341
+Did not solve after 1 episodes
+Episode: 1433 step: 1433 training_step: 1400 Reward: -12.0 Loss: 0.00021037185797467828
+Did not solve after 1 episodes
+Episode: 1434 step: 1434 training_step: 1401 Reward: -12.0 Loss: 0.00019522258662618697
+Did not solve after 1 episodes
+Episode: 1435 step: 1435 training_step: 1402 Reward: -12.0 Loss: 0.0001786238281056285
+Did not solve after 1 episodes
+Episode: 1436 step: 1436 training_step: 1403 Reward: -12.0 Loss: 0.00017093346104957163
+Did not solve after 1 episodes
+Episode: 1437 step: 1437 training_step: 1404 Reward: -12.0 Loss: 0.0561811625957489
+Did not solve after 1 episodes
+Episode: 1438 step: 1438 training_step: 1405 Reward: -12.0 Loss: 0.030840475112199783
+Did not solve after 1 episodes
+Episode: 1439 step: 1439 training_step: 1406 Reward: -12.0 Loss: 0.030702780932188034
+Did not solve after 1 episodes
+Episode: 1440 step: 1440 training_step: 1407 Reward: -13.0 Loss: 0.060468148440122604
+Did not solve after 1 episodes
+Episode: 1441 step: 1441 training_step: 1408 Reward: -13.0 Loss: 0.00030927459010854363
+Did not solve after 1 episodes
+Episode: 1442 step: 1442 training_step: 1409 Reward: -13.0 Loss: 0.0002893556375056505
+Did not solve after 1 episodes
+Episode: 1443 step: 1443 training_step: 1410 Reward: -13.0 Loss: 0.00032310246024280787
+Did not solve after 1 episodes
+Episode: 1444 step: 1444 training_step: 1411 Reward: -13.0 Loss: 0.02820006012916565
+Did not solve after 1 episodes
+Episode: 1445 step: 1445 training_step: 1412 Reward: -13.0 Loss: 0.027351632714271545
+Did not solve after 1 episodes
+Episode: 1446 step: 1446 training_step: 1413 Reward: -13.0 Loss: 0.031244533136487007
+Did not solve after 1 episodes
+Episode: 1447 step: 1447 training_step: 1414 Reward: -13.0 Loss: 0.00027710956055670977
+Did not solve after 1 episodes
+Episode: 1448 step: 1448 training_step: 1415 Reward: -13.0 Loss: 0.05847875028848648
+Did not solve after 1 episodes
+Episode: 1449 step: 1449 training_step: 1416 Reward: -13.0 Loss: 0.030353032052516937
+Did not solve after 1 episodes
+Episode: 1450 step: 1450 training_step: 1417 Reward: -13.0 Loss: 0.05799677595496178
+Did not solve after 1 episodes
+Episode: 1451 step: 1451 training_step: 1418 Reward: -13.0 Loss: 0.02986357919871807
+Did not solve after 1 episodes

@@ -1,0 +1,12 @@
+[Mon Apr 18 03:13:27 2022]starts experiments setting 4_18_0_13
+=> creating model ...
+episode: 10001 Reward per episode: -21.0  
+Did not solve after 1 episodes
+episode: 10876 Reward per episode: -20.0  
+Did not solve after 2 episodes
+episode: 11633 Reward per episode: -21.0  
+Did not solve after 3 episodes
+episode: 12613 Reward per episode: -19.0  
+Did not solve after 4 episodes
+episode: 13477 Reward per episode: -21.0  
+Did not solve after 5 episodes
