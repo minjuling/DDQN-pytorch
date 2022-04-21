@@ -31,7 +31,9 @@ print("exp_time", exp_time)
 writer = SummaryWriter(cfg.tensorboard_path+exp_time)
 
 # handle the atari env
-env = FrameStack(AtariPreprocessing(gym.make(cfg.env)), 4)
+env = make_atari('PongNoFrameskip-v4')
+env = wrap_deepmind(env, frame_stack=4)
+env = wrap_pytorch(env)
 
 
 N_ACTIONS = env.action_space.n
@@ -44,7 +46,7 @@ msg = '[{time}]' 'starts experiments setting '\
 logger.info(msg)
 logger.info("=> creating model ...")
 
-ddqn = DDQN(cfg, N_ACTIONS, N_STATES)
+ddqn = DDQN(cfg, N_ACTIONS)
 reward_logs = []
 loss_logs = []
 
@@ -59,12 +61,19 @@ losses = []
 all_rewards = []
 is_win = False
 
+epsilon_final = cfg.epsilon_min
+epsilon_start = cfg.epsilon
+epsilon_decay = cfg.eps_decay
+epsilon_by_frame = lambda frame_idx: epsilon_final + (epsilon_start - epsilon_final) * math.exp(
+    -1. * frame_idx / epsilon_decay)
+
 
 for fr in range(1, cfg.frames+1):
     
     # while True:
         # env.render()
-    a = ddqn.choose_action(s, fr)
+    epsilon = epsilon_by_frame(fr)
+    a = ddqn.choose_action(s, epsilon)
 
     # take action4esrdx
     s_, r, done, info = env.step(a)
@@ -79,13 +88,13 @@ for fr in range(1, cfg.frames+1):
 
         # save model
         if training_step % cfg.save_logs_frequency == 0:
-            ddqn.save(fr, cfg.logs_path, exp_time)
+            ddqn.save(fr, cfg.logs_path, exp_time, str(fr))
             writer.add_scalar('QValue/Step', q_val.mean(), fr-cfg.batch_size)
             writer.add_scalar('loss/Step', loss, fr-cfg.batch_size)
         
         # print reward and loss
         if (fr - cfg.batch_size) % cfg.show_loss_frequency == 0: 
-            loss_logger = 'frames: {} epsilon: {} ep_num: {} Reward: {} Loss: {}' .format(fr-cfg.batch_size,  ddqn.epsilon, ep_num, np.mean(all_rewards[-10:]), loss)
+            loss_logger = 'frames: {} epsilon: {} ep_num: {} Reward: {} Loss: {}' .format(fr-cfg.batch_size,  epsilon, ep_num, np.mean(all_rewards[-10:]), loss)
             logger.info(loss_logger)
 
         if done:
@@ -100,12 +109,12 @@ for fr in range(1, cfg.frames+1):
 
             if len(all_rewards) >= 100 and np.mean(all_rewards[-100:]) >= cfg.win_reward and all_rewards[-1] > cfg.win_reward:
                 is_win = True
-                ddqn.save(fr, cfg.logs_path, exp_time + 'best')
+                ddqn.save(fr, cfg.logs_path, exp_time + 'best', str(fr))
                 msg = 'Ran {} episodes best 100-episodes average reward is {}. Solved after {} trials ✔'.format(ep_num, np.mean(all_rewards[-100:], ep_num - 100))
                 logger.info(msg)
                 break
         
             if not is_win:
-                ddqn.save(fr, cfg.logs_path, exp_time + 'not_win')
+                ddqn.save(fr, cfg.logs_path, exp_time + 'not_win', str(fr))
             
         training_step += 1

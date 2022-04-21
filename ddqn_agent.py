@@ -24,24 +24,15 @@ class DDQN(object):
         self.optimizer = torch.optim.Adam(self.q_net.parameters(), lr=self.cfg.lr)
         self.loss_func = nn.MSELoss()
 
-        epsilon_final = self.cfg.epsilon_min
-        epsilon_start = self.cfg.epsilon
-        epsilon_decay = self.cfg.eps_decay
-        self.epsilon_by_frame = lambda frame_idx: epsilon_final + (epsilon_start - epsilon_final) * math.exp(
-            -1. * frame_idx / epsilon_decay)
-        self.epsilon = None
         self.prev_action = 0
 
-    def choose_action(self, x, fr):
+    def choose_action(self, x, epsilon):
         self.q_net.to('cpu')
         # input only one sample
-        self.epsilon = self.epsilon_by_frame(fr)
-
-        if np.random.uniform() > self.epsilon:   # greedy
+        if np.random.uniform() > epsilon:   # greedy
             x = torch.tensor(x, dtype=torch.float).unsqueeze(0)
             actions_value = self.q_net.forward(x)
             action = actions_value.max(1)[1].item()
-
         else:   # random
             action = np.random.randint(0, self.action_num)
         return action
@@ -106,7 +97,7 @@ class DDQN(object):
 
         return loss.data, q_val
 
-    def save(self, step, logs_path, exp_time):
+    def save(self, step, logs_path, exp_time, fr):
         os.makedirs(logs_path, exist_ok=True)
-        logs_path = os.path.join(logs_path, 'model-{}.pth' .format(exp_time))
+        logs_path = os.path.join(logs_path, '{}.pth' .format(exp_time+'_'+fr))
         self.q_net.save(logs_path, step=step, optimizer=self.optimizer)
