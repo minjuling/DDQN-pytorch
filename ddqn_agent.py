@@ -63,11 +63,11 @@ class DDQN(object):
             self.q_net.to(self.cfg.cuda_num)
             self.target_q_net.to(self.cfg.cuda_num)
 
-        state = Variable(state)
-        action = Variable(action)
-        state_new = Variable(state_new)
-        terminal = Variable(terminal)
-        reward = Variable(reward)
+        state = (state)
+        action = torch.tensor(action)
+        state_new = torch.tensor(state_new)
+        terminal = torch.tensor(terminal)
+        reward = torch.tensor(reward)
 
         q_values = self.q_net.forward(state)
         next_q_values = self.q_net.forward(state_new)
