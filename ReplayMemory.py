@@ -24,7 +24,7 @@ class Replaymemory:
             batch_action.append(b[1])
             batch_reward.append(b[2])
             batch_state_new.append(b[3][0])
-            batch_over.append(float(not b[4]))
+            batch_over.append(float(b[4]))
         
         batch_state = np.stack(batch_state)
         batch_action = np.stack(batch_action)

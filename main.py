@@ -17,6 +17,7 @@ from utils import *
 from ddqn_agent import DDQN
 # from gym.wrappers import AtariPreprocessing, FrameStack
 from common.wrappers import make_atari, wrap_deepmind, wrap_pytorch
+from gym.wrappers import AtariPreprocessing, FrameStack
 from config import Config as cfg
 import os
 import math
@@ -30,14 +31,12 @@ print("exp_time", exp_time)
 writer = SummaryWriter(cfg.tensorboard_path+exp_time)
 
 # handle the atari env
-env = make_atari('PongNoFrameskip-v4')
-env = wrap_deepmind(env)
-env = wrap_pytorch(env)
+env = FrameStack(AtariPreprocessing(gym.make(cfg.env)), 4)
 
 
 N_ACTIONS = env.action_space.n
 N_STATES = env.observation_space.shape
-ENV_A_SHAPE = 0 if isinstance(env.action_space.sample(), int) else env.action_space.sample().shape     # to confirm the shape
+# ENV_A_SHAPE = 0 if isinstance(env.action_space.sample(), int) else env.action_space.sample().shape     # to confirm the shape
 
 msg = '[{time}]' 'starts experiments setting '\
             '{exp_name}'.format(time = time.ctime(), 
@@ -45,7 +44,7 @@ msg = '[{time}]' 'starts experiments setting '\
 logger.info(msg)
 logger.info("=> creating model ...")
 
-ddqn = DDQN(cfg, N_ACTIONS, N_STATES, ENV_A_SHAPE)
+ddqn = DDQN(cfg, N_ACTIONS, N_STATES)
 reward_logs = []
 loss_logs = []
 
@@ -93,9 +92,6 @@ for fr in range(1, cfg.frames+1):
             all_rewards.append(ep_r)
             writer.add_scalar('100 epi_reward/Episode', float(np.mean(all_rewards[-100:])), ep_num)
             writer.add_scalar('epi_reward/Episode', all_rewards[-1], ep_num)
-            # ep_logger = 'epi: {} Reward per episode: {}  ' .format(ep_num, ep_r)
-            # logger.info(ep_logger)
-            # print(ep_logger)
 
             # -- reset -- #
             s = env.reset()
@@ -110,9 +106,6 @@ for fr in range(1, cfg.frames+1):
                 break
         
             if not is_win:
-                # msg = 'Did not solve after {} episodes'.format( ep_num)
-                # print(msg)
-                # logger.info(msg)
-                ddqn.save(fr, cfg.logs_path, exp_time + 'last')
+                ddqn.save(fr, cfg.logs_path, exp_time + 'not_win')
             
         training_step += 1
