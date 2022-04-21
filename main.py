@@ -19,6 +19,7 @@ from ddqn_agent import DDQN
 from common.wrappers import make_atari, wrap_deepmind, wrap_pytorch
 from config import Config as cfg
 import os
+import math
 
 from torch.utils.tensorboard import SummaryWriter
 
@@ -30,7 +31,7 @@ writer = SummaryWriter(cfg.tensorboard_path+exp_time)
 
 # handle the atari env
 env = make_atari('PongNoFrameskip-v4')
-env = wrap_deepmind(env, frame_stack = True)
+env = wrap_deepmind(env)
 env = wrap_pytorch(env)
 
 
@@ -59,12 +60,12 @@ losses = []
 all_rewards = []
 is_win = False
 
-for fr in range(1, cfg.total_episode+1):
+
+for fr in range(1, cfg.frames+1):
     
     # while True:
         # env.render()
-    epsilon = ddqn.epsilon_by_frame(fr)
-    a = ddqn.choose_action(s, epsilon)
+    a = ddqn.choose_action(s, fr)
 
     # take action4esrdx
     s_, r, done, info = env.step(a)
@@ -74,27 +75,24 @@ for fr in range(1, cfg.total_episode+1):
     ep_r += r
     s = s_
 
-    if len(ddqn.replaymemory.buffer) > cfg.memory_capacity:
-        loss, q_val = ddqn.train()
+    if len(ddqn.replaymemory.buffer) > cfg.batch_size:
+        loss, q_val = ddqn.train(fr)
 
         # save model
         if training_step % cfg.save_logs_frequency == 0:
             ddqn.save(fr, cfg.logs_path, exp_time)
-            writer.add_scalar('QValue/Step', q_val.mean(), training_step)
-            writer.add_scalar('loss/Step', loss, training_step)
+            writer.add_scalar('QValue/Step', q_val.mean(), fr-cfg.batch_size)
+            writer.add_scalar('loss/Step', loss, fr-cfg.batch_size)
         
         # print reward and loss
-        if fr % cfg.show_loss_frequency == 0: 
-            loss_logger = 'frames: {} epsilon: {} ep_num: {} Reward: {} Loss: {}' .format(fr-10000,  epsilon, ep_num, np.mean(all_rewards[-10:]), loss)
+        if (fr - cfg.batch_size) % cfg.show_loss_frequency == 0: 
+            loss_logger = 'frames: {} epsilon: {} ep_num: {} Reward: {} Loss: {}' .format(fr-cfg.batch_size,  ddqn.epsilon, ep_num, np.mean(all_rewards[-10:]), loss)
             logger.info(loss_logger)
-        
-        if fr % cfg.update_target_frequency == 0:
-            ddqn.update_target_network()
 
         if done:
             all_rewards.append(ep_r)
             writer.add_scalar('100 epi_reward/Episode', float(np.mean(all_rewards[-100:])), ep_num)
-            writer.add_scalar('epi_reward/Episode', ep_r, ep_num)
+            writer.add_scalar('epi_reward/Episode', all_rewards[-1], ep_num)
             # ep_logger = 'epi: {} Reward per episode: {}  ' .format(ep_num, ep_r)
             # logger.info(ep_logger)
             # print(ep_logger)

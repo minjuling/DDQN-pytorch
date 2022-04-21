@@ -62,7 +62,6 @@ class NeuralNetwork(nn.Module):
         self.number_of_iterations = 2000000
         self.replay_memory_size = 750000
         self.minibatch_size = 32
-        self.explore = 3000000 # Timesteps to go from INITIAL_EPSILON to FINAL_EPSILON
 
         self.conv1 = nn.Conv2d(4, 32, kernel_size = 8, stride = 4)
         self.conv2 = nn.Conv2d(32, 64, 4, 2)
