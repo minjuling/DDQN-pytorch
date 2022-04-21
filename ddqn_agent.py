@@ -63,7 +63,7 @@ class DDQN(object):
             self.q_net.to(self.cfg.cuda_num)
             self.target_q_net.to(self.cfg.cuda_num)
 
-        state = (state)
+        state = torch.tensor(state)
         action = torch.tensor(action)
         state_new = torch.tensor(state_new)
         terminal = torch.tensor(terminal)

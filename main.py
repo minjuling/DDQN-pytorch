@@ -15,30 +15,24 @@ import numpy as np
 import gym
 from utils import *
 from ddqn_agent import DDQN
-# from gym.wrappers import AtariPreprocessing, FrameStack
 from common.wrappers import make_atari, wrap_deepmind, wrap_pytorch
-from gym.wrappers import AtariPreprocessing, FrameStack
 from config import Config as cfg
-import os
 import math
 
 from torch.utils.tensorboard import SummaryWriter
 
 logger = get_logger(cfg)
 exp_time = get_tensorboard_name()
-print("exp_time", exp_time)
-# logger.info(cfg)
 writer = SummaryWriter(cfg.tensorboard_path+exp_time)
+print("exp_time", exp_time)
 
 # handle the atari env
 env = make_atari('PongNoFrameskip-v4')
 env = wrap_deepmind(env, frame_stack=4)
 env = wrap_pytorch(env)
 
-
 N_ACTIONS = env.action_space.n
 N_STATES = env.observation_space.shape
-# ENV_A_SHAPE = 0 if isinstance(env.action_space.sample(), int) else env.action_space.sample().shape     # to confirm the shape
 
 msg = '[{time}]' 'starts experiments setting '\
             '{exp_name}'.format(time = time.ctime(), 
@@ -47,6 +41,7 @@ logger.info(msg)
 logger.info("=> creating model ...")
 
 ddqn = DDQN(cfg, N_ACTIONS)
+
 reward_logs = []
 loss_logs = []
 
@@ -86,7 +81,7 @@ for fr in range(1, cfg.frames+1):
     if len(ddqn.replaymemory.buffer) > cfg.batch_size:
         loss, q_val = ddqn.train(fr)
 
-        # save model
+        # save model & tensorboard writer
         if training_step % cfg.save_logs_frequency == 0:
             ddqn.save(fr, cfg.logs_path, exp_time, str(fr))
             writer.add_scalar('QValue/Step', q_val.mean(), fr-cfg.batch_size)
@@ -110,11 +105,6 @@ for fr in range(1, cfg.frames+1):
             if len(all_rewards) >= 100 and np.mean(all_rewards[-100:]) >= cfg.win_reward and all_rewards[-1] > cfg.win_reward:
                 is_win = True
                 ddqn.save(fr, cfg.logs_path, exp_time + 'best', str(fr))
-                msg = 'Ran {} episodes best 100-episodes average reward is {}. Solved after {} trials ✔'.format(ep_num, np.mean(all_rewards[-100:], ep_num - 100))
-                logger.info(msg)
                 break
-        
-            if not is_win:
-                ddqn.save(fr, cfg.logs_path, exp_time + 'not_win', str(fr))
             
         training_step += 1
